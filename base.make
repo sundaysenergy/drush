@@ -35,6 +35,9 @@ projects[auto_nodetitle][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[feeds][subdir] = contrib
+projects[pathauto][subdir] = contrib
+projects[pathologic][subdir] = contrib
+
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
