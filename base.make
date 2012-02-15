@@ -9,11 +9,6 @@
 api = 2
 core = 7.x
 
-; INCLUDES
-; -----------
-includes[boa] = "boa.make"
-includes[seo] = "seo.make"
-
 
 ; CORE
 ; -----------
