@@ -5,6 +5,8 @@ api = 2
 core = 7.x
 
 projects[locationmap][subdir] = contrib
+projects[migrate][subdir] = contrib
+;projects[features_extra][subdir] = contrib
 
 projects[workbench][subdir] = contrib
 projects[workbench_moderation][subdir] = contrib
