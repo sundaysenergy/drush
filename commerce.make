@@ -6,8 +6,7 @@ core = 7.x
 
 projects[commerce][subdir] = dc
 
-projects[adressfield][subdir] = dc
-projects[adressfield][version] = 2.0-alpha8
+projects[addressfield][subdir] = dc
 
 projects[commerce_coupon][subdir] = dc
 projects[commerce_coupon][version] = 1.x-dev
