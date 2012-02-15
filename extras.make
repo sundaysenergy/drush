@@ -33,6 +33,7 @@ libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce
 projects[omega][type] = theme
 projects[adaptivetheme][type] = theme
 projects[sky][type] = theme
+projects[corolla][type] = theme
 
 ; MODES FOR OMEGA THEME
 
