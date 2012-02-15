@@ -6,7 +6,6 @@ core = 7.x
 
 projects[locationmap][subdir] = contrib
 
-
 projects[workbench][subdir] = contrib
 projects[workbench_moderation][subdir] = contrib
 projects[workbench_access][subdir] = contrib
@@ -29,6 +28,8 @@ libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce
 ; THEMES
 
 projects[omega][type] = theme
+projects[adaptivetheme][type] = theme
+projects[sky][type] = theme
 
 ; MODES FOR OMEGA THEME
 
