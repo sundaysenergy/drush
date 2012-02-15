@@ -32,6 +32,7 @@ projects[rules][subdir] = contrib
 ; OPTIONAL
 
 projects[auto_nodetitle][subdir] = contrib
+projects[colorbox][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[feeds][subdir] = contrib

@@ -19,6 +19,7 @@ projects[field_collection_table][subdir] = contrib
 
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
+projects[emfield][subdir] = contrib
 
 projects[wysiwyg][subdir] = contrib
 libraries[tinymce][download][type] = "get"

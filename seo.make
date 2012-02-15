@@ -4,9 +4,11 @@
 api = 2
 core = 7.x
 
-projects[metatag][subdir] = contrib
-projects[globalredirect][subdir] = contrib
-projects[redirect][subdir] = contrib
-projects[page_title][subdir] = contrib
-projects[xmlsitemap][subdir] = contrib
-;seowatcher
+projects[redirect][subdir] = seo
+; Is global redirect still needed with redirect module?
+projects[globalredirect][subdir] = seo
+
+projects[metatag][subdir] = seo
+projects[page_title][subdir] = seo
+projects[xmlsitemap][subdir] = seo
+projects[seowatcher][subdir] = seo
