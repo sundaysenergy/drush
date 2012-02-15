@@ -24,8 +24,8 @@ projects[imce_wysiwyg][subdir] = contrib
 projects[emfield][subdir] = contrib
 
 projects[wysiwyg][subdir] = contrib
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.4.8.zip"
+;libraries[tinymce][download][type] = "get"
+;libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.4.8.zip"
 
 
 ; THEMES
