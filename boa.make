@@ -14,6 +14,9 @@ projects[config_perms][subdir] = boa
 projects[core_library][subdir] = boa
 projects[core_library][version] = 2.0-alpha8
 
+projects[fb][subdir] = boa
+projects[fb][version] = "3.x-dev"
+
 ; CSS Embedded Images, alternative to sprites for tiny images
 projects[css_emimage][subdir] = boa
 
@@ -42,6 +45,9 @@ projects[hacked][subdir] = boa
 projects[site_verify][subdir] = boa
 
 projects[textile][subdir] = boa
+libraries[textile][download][type] = "get"
+libraries[textile][download][url] = "http://textpattern.com/file_download/70/textpattern-4.4.1.tar.gz"
+
 projects[vars][subdir] = boa
 
 ; help clean out old variables no longer needed

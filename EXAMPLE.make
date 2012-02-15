@@ -1,7 +1,7 @@
 ; ======================================
-; PROJECT TITLE
+; EXAMPLE PLATFORM TITLE
 ;
-; $ drush make MAKE.make make_001
+; $ drush make EXAMPLE.make EXAMPLE_001
 ; ======================================
 
 api = 2
