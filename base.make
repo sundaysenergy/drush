@@ -39,6 +39,9 @@ projects[diff][subdir] = contrib
 projects[feeds][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
+projects[filefield_sources][subdir] = contrib
+projects[media][subdir] = contrib
+projects[file_entity][subdir] = contrib
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
