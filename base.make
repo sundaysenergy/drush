@@ -20,7 +20,6 @@ projects[drupal][type] = core
 
 ; REQUIRED
 
-projects[views][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[token][subdir] = contrib
 projects[features][subdir] = contrib
@@ -28,6 +27,7 @@ projects[strongarm][subdir] = contrib
 projects[date][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[views][subdir] = contrib
 
 ; OPTIONAL
 
@@ -39,7 +39,6 @@ projects[diff][subdir] = contrib
 projects[feeds][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
-projects[filefield_sources][subdir] = contrib
 projects[media][subdir] = contrib
 projects[file_entity][subdir] = contrib
 
@@ -47,7 +46,12 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
 ; CCK
+
+projects[filefield_sources][subdir] = contrib
 projects[link][subdir] = contrib
+
+; Replaces cck_fieldgroup_tabs
+projects[field_group][version] = "1.1"
 
 ; Future status of references unkown. Use entityreference instead
 ; projects[references][subdir] = contrib

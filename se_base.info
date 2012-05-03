@@ -1,0 +1,108 @@
+name = SE Base
+description = A base install with commonly used modules that uses Profiler.
+core = 7.x
+theme = rubik
+
+; -----------------------------------------------------------------------------
+; You could specify this as a sub install profile of another Profiler install
+; profile. Then, any configuration in profiler_example_base would be merged
+; with the stuff that's in this profile. Kind of the way that sub themes work,
+; if you're familiar with that.
+; -----------------------------------------------------------------------------
+; base = profiler_example_base
+
+; -----------------------------------------------------------------------------
+;                                  Modules
+; -----------------------------------------------------------------------------
+; List the modules (core, contrib and/or features) to be enabled in the
+; dependencies[] array. Any dependencies of the listed modules will be detected
+; and enabled automatically.
+; -----------------------------------------------------------------------------
+; CORE
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; CONTRIB
+dependencies[] = views
+dependencies[] = ctools
+dependencies[] = token
+dependencies[] = backup_migrate
+dependencies[] = features
+dependencies[] = strongarm
+
+; ADMIN
+dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = module_filter
+dependencies[] = fpa
+dependencies[] = flood_control
+dependencies[] = seckit
+
+; drush en -y views ctools token backup_migrate features strongarm admin admin_menu devel module_filter fpa flood_control seckit
+
+; -----------------------------------------------------------------------------
+;                                   Users
+; -----------------------------------------------------------------------------
+; One other thing to note here is that there's this (handy) quirk in Drupal's 
+; install API in that you can bypass the configuration form during installation
+; (where you'd normally set up user 1 credentials and the site name and such).
+; To do this you need to specify credentials for user 1 and also specify the
+; site name and site email variables (@see Variables below). 
+; -----------------------------------------------------------------------------
+
+users[superduper][uid]    = 1
+users[superduper][name]   = admin
+users[superduper][mail]   = info@sundaysenergy.com
+users[superduper][roles]  = Admin,Publisher
+users[superduper][status] = 1
+
+users[siteadmin][uid]    = 2
+users[siteadmin][name]   = kai
+users[siteadmin][mail]   = kai@gortonstudios.com
+users[siteadmin][roles]  = Admin,Publisher
+users[siteadmin][status] = 1
+
+; -----------------------------------------------------------------------------
+;                                  Variables
+; -----------------------------------------------------------------------------
+; These variables should be pretty self explanatory, as they are just an array
+; of key value pairs for items in the variable table. Nested arrays also can 
+; crop up here, since variables can be arrays.
+;
+; Also, make note of the site_name and site_mail variables below. These 
+; variables need to be set if you want to bypass the Configuration form during 
+; installation (@see Users for more information on how this is accomplished).
+; -----------------------------------------------------------------------------
+variables[site_name] = SE Base
+variables[site_mail] = kai@gortonstudios.com
+
+variables[site_footer] = © 2011 - SE Base Install Profile
+variables[site_frontpage] = node/1
+variables[theme_settings][toggle_node_info_page] = 0
+
+; You may also want to set the clean url variable if you don't need clean urls. 
+; Since we bypassed the configuration screen, it is enabled by default, so to 
+; disable it you'll want to uncomment this line:
+; variables[clean_url] = 0
+
+; -----------------------------------------------------------------------------
+;                                    Nodes
+; -----------------------------------------------------------------------------
+nodes[front][type] = page
+nodes[front][title] = Isn't Profiler nifty?
+nodes[front][uid] = 2
+nodes[front][body] = <p>Donec vel ipsum elit. In rutrum, ante at fringilla pharetra, mi justo fermentum risus; eget commodo est mi lobortis augue. Proin fringilla malesuada semper. Ut velit sapien, condimentum vel faucibus ut, aliquam quis dui? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate fringilla enim, non convallis nibh lacinia at. Etiam fermentum, lectus ac sagittis volutpat, est augue tincidunt mi, et consectetur orci nisi sit amet sapien. Ut nisi nunc, molestie quis sollicitudin at, dignissim eget nisl? Sed vitae sem lectus. Curabitur viverra laoreet magna. Sed eget sapien tellus, eu tempor purus. Proin dignissim, lacus vitae venenatis porttitor, justo libero rhoncus felis, nec dictum nisl mi vitae nisi. Maecenas tincidunt eros at turpis sollicitudin nec viverra enim condimentum. Sed nec enim justo. In tristique risus dui; ac egestas mi. Proin at arcu sed enim eleifend ornare eu at arcu. Curabitur ullamcorper, ipsum eu imperdiet pharetra, mauris lorem hendrerit metus, in consectetur mauris est iaculis eros. Quisque euismod hendrerit metus ullamcorper tempus! Cras gravida ornare arcu vitae commodo. In hac habitasse platea turpis duis.</p>
