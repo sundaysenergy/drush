@@ -12,14 +12,13 @@ projects[apps][subdir] = apps
 projects[alchemy][subdir] = contrib
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = "7.x-1.1"
+projects[google_analytics_reports][version] = "1.1"
 
 ; Is global redirect still needed with redirect module?
 projects[globalredirect][subdir] = seo
 
+; this replaces nodewords
 projects[metatag][subdir] = seo
-
-projects[nodewords][subdir] = seo
 
 projects[page_title][subdir] = seo
 

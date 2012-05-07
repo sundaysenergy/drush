@@ -43,6 +43,7 @@ project[eva][version] = 1.1
 
 ; Better Exposed Filters
 project[better_exposed_filters][subdir] = contrib
+
 ; CUSTOM MODULES
 ; --------------------
 

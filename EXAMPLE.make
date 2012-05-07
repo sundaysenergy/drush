@@ -14,15 +14,15 @@ core = 7.x
 
 includes[base] = "https://raw.github.com/webmasterkai/drush/master/base.make"
 includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa.make"
-includes[seo] = "https://raw.github.com/webmasterkai/drush/master/seo.make"
-includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
-includes[social] = "https://raw.github.com/webmasterkai/drush/master/social.make"
 includes[commerce] = "https://raw.github.com/webmasterkai/drush/master/commerce.make"
-
+includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
+includes[seo] = "https://raw.github.com/webmasterkai/drush/master/seo.make"
+includes[social] = "https://raw.github.com/webmasterkai/drush/master/social.make"
+;includes[upgrade] = "https://raw.github.com/webmasterkai/drush/master/upgrade.make"
 
 ; OTHER CONTRIB MODULES
 ; --------------------
-projects[references][subdir] = contrib
+projects[facetapi][subdir] = contrib
 
 
 ; CUSTOM MODULES
