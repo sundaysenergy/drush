@@ -42,6 +42,7 @@ projects[pathologic][subdir] = contrib
 projects[media][subdir] = contrib
 projects[file_entity][subdir] = contrib
 
+; What's this for?
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha2
 
@@ -51,7 +52,7 @@ projects[filefield_sources][subdir] = contrib
 projects[link][subdir] = contrib
 
 ; Replaces cck_fieldgroup_tabs
-projects[field_group][version] = "1.1"
+projects[field_group][subdir] = contrib
 
 ; Future status of references unkown. Use entityreference instead
 ; projects[references][subdir] = contrib

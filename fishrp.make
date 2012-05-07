@@ -34,7 +34,6 @@ project[search_api][subdir] = contrib
 project[search_api_db][subdir] = contrib
 project[ds][subdir] = contrib
 project[rel][subdir] = contrib
-project[field_group][subdir] = contrib
 project[remote_stream_wrapper] = contrib
 project[facetapi_bonus][subdir] = contrib
 
