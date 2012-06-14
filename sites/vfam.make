@@ -1,8 +1,13 @@
+; ======================================
+; Velasquez Family Coffee
+;
+; $ drush make vfam.make vfam_004
+; ======================================
 core = 6.x
 
 api = 2
 
-includes[base] = "https://raw.github.com/webmasterkai/drush/master/base.make"
+includes[base] = "https://raw.github.com/webmasterkai/drush/master/base6.make"
 
 ; Modules
 
