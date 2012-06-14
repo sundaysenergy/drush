@@ -27,7 +27,6 @@ projects[references][subdir] = contrib
 ; projects[contentapi][version] = 1.0-alpha2
 ; projects[contentapi][subdir] = contrib
 
-project[smtp][subdir] = contrib
 project[newsletter][subdir] = contrib
 project[facetapi][subdir] = contrib
 project[search_api][subdir] = contrib

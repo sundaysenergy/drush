@@ -14,6 +14,8 @@ projects[config_perms][subdir] = boa
 projects[core_library][subdir] = boa
 projects[core_library][version] = 2.0-alpha8
 
+projects[entitycache][subdir] = boa
+
 projects[fb][subdir] = boa
 projects[fb][version] = "3.x-dev"
 
@@ -31,6 +33,8 @@ projects[fpa][subdir] = boa
 ; HTTP Parallel Request Library
 projects[httprl][subdir] = boa
 
+projects[nocurrent_pass][subdir] = boa
+
 ; alternative to maintence mode
 projects[readonlymode][subdir] = boa
 
@@ -40,6 +44,8 @@ projects[robotstxt][subdir] = boa
 ; security kit
 projects[seckit][subdir] = boa
 projects[hacked][subdir] = boa
+
+projects[speedy][subdir] = boa
 
 ; verify you own the site for google websmaster tools
 projects[site_verify][subdir] = boa
