@@ -51,4 +51,4 @@ projects[wysiwyg][subdir] = contrib
 projects[vfamilycoffee6][type] = theme
 projects[vfamilycoffee6][subdir] = custom
 projects[vfamilycoffee6][download][type] = git
-projects[vfamilycoffee6][download][url] = git@sundaysenergy.unfuddle.com:sundaysenergy/vfamilycoffee6.git
+projects[vfamilycoffee6][download][url] = "git@sundaysenergy.unfuddle.com:sundaysenergy/vfamilycoffee6.git"
