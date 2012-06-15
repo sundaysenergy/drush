@@ -8,6 +8,7 @@ core = 6.x
 api = 2
 
 includes[base] = "https://raw.github.com/webmasterkai/drush/master/base6.make"
+includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa6.make"
 
 ; Modules
 
@@ -44,3 +45,10 @@ projects[visibility_api][subdir] = contrib
 projects[webform][subdir] = contrib
 
 projects[wysiwyg][subdir] = contrib
+
+; Custom Theme
+
+projects[vfamilycoffee6][type] = theme
+projects[vfamilycoffee6][subdir] = custom
+projects[vfamilycoffee6][download][type] = git
+projects[vfamilycoffee6][download][url] = git@sundaysenergy.unfuddle.com:sundaysenergy/vfamilycoffee6.git
