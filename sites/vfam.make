@@ -46,6 +46,9 @@ projects[webform][subdir] = contrib
 
 projects[wysiwyg][subdir] = contrib
 
+; Added simplenews_realname module for collecting names of subscribers on the newsletter signup form
+projects[simplenews_realname][subdir] = contrib
+
 ; Custom Theme
 
 projects[vfamilycoffee6][type] = theme
