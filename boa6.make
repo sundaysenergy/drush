@@ -45,4 +45,4 @@ projects[vars][subdir] = boa
 
 ; help clean out old variables no longer needed
 projects[variable_clean][subdir] = boa
-projectsvariable_clean[version] = "1.x-dev"
+projects[variable_clean][version] = "1.x-dev"
