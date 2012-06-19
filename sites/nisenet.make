@@ -84,8 +84,6 @@ projects[site_map][version] = "1.0"
 
 projects[tagadelic][version] = "1.x-dev"
 
-projects[transliteration][version] = "3.0"
-
 projects[views_slideshow][subdir] = "contrib"
 
 ; Custom modules

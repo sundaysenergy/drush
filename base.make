@@ -40,6 +40,7 @@ projects[diff][subdir] = contrib
 projects[feeds][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
+projects[transliteration][subdir] = contrib
 projects[media][subdir] = contrib
 projects[file_entity][subdir] = contrib
 
