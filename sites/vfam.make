@@ -1,7 +1,7 @@
 ; ======================================
 ; Velasquez Family Coffee
 ;
-; $ drush make vfam.make vfam_004
+; $ drush make vfam.make vfam_007
 ; ======================================
 core = 6.x
 
@@ -9,28 +9,19 @@ api = 2
 
 includes[base] = "https://raw.github.com/webmasterkai/drush/master/base6.make"
 includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa6.make"
+includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras6.make"
+includes[extras] = "https://raw.github.com/webmasterkai/drush/master/ubercart6.make"
 
 ; Modules
 
-projects[ubercart][subdir] = contrib
-
 projects[custom_pagers][subdir] = contrib
-
-projects[image][subdir] = contrib
-
-projects[imce][subdir] = contrib
-
-projects[imce_wysiwyg][subdir] = contrib
 
 projects[mimemail][subdir] = contrib
 
-projects[mollom][subdir] = contrib
-
+; Panels - Used for the image gallery. /gallery
 projects[panels][subdir] = contrib
 
 projects[returnpath][subdir] = contrib
-
-projects[securepages][subdir] = contrib
 
 projects[simplenews][subdir] = contrib
 
@@ -42,11 +33,7 @@ projects[views_bonus][subdir] = contrib
 
 projects[visibility_api][subdir] = contrib
 
-projects[webform][subdir] = contrib
-
-projects[wysiwyg][subdir] = contrib
-
-; Added simplenews_realname module for collecting names of subscribers on the newsletter signup form
+; Simple News Real Name - Collecting names of newsletter subscribers on the signup form.
 projects[simplenews_realname][subdir] = contrib
 
 ; Custom Theme

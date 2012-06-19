@@ -27,10 +27,15 @@ projects[emfield][subdir] = contrib
 projects[plupload][subdir] = contrib
 projects[plupload][version] = 1.0-beta3
 
+; WYSIWYG
 projects[wysiwyg][subdir] = contrib
-;libraries[tinymce][download][type] = "get"
-;libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.4.8.zip"
 
+; WYSIWYG - TinyMCE
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
+libraries[tinymce][directory_name] = "tinymce"
+
+; WYSIWYG - CKeditor
 libraries[ckeditor][download][type] = "svn"
 libraries[ckeditor][download][url] = "http://svn.ckeditor.com/CKEditor/releases/stable/"
 libraries[ckeditor][directory_name] = "ckeditor"
