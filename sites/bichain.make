@@ -27,3 +27,6 @@ projects[datatables][subdir] = contrib
 ; CUSTOM MODULES
 ; --------------------
 
+; bichain
+; bifeatures
+; bimigrate
