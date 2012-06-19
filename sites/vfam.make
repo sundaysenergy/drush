@@ -1,7 +1,7 @@
 ; ======================================
 ; Velasquez Family Coffee
 ;
-; $ drush make vfam.make vfam_007
+; $ drush make https://raw.github.com/webmasterkai/drush/master/sites/vfam.make vfam-008
 ; ======================================
 core = 6.x
 
@@ -10,7 +10,7 @@ api = 2
 includes[base] = "https://raw.github.com/webmasterkai/drush/master/base6.make"
 includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa6.make"
 includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras6.make"
-includes[extras] = "https://raw.github.com/webmasterkai/drush/master/ubercart6.make"
+includes[ubercart] = "https://raw.github.com/webmasterkai/drush/master/ubercart6.make"
 
 ; Modules
 
