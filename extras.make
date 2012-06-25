@@ -46,8 +46,11 @@ projects[omega][type] = theme
 projects[adaptivetheme][type] = theme
 projects[sky][type] = theme
 projects[corolla][type] = theme
+projects[zen][type] = theme
+projects[mothership][type] = theme
 
-; MODES FOR OMEGA THEME
+; MODULES FOR THEME DEVELOPMENT
 
 projects[delta][subdir] = contrib
 projects[omega_tools][subdir] = contrib
+projects[fences][subdir] = contrib

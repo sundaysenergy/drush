@@ -41,8 +41,13 @@ projects[feeds][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
 projects[transliteration][subdir] = contrib
+
+; MEDIA
+
 projects[media][subdir] = contrib
+projects[media_youtube][subdir] = contrib
 projects[file_entity][subdir] = contrib
+projects[remote_stream_wrapper][subdir] = contrib
 
 ; What's this for?
 projects[job_scheduler][subdir] = contrib
