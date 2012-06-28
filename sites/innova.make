@@ -11,7 +11,7 @@ includes[base] = "https://raw.github.com/webmasterkai/drush/master/base.make"
 includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa.make"
 includes[seo] = "https://raw.github.com/webmasterkai/drush/master/seo.make"
 includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
-includes[commerce] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
+includes[commerce] = "https://raw.github.com/webmasterkai/drush/master/commerce.make"
 
 ; Modules
 
@@ -25,31 +25,33 @@ projects[commerce_ups][version] = "1.x-dev"
 projects[facebook_pull][version] = "1.0"
 projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
 
-projects[gmap][version] = "1.x-dev"
+projects[gmap][subdir] = contrib
 
-projects[google_fonts][version] = "2.3"
+projects[google_fonts][subdir] = contrib
 
-projects[jcarousel][version] = "2.6"
+projects[jcarousel][subdir] = contrib
 
-projects[jquery_plugin][version] = "1.0"
+projects[jquery_plugin][subdir] = contrib
 
 projects[location][version] = "3.x-dev"
+projects[location][subdir] = contrib
 
-projects[maxlength][version] = "3.0-beta1"
+projects[maxlength][subdir] = contrib
 
-projects[menu_block][version] = "2.2"
+projects[menu_block][subdir] = contrib
 
-projects[nodesinblock][version] = "1.0"
+projects[nodesinblock][subdir] = contrib
 
 projects[physical][version] = "1.x-dev"
+projects[physical][subdir] = contrib
 
-projects[print][version] = "1.0-beta1"
+projects[print][subdir] = contrib
 
 projects[quicktabs][subdir] = contrib
 
 projects[submenutree][subdir] = contrib
 
-projects[twitter_pull][version] = "1.0-rc1"
+projects[twitter_pull][subdir] = contrib
 
 ; Themes
 projects[ninesixty][version] = "1.0"
