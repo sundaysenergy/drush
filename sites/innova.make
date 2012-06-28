@@ -15,8 +15,9 @@ includes[commerce] = "https://raw.github.com/webmasterkai/drush/master/extras.ma
 
 ; Modules
 
-projects[aes][version][subdir] = contrib
+projects[aes][subdir] = contrib
 
+; WHY IS THIS BEING USED?!?
 projects[cck][version] = "2.x-dev"
 
 projects[commerce_ups][version] = "1.x-dev"
