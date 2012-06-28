@@ -4,6 +4,11 @@
 api = 2
 core = 7.x
 
+; Patch core for Secure Pages - http://drupal.org/project/securepages
+projects[drupal][patch][] = "http://drupal.org/files/961508-20.patch"
+projects[drupal][patch][] = "http://drupal.org/files/issues/471970_0.patch"
+
+
 projects[commerce][subdir] = dc
 
 projects[addressfield][subdir] = dc
@@ -18,6 +23,7 @@ projects[commerce_physical][subdir] = dc
 
 projects[commerce_shipping][subdir] = dc
 
+projects[securepages][subdir] = dc
 
 projects[dc_co_pages][subdir] = dc
 projects[commerce_checkout_progress][subdir] = dc

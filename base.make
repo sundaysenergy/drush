@@ -14,7 +14,6 @@ core = 7.x
 ; -----------
 projects[drupal][type] = core
 
-
 ; CONTRIB
 ; ---------
 
