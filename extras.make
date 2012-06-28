@@ -4,6 +4,18 @@
 api = 2
 core = 7.x
 
+; PERFORMANCE
+projects[agrcache][subdir] = performance
+
+projects[entitycache][subdir] = performance
+
+projects[speedy][subdir] = performance
+
+
+projects[nocurrent_pass][subdir] = contrib
+
+projects[hacked][subdir] = contrib
+
 projects[beautytips][subdir] = contrib
 projects[locationmap][subdir] = contrib
 projects[migrate][subdir] = contrib

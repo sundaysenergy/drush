@@ -4,6 +4,7 @@
 api = 2
 core = 7.x
 
+projects[fb][subdir] = social
 
 projects[gconnect][subdir] = social
 projects[gconnect][version] = 1.x-dev
