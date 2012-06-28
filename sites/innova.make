@@ -11,6 +11,7 @@ includes[base] = "https://raw.github.com/webmasterkai/drush/master/base.make"
 includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa.make"
 includes[seo] = "https://raw.github.com/webmasterkai/drush/master/seo.make"
 includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
+includes[commerce] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
 
 ; Modules
 
@@ -64,5 +65,4 @@ projects[innova][subdir] = custom
 projects[innova_ninesixty][download][type] = "git"
 projects[innova_ninesixty][download][url] = "git@sundaysenergy.unfuddle.com:sundaysenergy/innovatheme.git"
 projects[innova_ninesixty][type] = "theme"
-
 
