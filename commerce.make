@@ -18,9 +18,16 @@ projects[commerce_authnet][subdir] = dc
 projects[commerce_coupon][subdir] = dc
 ;projects[commerce_coupon][version] = 1.x-dev
 
+; Shipping related
+
 projects[commerce_physical][subdir] = dc
 
 projects[commerce_shipping][subdir] = dc
+
+projects[commerce_ups][version] = "1.x-dev"
+projects[commerce_ups][subdir] = dc
+
+projects[commerce_usps][subdir] = dc
 
 projects[securepages][subdir] = dc
 

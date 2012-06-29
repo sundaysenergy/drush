@@ -1,11 +1,13 @@
 ; ======================================
 ; Innova
 ;
-; $ drush make innova.make innova_002
+; $ drush make innova.make innova-007
 ; ======================================
 
 api = 2
 core = 7.x
+
+; Include other make files that should include almost all necessary module packages.
 
 includes[base] = "https://raw.github.com/webmasterkai/drush/master/base.make"
 includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa.make"
@@ -15,13 +17,14 @@ includes[commerce] = "https://raw.github.com/webmasterkai/drush/master/commerce.
 
 ; Modules
 
+; Why is this being used?
 projects[aes][subdir] = contrib
 
 ; WHY IS THIS BEING USED?!?
 projects[cck][version] = "2.x-dev"
+projects[cck][subdir] = contrib
 
-projects[commerce_ups][version] = "1.x-dev"
-projects[commerce_ups][subdir] = dc
+; Commerce
 
 ; In commerce.make - Specific version for innova
 projects[commerce_shipping][version] = "2.0-beta1"
@@ -31,6 +34,7 @@ projects[commerce_coupon][version] = "1.0-beta4"
 
 projects[facebook_pull][version] = "1.0"
 projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
+projects[facebook_pull][subdir] = contrib
 
 projects[gmap][subdir] = contrib
 
@@ -56,11 +60,15 @@ projects[print][subdir] = contrib
 
 projects[quicktabs][subdir] = contrib
 
+; Remove this version to allow upgrade to 2.x
+projects[submenutree][version] = "1.2"
 projects[submenutree][subdir] = contrib
 
 projects[twitter_pull][subdir] = contrib
 
+
 ; Themes
+
 projects[ninesixty][version] = "1.0"
 
 ; Custom Modules

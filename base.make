@@ -20,19 +20,35 @@ projects[drupal][type] = core
 ; REQUIRED
 
 projects[ctools][subdir] = contrib
+projects[entity][subdir] = contrib
 projects[token][subdir] = contrib
 projects[features][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[date][subdir] = contrib
-projects[entity][subdir] = contrib
 projects[rules][subdir] = contrib
 projects[views][subdir] = contrib
 projects[libraries][subdir] = contrib
 
+
+; ADMIN
+projects[devel][subdir] = contrib
+projects[admin_menu][subdir] = contrib
+projects[module_filter][subdir] = contrib
+projects[stringoverrides][subdir] = contrib
+projects[google_analytics][subdir] = contrib
+
+projects[file_defer][subdir] = contrib
+projects[file_defer][version] = 1.x-dev
+
+
 ; OPTIONAL
 
 projects[auto_nodetitle][subdir] = contrib
+
 projects[colorbox][subdir] = contrib
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = "colorbox"
 
 projects[views_bulk_operations][subdir] = contrib
 projects[diff][subdir] = contrib
@@ -66,18 +82,6 @@ projects[field_group][subdir] = contrib
 ; Future status of references unkown. Use entityreference instead
 ; projects[references][subdir] = contrib
 projects[entityreference][subdir] = contrib
-
-
-; ADMIN
-projects[devel][subdir] = contrib
-projects[admin_menu][subdir] = contrib
-projects[module_filter][subdir] = contrib
-projects[stringoverrides][subdir] = contrib
-projects[google_analytics][subdir] = contrib
-
-projects[file_defer][subdir] = contrib
-projects[file_defer][version] = 1.x-dev
-
 
 ; themes
 ; ----------
