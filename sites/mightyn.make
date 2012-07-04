@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Site
 ;
-; $ drush make mightyn.make mightyn-002
+; $ drush make https://raw.github.com/webmasterkai/drush/master/sites/mightyn.make mightyn-002
 ; ======================================
 
 api = 2

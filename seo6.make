@@ -2,7 +2,7 @@
 ; ---------------
 
 api = 2
-core = 7.x
+core = 6.x
 
 
 projects[alchemy][subdir] = contrib
