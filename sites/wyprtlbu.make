@@ -18,3 +18,10 @@ includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make
 ; CUSTOM MODULES
 ; --------------------
 ; Perhaps this will be necessary? unknown right now.
+
+; Custom Themes
+; --------------------
+
+projects[laurahudson][type] = theme
+projects[vfamilycoffee6][download][type] = git
+projects[vfamilycoffee6][download][url] = "https://github.com/bjornmeansbear/lhTheme.git"
