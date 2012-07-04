@@ -4,10 +4,16 @@
 api = 2
 core = 6.x
 
+projects[fivestar][subdir] = contrib
+
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
 
 projects[mollom][subdir] = contrib
+
+projects[views_bonus][subdir] = contrib
+
+projects[votingapi][subdir] = contrib
 
 projects[webform][subdir] = contrib
 
@@ -23,3 +29,11 @@ libraries[tinymce][directory_name] = "tinymce"
 libraries[ckeditor][download][type] = "svn"
 libraries[ckeditor][download][url] = "http://svn.ckeditor.com/CKEditor/releases/stable/"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+; THEMES
+
+projects[omega][type] = theme
+projects[adaptivetheme][type] = theme
+projects[sky][type] = theme
+projects[corolla][type] = theme
+projects[zen][type] = theme

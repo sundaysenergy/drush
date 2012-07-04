@@ -1,11 +1,12 @@
 ; ======================================
 ; Kai Curry Base Drush Make
 ;
-; $ drush make base.make base601
+; $ drush make base.make base701
 ; ======================================
 
 api = 2
-core = 6.x
+core = 7.x
+
 
 ; CORE
 ; -----------
@@ -28,15 +29,15 @@ projects[libraries][subdir] = contrib
 
 
 ; ADMIN
-projects[advanced_help][subdir] = admin
-projects[devel][subdir] = admin
-projects[admin_menu][subdir] = admin
-projects[module_filter][subdir] = admin
-projects[stringoverrides][subdir] = admin
-projects[google_analytics][subdir] = admin
+projects[devel][subdir] = contrib
+projects[admin_menu][subdir] = contrib
+projects[module_filter][subdir] = contrib
+projects[stringoverrides][subdir] = contrib
+projects[google_analytics][subdir] = contrib
 
-projects[file_defer][subdir] = admin
+projects[file_defer][subdir] = contrib
 projects[file_defer][version] = 1.x-dev
+
 
 ; OPTIONAL
 
@@ -76,12 +77,3 @@ projects[tao][type] = theme
 ; __________
 libraries[profiler][download][type] = get
 libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
-
-; d6 Specific
-projects[cck][subdir] = contrib
-projects[filefield][subdir] = contrib
-projects[imagefield][subdir] = contrib
-
-projects[imageapi][subdir] = contrib
-projects[imagecache][subdir] = contrib
-
