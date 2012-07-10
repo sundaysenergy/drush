@@ -23,7 +23,6 @@ projects[computed_field][subdir] = contrib
 
 ; Display Suite
 projects[ds][subdir] = contrib
-projects[ds_extras][subdir] = contrib
 
 ; Entity Views Attachment
 projects[eva][subdir] = contrib
@@ -32,8 +31,6 @@ projects[eva][version] = 1.1
 projects[node_clone][subdir] = contrib
 
 projects[rel][subdir] = contrib
-
-projects[remote_stream_wrapper] = contrib
 
 projects[facetapi][subdir] = contrib
 projects[facetapi_bonus][subdir] = contrib
@@ -56,6 +53,8 @@ project[views_delimited_list][subdir] = contrib
 
 ; CUSTOM MODULES
 ; --------------------
+; What is ds_extras?
+; projects[ds_extras][subdir] = contrib
 
 ; archive_report
 ; authenticate
