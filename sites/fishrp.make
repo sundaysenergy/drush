@@ -1,7 +1,7 @@
 ; ======================================
 ; MO Fishing Report
 ;
-; $ drush make fishrp.make fishrp_004
+; $ drush make https://raw.github.com/webmasterkai/drush/master/sites/fishrp.make fishrp-005
 ; ======================================
 
 api = 2
@@ -29,14 +29,23 @@ projects[references][subdir] = contrib
 
 ;project[newsletter][subdir] = contrib
 
-project[node_clone][subdir] = contrib
-project[facetapi][subdir] = contrib
-project[search_api][subdir] = contrib
-project[search_api_db][subdir] = contrib
+
+project[computed_field][subdir] = contrib
+
+; Display Suite
 project[ds][subdir] = contrib
+project[ds_extras][subdir] = contrib
+
+project[node_clone][subdir] = contrib
+
 project[rel][subdir] = contrib
 project[remote_stream_wrapper] = contrib
+
+project[facetapi][subdir] = contrib
 project[facetapi_bonus][subdir] = contrib
+project[search_api][subdir] = contrib
+project[search_api_db][subdir] = contrib
+
 project[views_delimited_list][subdir] = contrib
 
 ; Entity Views Attachment
