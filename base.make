@@ -33,6 +33,7 @@ projects[libraries][subdir] = contrib
 ; ADMIN
 projects[advanced_help][subdir] = admin
 projects[devel][subdir] = admin
+projects[devel_themer][subdir] = admin
 projects[admin_menu][subdir] = admin
 projects[module_filter][subdir] = admin
 projects[stringoverrides][subdir] = admin
@@ -53,6 +54,7 @@ libraries[colorbox][directory_name] = "colorbox"
 projects[views_bulk_operations][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[feeds][subdir] = contrib
+projects[feeds_jsonpath_parser][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
 projects[transliteration][subdir] = contrib

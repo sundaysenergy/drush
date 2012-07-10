@@ -4,6 +4,7 @@
 api = 2
 core = 7.x
 
+
 projects[admin][subdir] = boa
 
 projects[backup_migrate][subdir] = boa
@@ -38,9 +39,11 @@ projects[purge][subdir] = boa
 ; alternative to maintence mode
 projects[readonlymode][subdir] = boa
 
-; robots for multisite install
+; Robots for multisite install
 projects[robotstxt][subdir] = boa
 projects[robotstxt][version] = "1.x-dev"
+; Remove robots.txt file
+projects[drupal][patch][] = "http://drupal.org/files/issues/1260912-remove-robotstxt-7.8.patch"
 
 ; security kit
 projects[seckit][subdir] = boa

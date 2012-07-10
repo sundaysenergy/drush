@@ -27,7 +27,9 @@ projects[references][subdir] = contrib
 ; projects[contentapi][version] = 1.0-alpha2
 ; projects[contentapi][subdir] = contrib
 
-project[newsletter][subdir] = contrib
+;project[newsletter][subdir] = contrib
+
+project[node_clone][subdir] = contrib
 project[facetapi][subdir] = contrib
 project[search_api][subdir] = contrib
 project[search_api_db][subdir] = contrib
@@ -35,6 +37,7 @@ project[ds][subdir] = contrib
 project[rel][subdir] = contrib
 project[remote_stream_wrapper] = contrib
 project[facetapi_bonus][subdir] = contrib
+project[views_delimited_list][subdir] = contrib
 
 ; Entity Views Attachment
 project[eva][subdir] = contrib
@@ -43,6 +46,24 @@ project[eva][version] = 1.1
 ; Better Exposed Filters
 project[better_exposed_filters][subdir] = contrib
 
+; nodelinkoverride
+; siteskeleton
+; visibility_field
+
 ; CUSTOM MODULES
 ; --------------------
 
+; archive_report
+; authenticate
+; enewsletter
+; feature_fishrt_areas
+; feature_fishrt_entry
+; feature_fishrt_fish
+; feature_search_config
+; ga_subsite
+; handicap_display
+; mdc_image_display
+; mdc_remote_footer
+; order_group
+; region_image
+; run_php
