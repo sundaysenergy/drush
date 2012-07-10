@@ -12,52 +12,47 @@ includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa.make"
 includes[seo] = "https://raw.github.com/webmasterkai/drush/master/seo.make"
 includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
 
-; Projects need for the fishing report site/app
+; Projects needed for the fishing report site/app
 
 ; CONTRIB MODULES
 ; --------------------
-projects[references][subdir] = contrib
 
-; projects[] = micro
-; projects[] = flexifield
+projects[better_exposed_filters][subdir] = contrib
 
-; need to manage the creation/publishing/notifications of reports/content
-
-; new module that might help make content available to other sites
-; projects[contentapi][version] = 1.0-alpha2
-; projects[contentapi][subdir] = contrib
-
-;project[newsletter][subdir] = contrib
-
-
-project[computed_field][subdir] = contrib
+projects[computed_field][subdir] = contrib
 
 ; Display Suite
-project[ds][subdir] = contrib
-project[ds_extras][subdir] = contrib
+projects[ds][subdir] = contrib
+projects[ds_extras][subdir] = contrib
 
-project[node_clone][subdir] = contrib
+; Entity Views Attachment
+projects[eva][subdir] = contrib
+projects[eva][version] = 1.1
 
-project[rel][subdir] = contrib
-project[remote_stream_wrapper] = contrib
+projects[node_clone][subdir] = contrib
 
-project[facetapi][subdir] = contrib
-project[facetapi_bonus][subdir] = contrib
-project[search_api][subdir] = contrib
-project[search_api_db][subdir] = contrib
+projects[rel][subdir] = contrib
+
+projects[remote_stream_wrapper] = contrib
+
+projects[facetapi][subdir] = contrib
+projects[facetapi_bonus][subdir] = contrib
+
+projects[search_api][subdir] = contrib
+projects[search_api_db][subdir] = contrib
+
+projects[references][subdir] = contrib
 
 project[views_delimited_list][subdir] = contrib
 
-; Entity Views Attachment
-project[eva][subdir] = contrib
-project[eva][version] = 1.1
 
-; Better Exposed Filters
-project[better_exposed_filters][subdir] = contrib
+; GORTON STUDIOS MODULES
+; --------------------
 
 ; nodelinkoverride
 ; siteskeleton
 ; visibility_field
+
 
 ; CUSTOM MODULES
 ; --------------------
@@ -76,3 +71,18 @@ project[better_exposed_filters][subdir] = contrib
 ; order_group
 ; region_image
 ; run_php
+
+
+; DISABLED MODULES
+; --------------------
+
+; projects[] = micro
+; projects[] = flexifield
+
+; need to manage the creation/publishing/notifications of reports/content
+
+; new module that might help make content available to other sites
+; projects[contentapi][version] = 1.0-alpha2
+; projects[contentapi][subdir] = contrib
+
+;projects[newsletter][subdir] = contrib
