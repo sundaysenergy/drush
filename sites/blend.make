@@ -2,6 +2,7 @@
 ; Blend make file
 ;
 ; $ drush make https://raw.github.com/webmasterkai/drush/master/sites/blend.make blend-001
+; $ drush make --no-core https://raw.github.com/webmasterkai/drush/master/sites/blend.make test-002
 ; ======================================
 
 api = 2
