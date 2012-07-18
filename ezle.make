@@ -18,7 +18,6 @@ projects[drupal][type] = core
 ; ---------
 
 ; REQUIRED
-
 projects[ctools][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[token][subdir] = contrib
@@ -27,7 +26,6 @@ projects[date][subdir] = contrib
 projects[rules][subdir] = contrib
 projects[views][subdir] = contrib
 projects[libraries][subdir] = contrib
-
 
 ; ADMIN
 projects[devel][subdir] = contrib
@@ -39,10 +37,11 @@ projects[google_analytics][subdir] = contrib
 projects[file_defer][subdir] = contrib
 projects[file_defer][version] = 1.x-dev
 
-
 ; OPTIONAL
 
 projects[auto_nodetitle][subdir] = contrib
+
+; Replace all the colorbox stuff with Shadowbox stuff, I prefer that!
 
 projects[colorbox][subdir] = contrib
 libraries[colorbox][download][type] = "get"
@@ -78,10 +77,15 @@ projects[field_group][subdir] = contrib
 ; projects[references][subdir] = contrib
 projects[entityreference][subdir] = contrib
 
+; There are a number of views modules that need to be added - Views Slideshow, Draggable views, maybe more
+; Also, go through each of these already referenced, look them up on D dot O, and figure out what should stay and what should go
+
 ; themes
 ; ----------
 projects[rubik][type] = theme
 projects[tao][type] = theme
+
+; Add Zen and Mothership here as well, just in case
 
 ; profiler
 ; __________
