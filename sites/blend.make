@@ -43,4 +43,4 @@ projects[workflow_ng][version] = "2.2"
 ; Themes
 projects[blendedapparel][type] = "theme"
 projects[blendedapparel][download][type] = git
-projects[blendedapparel][download][url] = git@sundaysenergy.unfuddle.com:sundaysenergy/blendedapparel.git
+projects[blendedapparel][download][url] = git@github.com:sundaysenergy/blendedapparel.git
