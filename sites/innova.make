@@ -74,13 +74,13 @@ projects[ninesixty][version] = "1.0"
 ; Custom Modules
 
 projects[innova][download][type] = "git"
-projects[innova][download][url] = "git@sundaysenergy.unfuddle.com:sundaysenergy/innovamodules.git"
+projects[innova][download][url] = "git@github.com:sundaysenergy/innovamodules.git"
 projects[innova][type] = "module"
 projects[innova][subdir] = custom
 
 ; Custom Themes
 
 projects[innova_ninesixty][download][type] = "git"
-projects[innova_ninesixty][download][url] = "git@sundaysenergy.unfuddle.com:sundaysenergy/innovatheme.git"
+projects[innova_ninesixty][download][url] = "git@github.com:sundaysenergy/innovatheme.git"
 projects[innova_ninesixty][type] = "theme"
 
