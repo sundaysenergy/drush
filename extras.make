@@ -54,6 +54,12 @@ libraries[ckeditor][download][type] = "svn"
 libraries[ckeditor][download][url] = "http://svn.ckeditor.com/CKEditor/releases/stable/"
 libraries[ckeditor][directory_name] = "ckeditor"
 
+projects[shadowbox][subdir] = contrib
+; libraries included in modules .make
+;libraries[shadowbox][download][type] = "get"
+;libraries[shadowbox][download][url] = "http://shadowbox-js.com/download.html"
+;libraries[shadowbox][directory_name] = "shadowbox"
+
 ; THEMES
 
 projects[omega][type] = theme
