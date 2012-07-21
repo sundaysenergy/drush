@@ -41,32 +41,36 @@ projects[file_defer][version] = 1.x-dev
 
 projects[auto_nodetitle][subdir] = contrib
 
-; Replace all the colorbox stuff with Shadowbox stuff, I prefer that!
+; Replace all the colorbox stuff with Shadowbox stuff, I prefer that
 
-projects[colorbox][subdir] = contrib
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
-libraries[colorbox][directory_name] = "colorbox"
+projects[shadowbox][subdir] = contrib
+libraries[shadowbox][download][type] = "get"
+libraries[shadowbox][download][url] = "TK"
+; There may be an issue of connecting to the code with a web url
+libraries[shadowbox][directory_name] = "shadowbox"
 
 projects[views_bulk_operations][subdir] = contrib
+projects[draggableviews][subdir] = contrib
+projects[views_slideshow][subdir] = contrib
+libraries[views_slideshow][download][type] = "get"
+libraries[views_slideshow][download][url] = "TK"
+libraries[views_slideshow][directory_name] = "JS CYCLE CODE FOLDER NAME?"
 projects[diff][subdir] = contrib
-projects[feeds][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
 projects[transliteration][subdir] = contrib
+projects[transliteration][subdir] = contrib
+projects[transliteration][subdir] = contrib
 
 ; MEDIA
-
 projects[media][subdir] = contrib
 projects[media_youtube][subdir] = contrib
 projects[file_entity][subdir] = contrib
 projects[remote_stream_wrapper][subdir] = contrib
-
 project[smtp][subdir] = contrib
 projects[variable][subdir] = contrib
 
 ; CCK
-
 projects[filefield_sources][subdir] = contrib
 projects[link][subdir] = contrib
 
@@ -74,11 +78,7 @@ projects[link][subdir] = contrib
 projects[field_group][subdir] = contrib
 
 ; Future status of references unkown. Use entityreference instead
-; projects[references][subdir] = contrib
 projects[entityreference][subdir] = contrib
-
-; There are a number of views modules that need to be added - Views Slideshow, Draggable views, maybe more
-; Also, go through each of these already referenced, look them up on D dot O, and figure out what should stay and what should go
 
 ; themes
 ; ----------
