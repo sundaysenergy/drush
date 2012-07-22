@@ -60,7 +60,8 @@ projects[transliteration][subdir] = contrib
 ; What other modules use this?
 projects[job_scheduler][subdir] = contrib
 
-project[smtp][subdir] = contrib
+projects[smtp][subdir] = contrib
+
 
 ; CCK
 
@@ -72,6 +73,7 @@ projects[link][subdir] = contrib
 ; ----------
 projects[rubik][type] = theme
 projects[tao][type] = theme
+
 
 ; profiler
 ; __________

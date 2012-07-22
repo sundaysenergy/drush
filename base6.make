@@ -59,7 +59,7 @@ projects[transliteration][subdir] = contrib
 ; What other modules use this?
 projects[job_scheduler][subdir] = contrib
 
-project[smtp][subdir] = contrib
+projects[smtp][subdir] = contrib
 
 ; CCK
 

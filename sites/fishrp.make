@@ -28,6 +28,8 @@ projects[ds][subdir] = contrib
 projects[eva][subdir] = contrib
 projects[eva][version] = 1.1
 
+projects[field_permissions][subdir] = contrib
+
 projects[node_clone][subdir] = contrib
 
 projects[rel][subdir] = contrib
@@ -59,9 +61,9 @@ project[views_delimited_list][subdir] = contrib
 ; archive_report
 ; authenticate
 ; enewsletter
-; feature_fishrt_areas
+; feature_fishrt_areas *
 ; feature_fishrt_entry
-; feature_fishrt_fish
+; feature_fishrt_fish *
 ; feature_search_config
 ; ga_subsite
 ; handicap_display
