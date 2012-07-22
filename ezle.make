@@ -44,10 +44,7 @@ projects[auto_nodetitle][subdir] = contrib
 ; Replace all the colorbox stuff with Shadowbox stuff, I prefer that
 
 projects[shadowbox][subdir] = contrib
-libraries[shadowbox][download][type] = "get"
-libraries[shadowbox][download][url] = "TK"
-; There may be an issue of connecting to the code with a web url
-libraries[shadowbox][directory_name] = "shadowbox"
+; Get code for sahdowbox library in the individual site make file as it should be customized for each instance
 
 projects[views_bulk_operations][subdir] = contrib
 projects[draggableviews][subdir] = contrib

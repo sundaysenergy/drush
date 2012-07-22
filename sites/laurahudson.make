@@ -19,6 +19,11 @@ includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.mak
 ; --------------------
 ; Perhaps this will be necessary? unknown right now.
 
+; CUSTOM SHADOWBOX LIBRARY
+libraries[shadowbox][download][type] = "get"
+libraries[shadowbox][download][url] = "TK"
+libraries[shadowbox][directory_name] = "shadowbox"
+
 
 ; CUSTOM THEME
 ; --------------------
