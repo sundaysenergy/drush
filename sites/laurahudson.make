@@ -27,6 +27,6 @@ includes[ezle] = "https://raw.github.com/sundaysenergy/drush/master/ezle.make"
 ; CUSTOM THEME
 ; --------------------
 projects[laurahudson][type] = theme
-projects[lhTheme][subdir] = custom
+projects[laurahudson][subdir] = custom
 projects[laurahudson][download][type] = git
 projects[laurahudson][download][url] = "https://github.com/bjornmeansbear/lhTheme.git"
