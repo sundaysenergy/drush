@@ -20,18 +20,9 @@ includes[ezle] = "https://raw.github.com/bjornmeansbear/drush/master/ezle.make"
 ; --------------------
 ; Perhaps this will be necessary? unknown right now.
 
-<<<<<<< HEAD
-; CUSTOM SHADOWBOX LIBRARY
-libraries[shadowbox][download][type] = "get"
-libraries[shadowbox][download][url] = "TK"
-libraries[shadowbox][directory_name] = "shadowbox"
-
-
-=======
->>>>>>> updated ezle.make and laurahudson.make
 ; CUSTOM THEME
 ; --------------------
 projects[lhTheme][type] = theme
 projects[lhTheme][subdir] = custom
 projects[lhTheme][download][type] = git
-projects[lhTheme][download][url] = "git@sundaysenergy.unfuddle.com:sundaysenergy/vfamilycoffee6.git"
+projects[lhTheme][download][url] = "git@github.com:bjornmeansbear/lhTheme.git"

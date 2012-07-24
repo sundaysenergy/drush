@@ -11,7 +11,6 @@ core = 7.x
 
 ; a few extra tools for EZLE
 
-<<<<<<< HEAD
 ; CORE
 ; -----------
 projects[drupal][type] = core
@@ -43,14 +42,6 @@ projects[file_defer][version] = 1.x-dev
 
 projects[auto_nodetitle][subdir] = contrib
 
-; Replace all the colorbox stuff with Shadowbox stuff, I prefer that
-
-projects[shadowbox][subdir] = contrib
-; Get code for sahdowbox library in the individual site make file as it should be customized for each instance
-
-projects[views_bulk_operations][subdir] = contrib
-=======
->>>>>>> updated ezle.make and laurahudson.make
 projects[draggableviews][subdir] = contrib
 projects[views_slideshow][subdir] = contrib
 libraries[views_slideshow][download][type] = "get"
