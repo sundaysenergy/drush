@@ -14,7 +14,7 @@ includes[base] = "https://raw.github.com/sundaysenergy/drush/master/base.make"
 includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa.make"
 includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.make"
-includes[ezle] = "https://raw.github.com/bjornmeansbear/drush/master/ezle.make"
+includes[ezle] = "https://raw.github.com/sundaysenergy/drush/master/ezle.make"
 
 ; CUSTOM MODULES
 ; --------------------
