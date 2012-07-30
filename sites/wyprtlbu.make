@@ -1,8 +1,8 @@
 ; ======================================
 ; WYPR - The Lines Between Us Site
-; Initial creation by KB 7/29/2012 for v1.0
+; Initial creation by KB 7/30/2012 for v1.1
 ;
-; $ drush make wyprtlbu.make wyprtlbu_001
+; $ drush make wyprtlbu.make wyprtlbu_002
 ; ======================================
 
 api = 2
@@ -10,17 +10,20 @@ core = 7.x
 
 ; INCLUDES
 ; -----------
-
 includes[base]   = "https://raw.github.com/sundaysenergy/drush/master/base.make"
 includes[boa]    = "https://raw.github.com/sundaysenergy/drush/master/boa.make"
 includes[seo]    = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.make"
 
-
 ; OTHER CONTRIB MODULES
 ; --------------------
-projects[menu_block][subdir]            = contrib
-projects[block_class][subdir]           = contrib
+projects[menu_block][subdir]               = contrib
+projects[block_class][subdir]              = contrib
+
+projects[views_slideshow][subdir]          = contrib
+libraries[views_slideshow][download][type] = "get"
+libraries[views_slideshow][download][url]  = "http://malsup.github.com/jquery.cycle.all.js"
+libraries[views_slideshow][directory_name] = "jquery.cycle"
 
 ; What to do for audio handling
 
