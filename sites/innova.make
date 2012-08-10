@@ -44,7 +44,6 @@ projects[jcarousel][subdir] = contrib
 
 projects[jquery_plugin][subdir] = contrib
 
-projects[location][version] = "3.x-dev"
 projects[location][subdir] = contrib
 
 projects[maxlength][subdir] = contrib
