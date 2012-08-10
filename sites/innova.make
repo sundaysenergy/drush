@@ -9,11 +9,11 @@ core = 7.x
 
 ; Include other make files that should include almost all necessary module packages.
 
-includes[base] = "https://raw.github.com/webmasterkai/drush/master/base.make"
-includes[boa] = "https://raw.github.com/webmasterkai/drush/master/boa.make"
-includes[seo] = "https://raw.github.com/webmasterkai/drush/master/seo.make"
-includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make"
-includes[commerce] = "https://raw.github.com/webmasterkai/drush/master/commerce.make"
+includes[base] = "https://raw.github.com/sundaysenergy/drush/master/base.make"
+includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa.make"
+includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
+includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.make"
+includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce.make"
 
 ; Modules
 
