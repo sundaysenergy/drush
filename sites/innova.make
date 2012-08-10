@@ -32,9 +32,11 @@ projects[commerce_shipping][version] = "2.0-beta1"
 ; In commerce.make - Specific version - "1.0-beta4+3-dev"
 projects[commerce_coupon][version] = "1.0-beta4"
 
-projects[facebook_pull][version] = "1.0"
-projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
 projects[facebook_pull][subdir] = contrib
+; Specifying version because of the patch below.
+projects[facebook_pull][version] = "1.0"
+; http://drupal.org/node/1587598 2012-08-10 still not applied.
+projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
 
 projects[gmap][subdir] = contrib
 
