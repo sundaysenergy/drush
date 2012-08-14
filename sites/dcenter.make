@@ -1,8 +1,9 @@
 ; ======================================
-; WYPR - The Lines Between Us Site
-; Initial creation by KB 7/30/2012 for v1.1
+; D Center Baltimore
+; Initial creation by KB 8/14/2012 for v1
+; used in the moving process from old server to new AEGIR env
 ;
-; $ drush make wyprtlbu.make wyprtlbu_002
+; $ drush make dcenter.make dcenter_001
 ; ======================================
 
 api = 2
@@ -19,13 +20,13 @@ includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.mak
 ; --------------------
 projects[menu_block][subdir]               = contrib
 projects[block_class][subdir]              = contrib
+projects[multiblock][subdir]               = contrib
+projects[draggableviews][subdir]           = contrib
 
 projects[views_slideshow][subdir]          = contrib
 libraries[views_slideshow][download][type] = "get"
 libraries[views_slideshow][download][url]  = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[views_slideshow][directory_name] = "jquery.cycle"
-
-; What to do for audio handling
 
 ; OTHER THEMES
 ; --------------------
@@ -35,7 +36,7 @@ libraries[views_slideshow][directory_name] = "jquery.cycle"
 
 ; CUSTOM Theme
 ; --------------------
-projects[wyprtlbu][type]           = theme
-projects[wyprtlbu][subdir]         = custom
-projects[wyprtlbu][download][type] = git
-projects[wyprtlbu][download][url]  = "https://github.com/bjornmeansbear/wyprtlbu.git"
+projects[dcenter][type]           = theme
+projects[dcenter][subdir]         = custom
+projects[dcenter][download][type] = git
+projects[dcenter][download][url]  = "https://github.com/bjornmeansbear/dcenter.git"
