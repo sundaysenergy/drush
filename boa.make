@@ -54,8 +54,9 @@ projects[site_verify][subdir] = boa
 projects[taxonomy_edge][subdir] = boa
 
 projects[textile][subdir] = boa
-libraries[textile][download][type] = "get"
-libraries[textile][download][url] = "http://textpattern.com/file_download/70/textpattern-4.4.1.tar.gz"
+; This isn't working for some reason...
+;libraries[textile][download][type] = "get"
+;libraries[textile][download][url] = "http://textpattern.com/file_download/70/textpattern-4.4.1.tar.gz"
 
 ; help clean out old variables no longer needed
 projects[variable_clean][subdir] = boa
