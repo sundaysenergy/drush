@@ -86,3 +86,7 @@ projects[innova][subdir] = custom
 projects[innova_ninesixty][download][type] = "git"
 projects[innova_ninesixty][download][url] = "git@github.com:sundaysenergy/innovatheme.git"
 projects[innova_ninesixty][type] = "theme"
+
+; Maxlength module conflicts with TinyMCE 3.2.7
+; Don't take time to test other sites, we override definition in extras.make
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.6.zip"
