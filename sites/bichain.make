@@ -1,7 +1,7 @@
 ; ======================================
 ; Bicycle Chain Website Platform
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/bichain.make bichain-001
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/bichain.make bichain-002
 ; ======================================
 
 api = 2
@@ -23,6 +23,7 @@ includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce
 projects[references][subdir] = contrib
 projects[commerce_migrate][subdir] = contrib
 projects[datatables][subdir] = contrib
+projects[addthis][subdir] = social
 
 ; CUSTOM MODULES
 ; --------------------

@@ -16,7 +16,7 @@ projects[boost][subdir] = boa
 projects[config_perms][subdir] = boa
 
 projects[core_library][subdir] = boa
-projects[core_library][version] = 2.0-alpha8
+projects[core_library][version] = 2.0-beta2
 
 ; CSS Embedded Images, alternative to sprites for tiny images
 projects[css_emimage][subdir] = boa
