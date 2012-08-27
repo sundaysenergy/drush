@@ -1,7 +1,7 @@
 ; ======================================
 ; Bicycle Chain Website Platform
 ;
-; $ drush make bichain.make bichain_001
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/bichain.make bichain-001
 ; ======================================
 
 api = 2
