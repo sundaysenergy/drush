@@ -24,7 +24,7 @@ projects[references][subdir] = contrib
 projects[commerce_migrate][subdir] = contrib
 projects[datatables][subdir] = contrib
 projects[addthis][subdir] = social
-projects[addthis][version] = "2.1-beta1"
+projects[addthis][version] = "4.0-alpha1"
 
 ; CUSTOM MODULES
 ; --------------------
