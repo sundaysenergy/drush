@@ -11,26 +11,25 @@ projects[entitycache][subdir] = performance
 
 projects[speedy][subdir] = performance
 
+; SECURITY
+projects[hacked][subdir] = admin
 
-projects[nocurrent_pass][subdir] = contrib
-
-projects[hacked][subdir] = contrib
+; OTHER CONTRIB
 
 projects[beautytips][subdir] = contrib
+
+projects[ds][subdir] = contrib
+projects[panels][subdir] = contrib
+
+; Do not require current password during change
+projects[nocurrent_pass][subdir] = contrib
+
 projects[locationmap][subdir] = contrib
 
 projects[migrate][subdir] = contrib
 projects[migrate_extras][subdir] = contrib
 
-;projects[features_extra][subdir] = contrib
-
-projects[panels][subdir] = contrib
-
-projects[workbench][subdir] = contrib
-projects[workbench_moderation][subdir] = contrib
-projects[workbench_access][subdir] = contrib
-
-; CCK
+; FIELDS
 
 projects[field_collection][subdir] = contrib
 projects[field_collection_table][subdir] = contrib
@@ -56,6 +55,12 @@ libraries[tinymce][directory_name] = "tinymce"
 libraries[ckeditor][download][type] = "svn"
 libraries[ckeditor][download][url] = "http://svn.ckeditor.com/CKEditor/releases/stable/"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+; NOT ENABLED
+;projects[workbench][subdir] = contrib
+;projects[workbench_moderation][subdir] = contrib
+;projects[workbench_access][subdir] = contrib
+;projects[features_extra][subdir] = contrib
 
 ; THEMES
 
