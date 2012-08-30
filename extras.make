@@ -18,7 +18,10 @@ projects[hacked][subdir] = contrib
 
 projects[beautytips][subdir] = contrib
 projects[locationmap][subdir] = contrib
+
 projects[migrate][subdir] = contrib
+projects[migrate_extras][subdir] = contrib
+
 ;projects[features_extra][subdir] = contrib
 
 projects[panels][subdir] = contrib
