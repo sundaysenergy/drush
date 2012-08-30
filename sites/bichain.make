@@ -40,6 +40,8 @@ projects[commerce_kickstart][download][branch] = 7.x-1.x
 ; OTHER CONTRIB THEMES
 ; --------------------
 projects[at-commerce][type] = theme
+; override default version (3.0)
+projects[sky][version] = 2.3
 
 ; CUSTOM MODULES
 ; --------------------
