@@ -1,7 +1,7 @@
 ; ======================================
 ; Bicycle Chain Website Platform
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/bichain.make bichain-002
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/bichain.make bichain-003
 ; ======================================
 
 api = 2
@@ -23,8 +23,20 @@ includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce
 projects[references][subdir] = contrib
 projects[commerce_migrate][subdir] = contrib
 projects[datatables][subdir] = contrib
-projects[addthis][subdir] = social
+projects[addthis][subdir] = contrib
 projects[addthis][version] = "4.0-alpha1"
+
+; See issue #1608358
+projects[entityreference][version] = "1.x-dev"
+
+; CONTRIB INSTALL PROFILES
+projects[commerce_kickstart][type] = profile
+projects[commerce_kickstart][download][type] = git
+projects[commerce_kickstart][download][branch] = 7.x-1.x
+
+; OTHER CONTRIB THEMES
+; --------------------
+projects[at-commerce][type] = theme
 
 ; CUSTOM MODULES
 ; --------------------
