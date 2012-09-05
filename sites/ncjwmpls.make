@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/example.make example_001
+; $ drush make --working-copy https://github.com/sundaysenergy/drush/blob/master/sites/ncjwmpls.make ncjw_002
 ; ======================================
 
 api = 2
@@ -18,6 +18,9 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 
 ; OTHER CONTRIB MODULES
 ; --------------------
+
+; Update module to dev to eliminate PHP warnings when uploading files
+projects[field_collection][version] = "1.x-dev"
 
 
 ; CUSTOM MODULES
