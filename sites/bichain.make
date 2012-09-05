@@ -1,7 +1,7 @@
 ; ======================================
 ; Bicycle Chain Website Platform
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/bichain.make bichain-003
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/bichain.make bichain-004
 ; ======================================
 
 api = 2
@@ -23,7 +23,10 @@ includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce
 projects[references][subdir] = contrib
 projects[commerce_migrate][subdir] = contrib
 projects[datatables][subdir] = contrib
-projects[addthis][subdir] = contrib
+libraries[datatables][download][type] = get
+libraries[datatables][download][url] = "http://datatables.net/releases/DataTables-1.9.0.zip"
+libraries[datatables][directory_name] = "dataTables"
+
 projects[addthis][version] = "4.0-alpha1"
 
 ; See issue #1608358
@@ -34,14 +37,16 @@ projects[amazon][subdir] = contrib
 
 ; CONTRIB INSTALL PROFILES
 projects[commerce_kickstart][type] = profile
+; this is not working on BOA
 projects[commerce_kickstart][download][type] = git
 projects[commerce_kickstart][download][branch] = 7.x-1.x
 
 ; OTHER CONTRIB THEMES
 ; --------------------
 projects[at-commerce][type] = theme
-; override default version (3.0)
+; override default version (3.x)
 projects[sky][version] = 2.3
+projects[adaptivetheme][version] = 2.3
 
 ; CUSTOM MODULES
 ; --------------------
