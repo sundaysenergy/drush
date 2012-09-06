@@ -19,9 +19,9 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 ; OTHER CONTRIB MODULES
 ; --------------------
 
-; Update module to dev to eliminate PHP warnings when uploading files
+; Update Field Collection module to dev to eliminate PHP warnings when uploading files
 projects[field_collection][version] = "1.x-dev"
-
+projects[menu_attributes][version] = "1.0-rc2"
 
 ; CUSTOM MODULES
 ; --------------------
