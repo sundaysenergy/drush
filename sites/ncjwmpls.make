@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://github.com/sundaysenergy/drush/blob/master/sites/ncjwmpls.make ncjw_005
+; $ drush make --working-copy https://github.com/sundaysenergy/drush/blob/master/sites/ncjwmpls.make ncjw_006
 ; ======================================
 
 api = 2
@@ -24,6 +24,7 @@ projects[field_collection][version] = "1.x-dev"
 projects[menu_attributes][version] = "1.0-rc2"
 projects[footer_message][version] = "1.1"
 projects[linkimagefield][version] = "1.x-dev"
+projects[panels_extra_layouts][version] = "1.5"
 
 ; CUSTOM MODULES
 ; --------------------
