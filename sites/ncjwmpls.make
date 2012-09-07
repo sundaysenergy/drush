@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://github.com/sundaysenergy/drush/blob/master/sites/ncjwmpls.make ncjw_003
+; $ drush make --working-copy https://github.com/sundaysenergy/drush/blob/master/sites/ncjwmpls.make ncjw_004
 ; ======================================
 
 api = 2
@@ -22,6 +22,7 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 ; Update Field Collection module to dev to eliminate PHP warnings when uploading files
 projects[field_collection][version] = "1.x-dev"
 projects[menu_attributes][version] = "1.0-rc2"
+projects[footer_message][version] = "1.1"
 
 ; CUSTOM MODULES
 ; --------------------
