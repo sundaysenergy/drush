@@ -23,6 +23,7 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 projects[field_collection][version] = "1.x-dev"
 projects[menu_attributes][version] = "1.0-rc2"
 projects[footer_message][version] = "1.1"
+projects[linkimagefield][version] = "1.x-dev"
 
 ; CUSTOM MODULES
 ; --------------------
