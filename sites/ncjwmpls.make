@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_008
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_009
 ; ======================================
 
 api = 2
@@ -26,11 +26,17 @@ projects[field_collection][version] = "1.x-dev"
 ; OTHER CONTRIB MODULES
 ; --------------------
 
+; Provides a configurable footer message, editable from the site-information form and displayed as a block
 projects[footer_message][subdir] = contrib
+; Allows you to specify a hyperlink for images with a custom URL
 projects[linkimagefield][subdir] = contrib
 projects[linkimagefield][version] = "1.x-dev"
+; Allows you to specify additional attributes for menu items, in this case Target
 projects[menu_attributes][subdir] = contrib
+; Provides extra layout options for Panels, to be used for the homepage
 projects[panels_extra_layouts][subdir] = contrib
+; Recommended to be used with Omega themes
+projects[context][subdir] = contrib
 
 ; CUSTOM MODULES
 ; --------------------
