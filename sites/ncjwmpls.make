@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_009
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_010
 ; ======================================
 
 api = 2
@@ -35,8 +35,8 @@ projects[linkimagefield][version] = "1.x-dev"
 projects[menu_attributes][subdir] = contrib
 ; Provides extra layout options for Panels, to be used for the homepage
 projects[panels_extra_layouts][subdir] = contrib
-; Recommended to be used with Omega themes
-projects[context][subdir] = contrib
+; Needed for Sky theme to display secondary menus
+projects[menu_block][subdir] = contrib
 
 ; CUSTOM MODULES
 ; --------------------
