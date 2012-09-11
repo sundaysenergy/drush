@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_010
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_011
 ; ======================================
 
 api = 2
@@ -37,6 +37,8 @@ projects[menu_attributes][subdir] = contrib
 projects[panels_extra_layouts][subdir] = contrib
 ; Needed for Sky theme to display secondary menus
 projects[menu_block][subdir] = contrib
+; Added to further customize Sky theme
+projects[sweaver][subdir] = contrib
 
 ; CUSTOM MODULES
 ; --------------------
