@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_014
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_015
 ; ======================================
 
 api = 2
@@ -20,6 +20,8 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 ; Override module attributes added in one of the include files.
 ; --------------------
 
+; Update Field Collection module to dev to eliminate PHP warnings when uploading files
+projects[field_collection][version] = "1.x-dev"
 
 ; OTHER CONTRIB MODULES
 ; --------------------
