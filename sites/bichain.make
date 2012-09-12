@@ -35,7 +35,11 @@ projects[entityreference][version] = "1.x-dev"
 ; Ability to use Amazon info
 projects[amazon][subdir] = contrib
 
+; Print module for printer friendly (and pdf) pages
+projects[print][subdir] = contrib
+
 ; CONTRIB INSTALL PROFILES
+; --------------------
 projects[commerce_kickstart][type] = profile
 ; this is not working on BOA
 projects[commerce_kickstart][download][type] = git
