@@ -38,6 +38,13 @@ projects[amazon][subdir] = contrib
 ; Print module for printer friendly (and pdf) pages
 projects[print][subdir] = contrib
 
+
+; CONTRIB PATCH PATCHES
+; --------------------
+; This patch fix Embedded field collection items with a default value result in new items on save by fago
+projects[field_collection][patch][1239946] = http://drupal.org/files/field_collection_embedded.patch
+
+
 ; CONTRIB INSTALL PROFILES
 ; --------------------
 projects[commerce_kickstart][type] = profile
@@ -51,10 +58,6 @@ projects[at-commerce][type] = theme
 ; override default version (3.x)
 projects[sky][version] = 2.3
 projects[adaptivetheme][version] = 2.3
-
-; PATCH
-; This patch fix Embedded field collection items with a default value result in new items on save by fago
-projects[field_collection][patch][1239946] = http://drupal.org/files/field_collection_embedded.patch
 
 ; CUSTOM MODULES
 ; --------------------
