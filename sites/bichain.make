@@ -48,6 +48,10 @@ projects[at-commerce][type] = theme
 projects[sky][version] = 2.3
 projects[adaptivetheme][version] = 2.3
 
+; PATCH
+; This patch fix Embedded field collection items with a default value result in new items on save by fago
+projects[field_collection][patch][1239946] = http://drupal.org/files/issues/move_menu_rebuild.patch
+
 ; CUSTOM MODULES
 ; --------------------
 
