@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_015
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_016
 ; ======================================
 
 api = 2
@@ -22,6 +22,8 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 
 ; Update Field Collection module to dev to eliminate PHP warnings when uploading files
 projects[field_collection][version] = "1.x-dev"
+; Update Entity API to dev to fix fatal error on Field Collection nodes
+projects[entity][version] = "1.x-dev"
 
 ; OTHER CONTRIB MODULES
 ; --------------------
