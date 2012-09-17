@@ -19,11 +19,13 @@ includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.mak
 ; --------------------
 projects[menu_block][subdir]               = contrib
 projects[block_class][subdir]              = contrib
+projects[draggableviews][subdir]           = contrib
 
 projects[views_slideshow][subdir]          = contrib
 libraries[views_slideshow][download][type] = "get"
 libraries[views_slideshow][download][url]  = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[views_slideshow][directory_name] = "jquery.cycle"
+
 
 ; What to do for audio handling
 
