@@ -67,8 +67,8 @@ projects[submenutree][subdir] = contrib
 
 projects[twitter_pull][subdir] = contrib
 ; They are using module_invoke_all() instead of drupal_alter(), reason we can not alter
-; the tweets. @see http://drupal.org/node/1081658#comment-6342452
-projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_0.diff"
+; the tweets. @see http://drupal.org/node/1081658#comment-6584252
+projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658.diff"
 
 ; Themes
 
