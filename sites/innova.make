@@ -36,7 +36,7 @@ projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
 projects[facebook_pull][version] = "1.0"
 ; http://drupal.org/node/1587598 2012-08-10 still not applied.
-projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
+projects[facebook_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_2.diff"
 
 projects[gmap][subdir] = contrib
 
