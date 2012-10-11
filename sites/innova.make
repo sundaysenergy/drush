@@ -36,7 +36,7 @@ projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
 projects[facebook_pull][version] = "1.0"
 ; http://drupal.org/node/1587598 2012-08-10 still not applied.
-projects[facebook_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_2.diff"
+projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
 
 projects[gmap][subdir] = contrib
 
@@ -68,7 +68,7 @@ projects[submenutree][subdir] = contrib
 projects[twitter_pull][subdir] = contrib
 ; They are using module_invoke_all() instead of drupal_alter(), reason we can not alter
 ; the tweets. @see http://drupal.org/node/1081658#comment-6584252
-projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_1.diff"
+projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_2.diff"
 
 ; Themes
 
