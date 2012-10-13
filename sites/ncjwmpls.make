@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_017
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_018
 ; ======================================
 
 api = 2
@@ -41,6 +41,11 @@ projects[panels_extra_layouts][subdir] = contrib
 projects[menu_block][subdir] = contrib
 ; Added to further customize Sky theme
 projects[css_injector][subdir] = contrib
+; Allows NCJW-MPLS Admins to assign roles without accessing permissions page
+projects[roleassign][subdir] = contrib
+projects[roleassign][version] = "1.x-dev"
+; Collects various fixes to core issues that have not been implemented yet
+projects[fixcore][subdir] = contrib
 
 ; CUSTOM MODULES
 ; --------------------
