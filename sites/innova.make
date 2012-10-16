@@ -27,10 +27,12 @@ projects[cck][subdir] = contrib
 ; Commerce
 
 ; In commerce.make - Specific version for innova
+; Standard version is 1.0
 projects[commerce_shipping][version] = "2.0-beta1"
 
 ; In commerce.make - Specific version - "1.0-beta4+3-dev"
-projects[commerce_coupon][version] = "1.0-beta4"
+; disabling this to see if it still works fine
+;projects[commerce_coupon][version] = "1.0-beta4"
 
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
