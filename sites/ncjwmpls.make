@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_019
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_020
 ; ======================================
 
 api = 2
@@ -48,6 +48,7 @@ projects[roleassign][version] = "1.x-dev"
 projects[fixcore][subdir] = contrib
 ; Allows users to unpublish and publish content without giving them Administer Nodes permission
 projects[publishcontent][subdir] = contrib
+projects[publishcontent][version] = "1.x-dev"
 
 ; CUSTOM MODULES
 ; --------------------
