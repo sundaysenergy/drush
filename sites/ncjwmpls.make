@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_015
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_020
 ; ======================================
 
 api = 2
@@ -22,6 +22,8 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 
 ; Update Field Collection module to dev to eliminate PHP warnings when uploading files
 projects[field_collection][version] = "1.x-dev"
+; Update Entity API to dev to fix fatal error on Field Collection nodes
+projects[entity][version] = "1.x-dev"
 
 ; OTHER CONTRIB MODULES
 ; --------------------
@@ -39,6 +41,14 @@ projects[panels_extra_layouts][subdir] = contrib
 projects[menu_block][subdir] = contrib
 ; Added to further customize Sky theme
 projects[css_injector][subdir] = contrib
+; Allows NCJW-MPLS Admins to assign roles without accessing permissions page
+projects[roleassign][subdir] = contrib
+projects[roleassign][version] = "1.x-dev"
+; Collects various fixes to core issues that have not been implemented yet
+projects[fixcore][subdir] = contrib
+; Allows users to unpublish and publish content without giving them Administer Nodes permission
+projects[publishcontent][subdir] = contrib
+projects[publishcontent][version] = "1.x-dev"
 
 ; CUSTOM MODULES
 ; --------------------
