@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_020
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_021
 ; ======================================
 
 api = 2
@@ -43,7 +43,7 @@ projects[menu_block][subdir] = contrib
 projects[css_injector][subdir] = contrib
 ; Allows NCJW-MPLS Admins to assign roles without accessing permissions page
 projects[roleassign][subdir] = contrib
-projects[roleassign][version] = "1.x-dev"
+projects[roleassign][version] = "1.0-rc2"
 ; Collects various fixes to core issues that have not been implemented yet
 projects[fixcore][subdir] = contrib
 ; Allows users to unpublish and publish content without giving them Administer Nodes permission
