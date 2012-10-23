@@ -32,7 +32,7 @@ projects[commerce_shipping][version] = "2.x-dev"
 
 ; In commerce.make - Specific version - "1.0-beta4+3-dev"
 ; disabling this to see if it still works fine
-;projects[commerce_coupon][version] = "1.0-beta4"
+projects[commerce_coupon][version] = "1.0-beta4"
 
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
