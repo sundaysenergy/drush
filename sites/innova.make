@@ -28,7 +28,7 @@ projects[cck][subdir] = contrib
 
 ; In commerce.make - Specific version for innova
 ; Standard version is 1.0
-projects[commerce_shipping][version] = "2.0-beta1"
+projects[commerce_shipping][version] = "2.0-dev"
 
 ; In commerce.make - Specific version - "1.0-beta4+3-dev"
 ; disabling this to see if it still works fine
