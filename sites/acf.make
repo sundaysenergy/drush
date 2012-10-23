@@ -14,12 +14,61 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Modules
 
-; Panels - Used for the image gallery. /gallery
-projects[panels][subdir] = contrib
+projects[beautytips][subdir] = contrib
+projects[better_formats][subdir] = contrib
+projects[block_class][subdir] = contrib
+projects[clientside_validation][subdir] = contrib
+projects[compact_forms][subdir] = contrib
+projects[content_profile][subdir] = contrib
+projects[draggableviews][subdir] = contrib
+projects[email][subdir] = contrib
+projects[email_registration][subdir] = contrib
+projects[emaudio][subdir] = contrib
+projects[emfield][subdir] = contrib
+projects[featured_content][subdir] = contrib
+projects[flag_actions][subdir] = contrib
+projects[gmap][subdir] = contrib
+projects[gmaplocation][subdir] = contrib
+projects[image][subdir] = contrib
+projects[jquery_ui][subdir] = contrib
+projects[jquery_update][subdir] = contrib
+projects[logintoboggan][subdir] = contrib
+projects[media_soundcloud][subdir] = contrib
+projects[menutrails][subdir] = contrib
+projects[menu_attributes][subdir] = contrib
+projects[menu_block][subdir] = contrib
+projects[menu_breadcrumb][subdir] = contrib
+projects[nodequeue][subdir] = contrib
+projects[nodesquirrel][subdir] = contrib
+projects[phone][subdir] = contrib
+projects[popups][subdir] = contrib
+projects[popups_reference][subdir] = contrib
+projects[privacy][subdir] = contrib
+projects[sharethis][subdir] = contrib
+projects[site_map][subdir] = contrib
+projects[taxonomy_hide][subdir] = contrib
+projects[themekey][subdir] = contrib
+projects[uc_addresses][subdir] = contrib
+projects[uc_atctweaks][subdir] = contrib
+projects[uc_donate][subdir] = contrib
+projects[uc_product_power_tools][subdir] = contrib
+projects[views_search][subdir] = contrib
+projects[views_slideshow][subdir] = contrib
+projects[webform_conditional][subdir] = contrib
+projects[webform_validation][subdir] = contrib
+projects[zipcode][subdir] = contrib
+
+
+; Custom modules
+
+; ACF Custom
+projects[acf][type] = module
+projects[acf][download][type] = "git"
+projects[acf][download][url] = "git@bitbucket.org:sundaysenergy/acf.git"
 
 ; Custom Theme
 
 projects[acfzen][type] = theme
 ;projects[acfzen][subdir] = custom
 projects[acfzen][download][type] = git
-projects[acfzen][download][url] = "git@bitbucket.org:webmasterkai/acfzen.git"
+projects[acfzen][download][url] = "git@bitbucket.org:sundaysenergy/acfzen.git"

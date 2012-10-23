@@ -18,9 +18,6 @@ projects[custom_pagers][subdir] = contrib
 
 projects[mimemail][subdir] = contrib
 
-; Panels - Used for the image gallery. /gallery
-projects[panels][subdir] = contrib
-
 projects[returnpath][subdir] = contrib
 
 projects[simplenews][subdir] = contrib

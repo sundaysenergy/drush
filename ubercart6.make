@@ -7,6 +7,7 @@ core = 6.x
 projects[ubercart][subdir] = contrib
 
 projects[securepages][subdir] = contrib
+projects[securepages_prevent_hijack][subdir] = contrib
 
 projects[uc_affiliate2][version] = "2.5"
 
@@ -28,6 +29,6 @@ projects[uc_reorder][version] = "1.2"
 
 projects[uc_stock_notify][version] = "1.x-dev"
 
-projects[uc_views][version] = "3.0"
+projects[uc_views][subdir] = contrib
 
 projects[uc_wishlist][version] = "1.0"

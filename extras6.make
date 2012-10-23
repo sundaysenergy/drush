@@ -4,7 +4,12 @@
 api = 2
 core = 6.x
 
+projects[context][subdir] = contrib
+
 projects[fivestar][subdir] = contrib
+projects[flag][subdir] = contrib
+
+projects[getid3][subdir] = contrib
 
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib

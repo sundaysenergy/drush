@@ -31,6 +31,7 @@ projects[libraries][subdir] = contrib
 projects[advanced_help][subdir] = admin
 projects[devel][subdir] = admin
 projects[admin_menu][subdir] = admin
+projects[adminrole][subdir] = admin
 projects[module_filter][subdir] = admin
 projects[stringoverrides][subdir] = admin
 projects[google_analytics][subdir] = admin
