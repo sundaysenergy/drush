@@ -1,7 +1,7 @@
 ; ======================================
-; Velasquez Family Coffee
+; American Composers Forum
 ;
-; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/vfam.make vfam-008
+; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/acf.make acf-003
 ; ======================================
 core = 6.x
 
@@ -38,7 +38,7 @@ projects[simplenews_realname][subdir] = contrib
 
 ; Custom Theme
 
-projects[vfamilycoffee6][type] = theme
-projects[vfamilycoffee6][subdir] = custom
-projects[vfamilycoffee6][download][type] = git
-projects[vfamilycoffee6][download][url] = "git@sundaysenergy.unfuddle.com:sundaysenergy/vfamilycoffee6.git"
+projects[acfzen][type] = theme
+;projects[acfzen][subdir] = custom
+projects[acfzen][download][type] = git
+projects[acfzen][download][url] = "git@sundaysenergy.unfuddle.com:sundaysenergy/vfamilycoffee6.git"

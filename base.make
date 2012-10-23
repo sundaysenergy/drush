@@ -92,7 +92,7 @@ projects[field_group][subdir] = contrib
 projects[entityreference][subdir] = contrib
 
 projects[entity][subdir] = contrib
-projects[job_scheduler][version] = 2.0-alpha2
+projects[job_scheduler][version] = 2.0-alpha3
 projects[variable][subdir] = contrib
 
 ; MEDIA
