@@ -1,7 +1,7 @@
 ; ======================================
 ; Innova
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-009
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-010
 ; ======================================
 
 api = 2
@@ -28,7 +28,7 @@ projects[cck][subdir] = contrib
 
 ; In commerce.make - Specific version for innova
 ; Standard version is 1.0
-projects[commerce_shipping][version] = "2.0-dev"
+projects[commerce_shipping][version] = "2.x-dev"
 
 ; In commerce.make - Specific version - "1.0-beta4+3-dev"
 ; disabling this to see if it still works fine
