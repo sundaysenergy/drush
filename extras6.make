@@ -5,7 +5,7 @@ api = 2
 core = 6.x
 
 projects[context][subdir] = contrib
-
+projects[email][subdir] = contrib
 projects[fivestar][subdir] = contrib
 projects[flag][subdir] = contrib
 
@@ -15,6 +15,7 @@ projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
 
 projects[mollom][subdir] = contrib
+projects[nodesquirrel][subdir] = contrib
 
 projects[views_bonus][subdir] = contrib
 

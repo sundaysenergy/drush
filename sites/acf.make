@@ -1,7 +1,7 @@
 ; ======================================
 ; American Composers Forum
 ;
-; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/acf.make acf-004
+; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/acf.make acf-006
 ; ======================================
 core = 6.x
 
@@ -21,12 +21,9 @@ projects[clientside_validation][subdir] = contrib
 projects[compact_forms][subdir] = contrib
 projects[content_profile][subdir] = contrib
 projects[draggableviews][subdir] = contrib
-projects[email][subdir] = contrib
 projects[email_registration][subdir] = contrib
-projects[emaudio][subdir] = contrib
 projects[emfield][subdir] = contrib
 projects[featured_content][subdir] = contrib
-projects[flag_actions][subdir] = contrib
 projects[gmap][subdir] = contrib
 projects[gmaplocation][subdir] = contrib
 projects[image][subdir] = contrib
@@ -39,7 +36,6 @@ projects[menu_attributes][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[menu_breadcrumb][subdir] = contrib
 projects[nodequeue][subdir] = contrib
-projects[nodesquirrel][subdir] = contrib
 projects[phone][subdir] = contrib
 projects[popups][subdir] = contrib
 projects[popups_reference][subdir] = contrib
@@ -51,7 +47,6 @@ projects[themekey][subdir] = contrib
 projects[uc_addresses][subdir] = contrib
 projects[uc_atctweaks][subdir] = contrib
 projects[uc_donate][subdir] = contrib
-projects[uc_product_power_tools][subdir] = contrib
 projects[views_search][subdir] = contrib
 projects[views_slideshow][subdir] = contrib
 projects[webform_conditional][subdir] = contrib
