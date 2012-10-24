@@ -95,6 +95,9 @@ projects[entity][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
 projects[variable][subdir] = contrib
 
+; xautoload
+
+
 ; MEDIA
 
 projects[media][subdir] = contrib
