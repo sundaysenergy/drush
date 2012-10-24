@@ -47,8 +47,12 @@ projects[themekey][subdir] = contrib
 projects[uc_addresses][subdir] = contrib
 projects[uc_atctweaks][subdir] = contrib
 projects[uc_donation][subdir] = contrib
+projects[uc_event_registration][subdir] = contrib
 projects[views_search][subdir] = contrib
+
 projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = "2.4"
+
 projects[webform_conditional][subdir] = contrib
 projects[webform_validation][subdir] = contrib
 projects[zipcode][subdir] = contrib

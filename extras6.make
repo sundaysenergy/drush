@@ -17,6 +17,8 @@ projects[imce_wysiwyg][subdir] = contrib
 projects[mollom][subdir] = contrib
 projects[nodesquirrel][subdir] = contrib
 
+projects[panels][subdir] = contrib
+
 projects[views_bonus][subdir] = contrib
 
 projects[votingapi][subdir] = contrib
