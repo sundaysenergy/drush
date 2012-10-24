@@ -76,7 +76,7 @@ projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_
 projects[commerce_usps][patch][] = "http://drupal.org/files/1688358_add-usps-to-titles.patch"
 
 ; Patch to add international shipping to the USPS module
-projects[commerce_usps][patch][] = "http://drupal.org/files/1630788-add_international_shipping-10.patch"
+; projects[commerce_usps][patch][] = "http://drupal.org/files/1630788-add_international_shipping-10.patch"
 
 ; Themes
 
