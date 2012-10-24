@@ -1,7 +1,7 @@
 ; ======================================
 ; Innova
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-010
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-013
 ; ======================================
 
 api = 2
@@ -74,6 +74,9 @@ projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_
 
 ; Patch to prepend 'USPS ' to the shipping rate options
 projects[commerce_usps][patch][] = "http://drupal.org/files/1688358_add-usps-to-titles.patch"
+
+; Patch to add international shipping to the USPS module
+projects[commerce_usps][patch][] = "http://drupal.org/files/1630788-add_international_shipping-10.patch"
 
 ; Themes
 
