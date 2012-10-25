@@ -15,6 +15,7 @@ projects[uc_cim][version] = "1.x-dev"
 
 projects[uc_coupon][version] = "1.7"
 
+; Not sure why it was the dev version.
 projects[uc_fedex][version] = "2.x-dev"
 
 projects[uc_gift_certificate][version] = "1.x-dev"

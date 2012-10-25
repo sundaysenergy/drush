@@ -33,6 +33,8 @@ projects[visibility_api][subdir] = contrib
 ; Simple News Real Name - Collecting names of newsletter subscribers on the signup form.
 projects[simplenews_realname][subdir] = contrib
 
+projects[uc_fedex][version] = "2.0"
+
 ; Custom Theme
 
 projects[vfamilycoffee6][type] = theme
