@@ -9,7 +9,16 @@ projects[email][subdir] = contrib
 projects[fivestar][subdir] = contrib
 projects[flag][subdir] = contrib
 
+; getID3
 projects[getid3][subdir] = contrib
+libraries[getid3][download][type] = "get"
+libraries[getid3][download][url] = "http://sourceforge.net/projects/getid3/files/getID3%28%29%201.x/1.9.3/getid3-1.9.3-20111213.zip/download"
+libraries[getid3][directory_name] = "getid3"
+
+projects[jquery_ui][subdir] = contrib
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][directory_name] = "jquery.ui"
 
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib

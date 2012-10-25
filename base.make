@@ -96,7 +96,7 @@ projects[job_scheduler][version] = 2.0-alpha3
 projects[variable][subdir] = contrib
 
 ; xautoload
-
+; crumbs
 
 ; MEDIA
 

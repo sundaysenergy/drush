@@ -27,7 +27,7 @@ projects[featured_content][subdir] = contrib
 projects[gmap][subdir] = contrib
 projects[gmaplocation][subdir] = contrib
 projects[image][subdir] = contrib
-projects[jquery_ui][subdir] = contrib
+
 projects[jquery_update][subdir] = contrib
 projects[logintoboggan][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
