@@ -27,6 +27,6 @@ projects[menu_block_split][type] = module
 ;projects[number
 projects[views][type] = module
 projects[views_fastsearch][type] = module
-projects[views_theme_wizard][type] = module
+;projects[views_theme_wizard][type] = module
 projects[webform][type] = module
 projects[workflow_ng][type] = module
