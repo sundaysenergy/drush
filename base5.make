@@ -20,9 +20,13 @@ projects[devel][type] = module
 projects[imagecache][type] = module
 projects[imagefield][type] = module
 projects[imce][type] = module
-projects[jscalendar][type] = module
+;projects[jscalendar][type] = module
 projects[link][type] = module
 projects[menu_block_split][type] = module
 ;projects[nodereference][type] = module
 ;projects[number
 projects[views][type] = module
+projects[views_fastsearch][type] = module
+projects[views_theme_wizard][type] = module
+projects[webform][type] = module
+projects[workflow_ng][type] = module
