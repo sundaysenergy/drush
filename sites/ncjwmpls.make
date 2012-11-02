@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_022
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_025
 ; ======================================
 
 api = 2
@@ -49,6 +49,14 @@ projects[fixcore][subdir] = contrib
 ; Allows users to unpublish and publish content without giving them Administer Nodes permission
 projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = "1.x-dev"
+; Provides some tools to assist in making adjustments to the site based on a visitor's mobile device
+projects[mobile_tools][subdir] = contrib
+projects[mobile_tools][version] = "3.x-dev"
+; Used to get data about whether a visitor is on a mobile device
+projects[browscap][subdir] = contrib
+; provides a way to take advantage of custom url rewrite outbound
+projects[purl][subdir] = contrib
+projects[purl][version] = "1.x-dev"
 
 ; CUSTOM MODULES
 ; --------------------
