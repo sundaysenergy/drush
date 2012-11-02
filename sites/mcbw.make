@@ -1,7 +1,7 @@
 ; ======================================
 ; Minnesota Coalition for Battered Women www.mcbw.org
 ;
-; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/mcbw.make mcbw-001
+; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/mcbw.make mcbw-002
 ; ======================================
 core = 5.x
 

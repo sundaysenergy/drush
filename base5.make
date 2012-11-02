@@ -32,3 +32,7 @@ projects[views][type] = module
 projects[views_fastsearch][type] = module
 projects[webform][type] = module
 projects[workflow_ng][type] = module
+
+projects[zengine][type] = theme
+projects[zengine][subdir] = engines
+projects[zengine][version] = 1.x-dev
