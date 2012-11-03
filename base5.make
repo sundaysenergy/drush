@@ -27,7 +27,8 @@ projects[drupal][type] = core
 ; cpanel
 ; default_filter
 
-projects[access_field][type] = module
+;projects[access_field][type] = module
+
 projects[acl][type] = module
 projects[admin_menu][type] = module
 projects[admin_menu][type] = module
