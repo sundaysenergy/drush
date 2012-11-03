@@ -1,7 +1,7 @@
 ; ======================================
 ; Hearth Connection www.hearthconnection.org
 ;
-; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/hearthconnection.make hearthconnection-002
+; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/hearthconnection.make hearthconnection-004
 ; ======================================
 core = 5.x
 
