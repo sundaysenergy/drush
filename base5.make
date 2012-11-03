@@ -11,15 +11,39 @@ core = 5.x
 ; -----------
 projects[drupal][type] = core
 
+; actions
+; amazon
+; asin
+; bayesian
+; captcha
+; cck_field_perms
+; cck_ipaddr
+; cck_uc_orders
+; chart
+; comment_cck
+; computed_field
+; contemplate
+; content_access
+; cpanel
+; default_filter
+
+projects[access_field][type] = module
+projects[acl][type] = module
 projects[admin_menu][type] = module
 projects[admin_menu][type] = module
+projects[auto_nodetitle][type] = module
 projects[calendar][type] = module
 projects[cck][type] = module
+projects[clone][type = module
+projects[custom_breadcrumbs][type] = module
 projects[date][type] = module
 projects[devel][type] = module
+projects[email][type] = module
+projects[image][type = module
 projects[imagecache][type] = module
 projects[imagefield][type] = module
 projects[imce][type] = module
+projects[img_assist][type] = module
 projects[jstools][type] = module
 projects[link][type] = module
 projects[menu_block_split][type] = module

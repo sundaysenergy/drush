@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/example.make example_001
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/example.make example_002
 ; ======================================
 
 api = 2
