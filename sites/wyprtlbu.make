@@ -22,12 +22,26 @@ projects[block_class][subdir]              = contrib
 projects[draggableviews][subdir]           = contrib
 projects[twitter][subdir]                  = contrib
 projects[oauth][subdir]                    = contrib
+projects[jplayer][subdir]                  = contrib
+projects[multiblock][subdir]               = contrib
+projects[webform][subdir]                  = contrib
+projects[webform_multifile][subdir]        = contrib
+projects[rss_field_formatters][subdir]     = contrib
+projects[insert][subdir]                   = contrib
+projects[caption_filter][subdir]           = contrib
+projects[image_resize_filter][subdir]      = contrib
+projects[wysiwyg_filter][subdir]           = contrib
+
 
 projects[views_slideshow][subdir]          = contrib
 libraries[views_slideshow][download][type] = "get"
 libraries[views_slideshow][download][url]  = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[views_slideshow][directory_name] = "jquery.cycle"
+libraries[views_slideshow][download][type] = "get"
+libraries[views_slideshow][download][url]  = "https://raw.github.com/douglascrockford/JSON-js/master/json2.js"
+libraries[views_slideshow][directory_name] = "json2"
 
+; crap, I need to figure out how to link to jplayer stuff... 
 
 ; What to do for audio handling
 
