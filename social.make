@@ -4,10 +4,12 @@
 api = 2
 core = 7.x
 
-projects[fb][subdir] = social
+#projects[fb][subdir] = social
 
-projects[gconnect][subdir] = social
-projects[gconnect][version] = 1.x-dev
+#projects[gconnect][subdir] = social
+#projects[gconnect][version] = 1.x-dev
+
+projects[sociallogin][subdir] = social
 
 projects[flickr][subdir] = social
 projects[flickr][version] = 1.x-dev
