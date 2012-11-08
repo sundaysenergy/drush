@@ -53,6 +53,7 @@ projects[uc_event_registration][subdir] = contrib
 ; Hopefully uc_event_registration is replaced by uc_webform
 
 projects[uc_webform][subdir] = contrib
+projects[uc_webform][version] = "1.x-dev"
 ; Issue #1835738 Integration with uc_donation
 projects[uc_webform][patch][] = "http://drupal.org/files/uc_webform-uc_donation-1835738-1.patch"
 
