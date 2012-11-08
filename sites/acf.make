@@ -1,7 +1,7 @@
 ; ======================================
 ; American Composers Forum
 ;
-; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/acf.make acf-006
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/acf.make acf-014
 ; ======================================
 core = 6.x
 
@@ -44,10 +44,15 @@ projects[sharethis][subdir] = contrib
 projects[site_map][subdir] = contrib
 projects[taxonomy_hide][subdir] = contrib
 projects[themekey][subdir] = contrib
+
 projects[uc_addresses][subdir] = contrib
 projects[uc_atctweaks][subdir] = contrib
 projects[uc_donation][subdir] = contrib
+; Not sure if we will still need this
 projects[uc_event_registration][subdir] = contrib
+; Hopefully uc_event_registration is replaced by uc_webform
+projects[uc_webform][subdir] = contrib
+
 projects[views_search][subdir] = contrib
 
 projects[views_slideshow][subdir] = contrib
