@@ -66,8 +66,8 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 projects[omega][type] = theme
 projects[adaptivetheme][type] = theme
-#projects[sky][type] = theme
-#projects[corolla][type] = theme
+projects[sky][type] = theme
+projects[corolla][type] = theme
 projects[zen][type] = theme
 projects[mothership][type] = theme
 
