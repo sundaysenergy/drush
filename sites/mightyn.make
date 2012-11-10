@@ -47,22 +47,29 @@ projects[menu_block][subdir] = contrib
 projects[mimemail][subdir] = contrib
 
 projects[quicktabs][subdir] = contrib
+projects[quicktabs][version] = "2.1"
 
 projects[remember_me][subdir] = contrib
 
 projects[scheduler][subdir] = contrib
 
 projects[simplenews][subdir] = contrib
+projects[simplenews][version] = "1.4"
+
 projects[simplenews_register][subdir] = contrib
 
 projects[tabs][subdir] = contrib
 
 projects[taxonomy_context][subdir] = contrib
+
 projects[taxonomy_csv][subdir] = contrib
+projects[taxonomy_csv][version] = "1.5"
+
 projects[taxonomy_image][subdir] = contrib
 projects[taxonomy_menu][subdir] = contrib
 
 projects[term_fields][subdir] = contrib
+projects[term_fields][version] = "1.16"
 
 projects[thickbox][subdir] = contrib
 
@@ -93,6 +100,11 @@ projects[eccv6][directory_name] = "eccv6"
 projects[uc_gift_wrap][download][type] = "git"
 projects[uc_gift_wrap][download][url] = "git@github.com:sundaysenergy/uc_gift_wrap.git"
 projects[uc_gift_wrap][type] = "module"
+
+; uc_cim
+projects[uc_cim][download][type] = "git"
+projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
+projects[uc_cim][type] = "module"
 
 ; uc_registry
 projects[uc_registry][download][type] = "git"
