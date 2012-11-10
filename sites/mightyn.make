@@ -50,18 +50,16 @@ projects[quicktabs][subdir] = contrib
 
 projects[remember_me][subdir] = contrib
 
-projects[simplenews][subdir] = contrib
+projects[scheduler][subdir] = contrib
 
+projects[simplenews][subdir] = contrib
 projects[simplenews_register][subdir] = contrib
 
 projects[tabs][subdir] = contrib
 
 projects[taxonomy_context][subdir] = contrib
-
 projects[taxonomy_csv][subdir] = contrib
-
 projects[taxonomy_image][subdir] = contrib
-
 projects[taxonomy_menu][subdir] = contrib
 
 projects[term_fields][subdir] = contrib
@@ -96,9 +94,11 @@ projects[uc_gift_wrap][download][type] = "git"
 projects[uc_gift_wrap][download][url] = "git@github.com:sundaysenergy/uc_gift_wrap.git"
 projects[uc_gift_wrap][type] = "module"
 
-; Modules
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
+; uc_registry
+projects[uc_registry][download][type] = "git"
+projects[uc_registry][download][url] = "git@github.com:sundaysenergy/uc_registry.git"
+projects[uc_registry][type] = "module"
+
 ;projects[apachesolr_nodetype][download][type] = ""
 ;projects[apachesolr_nodetype][download][url] = ""
 ;projects[apachesolr_nodetype][type] = "module"
