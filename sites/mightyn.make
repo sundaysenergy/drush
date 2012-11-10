@@ -14,12 +14,13 @@ includes[base] = "https://raw.github.com/sundaysenergy/drush/master/base6.make"
 includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa6.make"
 includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo6.make"
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras6.make"
+includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/ubercart6.make"
 
 ; Contrib Modules
 
-projects[apachesolr][subdir] = search
-
-projects[apachesolr_exclude][subdir] = search
+projects[apachesolr][type] = module
+projects[apachesolr_exclude][type] = module
+projects[apachesolr_ubercart][type] = module
 
 projects[autosave][subdir] = contrib
 
@@ -75,6 +76,16 @@ projects[viewscarousel][subdir] = contrib
 
 projects[web_widgets][subdir] = contrib
 
+
+;ca
+;scheduler
+;securepages
+;uc_affiliate2
+;uc_wishlist
+;views_data_export
+
+
+;eccv6
 ; eCC - http://webgility.com
 ;projects[ecc][download][type] = ""
 ;projects[ecc][download][url] = ""
