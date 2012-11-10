@@ -71,7 +71,7 @@ projects[thickbox][subdir] = contrib
 projects[twitter][subdir] = contrib
 
 projects[views_customfield][subdir] = contrib
-
+projects[views_data_export][subdir] = contrib
 projects[viewscarousel][subdir] = contrib
 
 projects[web_widgets][subdir] = contrib
@@ -89,14 +89,12 @@ projects[web_widgets][subdir] = contrib
 projects[eccv6][download][type] = "git"
 projects[eccv6][download][url] = "git@bitbucket.org:sundaysenergy/ecc.git"
 projects[eccv6][type] = "module"
-projects[eccv6][version] = "3.0"
 projects[eccv6][directory_name] = "eccv6"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
-;projects[uc_gift_wrap][download][type] = ""
-;projects[uc_gift_wrap][download][url] = ""
-;projects[uc_gift_wrap][type] = "module"
-;projects[uc_gift_wrap][version] = "1.x-dev"
+projects[uc_gift_wrap][download][type] = "git"
+projects[uc_gift_wrap][download][url] = "git@github.com:sundaysenergy/uc_gift_wrap.git"
+projects[uc_gift_wrap][type] = "module"
 
 ; Modules
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
