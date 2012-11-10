@@ -14,7 +14,7 @@ includes[base] = "https://raw.github.com/sundaysenergy/drush/master/base6.make"
 includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa6.make"
 includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo6.make"
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras6.make"
-includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/ubercart6.make"
+includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart6.make"
 
 ; Contrib Modules
 
@@ -85,12 +85,12 @@ projects[web_widgets][subdir] = contrib
 ;views_data_export
 
 
-;eccv6
-; eCC - http://webgility.com
-;projects[ecc][download][type] = ""
-;projects[ecc][download][url] = ""
-;projects[ecc][type] = "module"
-;projects[ecc][version] = "3.0"
+; eccv6 - eCC - http://webgility.com
+projects[eccv6][download][type] = "git"
+projects[eccv6][download][url] = "git@bitbucket.org:sundaysenergy/ecc.git"
+projects[eccv6][type] = "module"
+projects[eccv6][version] = "3.0"
+projects[eccv6][directory_name] = "eccv6"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ;projects[uc_gift_wrap][download][type] = ""

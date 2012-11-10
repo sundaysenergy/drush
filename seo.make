@@ -11,6 +11,9 @@ projects[apps][subdir] = apps
 
 projects[alchemy][subdir] = contrib
 
+; Used to get data about whether a visitor is on a mobile device
+projects[browscap][subdir] = contrib
+
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = "1.1"
 

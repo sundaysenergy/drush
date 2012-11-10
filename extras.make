@@ -56,6 +56,16 @@ libraries[ckeditor][download][type] = "svn"
 libraries[ckeditor][download][url] = "http://svn.ckeditor.com/CKEditor/releases/stable/"
 libraries[ckeditor][directory_name] = "ckeditor"
 
+; Provides a configurable footer message, editable from the site-information form and displayed as a block
+projects[footer_message][subdir] = contrib
+
+; Allows you to specify a hyperlink for images with a custom URL
+projects[linkimagefield][subdir] = contrib
+projects[linkimagefield][version] = "1.x-dev"
+
+; Allows you to specify additional attributes for menu items, in this case Target
+projects[menu_attributes][subdir] = contrib
+
 ; NOT ENABLED
 ;projects[workbench][subdir] = contrib
 ;projects[workbench_moderation][subdir] = contrib

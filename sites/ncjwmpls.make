@@ -22,40 +22,36 @@ includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
 
 ; Update Field Collection module to dev to eliminate PHP warnings when uploading files
 projects[field_collection][version] = "1.x-dev"
+
 ; Update Entity API to dev to fix fatal error on Field Collection nodes
 projects[entity][version] = "1.x-dev"
 
 ; OTHER CONTRIB MODULES
 ; --------------------
 
-; Provides a configurable footer message, editable from the site-information form and displayed as a block
-projects[footer_message][subdir] = contrib
-; Allows you to specify a hyperlink for images with a custom URL
-projects[linkimagefield][subdir] = contrib
-projects[linkimagefield][version] = "1.x-dev"
-; Allows you to specify additional attributes for menu items, in this case Target
-projects[menu_attributes][subdir] = contrib
 ; Provides extra layout options for Panels, to be used for the homepage
 projects[panels_extra_layouts][subdir] = contrib
+
 ; Needed for Sky theme to display secondary menus
 projects[menu_block][subdir] = contrib
+
 ; Added to further customize Sky theme
 projects[css_injector][subdir] = contrib
+
 ; Allows NCJW-MPLS Admins to assign roles without accessing permissions page
 projects[roleassign][subdir] = contrib
+
 ; Collects various fixes to core issues that have not been implemented yet
 projects[fixcore][subdir] = contrib
+
 ; Allows users to unpublish and publish content without giving them Administer Nodes permission
 projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = "1.x-dev"
+
 ; Provides some tools to assist in making adjustments to the site based on a visitor's mobile device
 projects[mobile_tools][subdir] = contrib
 projects[mobile_tools][version] = "3.x-dev"
-; Used to get data about whether a visitor is on a mobile device
-projects[browscap][subdir] = contrib
+
 ; provides a way to take advantage of custom url rewrite outbound
 projects[purl][subdir] = contrib
 projects[purl][version] = "1.x-dev"
-
-; CUSTOM MODULES
-; --------------------
