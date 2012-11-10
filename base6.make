@@ -9,8 +9,9 @@ core = 6.x
 
 ; CORE
 ; -----------
-projects[drupal][type] = core
-
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "get"
+projects[pressflow][download][url] = "https://github.com/pressflow/6/tarball/master"
 
 ; CONTRIB
 ; ---------
