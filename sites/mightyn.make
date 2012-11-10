@@ -81,6 +81,7 @@ projects[viewscarousel][subdir] = contrib
 
 projects[web_widgets][subdir] = contrib
 
+projects[zen][version] = "1.2"
 
 ;ca
 ;scheduler
