@@ -40,7 +40,8 @@ projects[imagecache_actions][subdir] = contrib
 
 projects[logintoboggan][subdir] = contrib
 
-projects[memcache][subdir] = contrib
+; commenting this out because hosting on BOA
+;projects[memcache][subdir] = contrib
 
 projects[menu_block][subdir] = contrib
 
