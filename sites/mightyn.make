@@ -101,6 +101,11 @@ projects[uc_cim][download][type] = "git"
 projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
 projects[uc_cim][type] = "module"
 
+; nodewords
+projects[nodewords][download][type] = "git"
+projects[nodewords][download][url] = "git@github.com:sundaysenergy/nodewords.git"
+projects[nodewords][type] = "module"
+
 ; uc_registry
 projects[uc_registry][download][type] = "git"
 projects[uc_registry][download][url] = "git@github.com:sundaysenergy/uc_registry.git"
