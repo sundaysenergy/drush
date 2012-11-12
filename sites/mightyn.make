@@ -81,15 +81,8 @@ projects[viewscarousel][subdir] = contrib
 
 projects[web_widgets][subdir] = contrib
 
+projects[xmlsitemap][version] = "1.2"
 projects[zen][version] = "1.2"
-
-;ca
-;scheduler
-;securepages
-;uc_affiliate2
-;uc_wishlist
-;views_data_export
-
 
 ; eccv6 - eCC - http://webgility.com
 projects[eccv6][download][type] = "git"
