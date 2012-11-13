@@ -110,6 +110,9 @@ projects[nodewords][download][type] = "git"
 projects[nodewords][download][url] = "git@github.com:sundaysenergy/nodewords.git"
 projects[nodewords][type] = "module"
 
+; uc_affiliate2
+projects[uc_affiliate2][patch][] = "https://raw.github.com/gist/4068424/8bdb58a114728b43ee7e4a4ec11b3924acc5a9a7/uc_affiliate2.module"
+
 ; uc_cim
 projects[uc_cim][download][type] = "git"
 projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
