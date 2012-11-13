@@ -67,6 +67,9 @@ projects[taxonomy_csv][subdir] = contrib
 projects[taxonomy_csv][version] = "1.5"
 
 projects[taxonomy_image][subdir] = contrib
+; http://drupal.org/node/961834 Images have incomplete path
+projects[taxonomy_image][patch] = "http://drupal.org/files/issues/taxonomy_image-fullpath.patch"
+
 projects[taxonomy_menu][subdir] = contrib
 
 projects[term_fields][subdir] = contrib
@@ -85,37 +88,51 @@ projects[web_widgets][subdir] = contrib
 projects[xmlsitemap][version] = "1.2"
 projects[zen][version] = "1.2"
 
+
+; Customized modules
+; -----------
+
 ; eccv6 - eCC - http://webgility.com
 projects[eccv6][download][type] = "git"
 projects[eccv6][download][url] = "git@bitbucket.org:sundaysenergy/ecc.git"
 projects[eccv6][type] = "module"
 projects[eccv6][directory_name] = "eccv6"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-projects[uc_gift_wrap][download][type] = "git"
-projects[uc_gift_wrap][download][url] = "git@github.com:sundaysenergy/uc_gift_wrap.git"
-projects[uc_gift_wrap][type] = "module"
+; nodewords
+projects[nodewords][download][type] = "git"
+projects[nodewords][download][url] = "git@github.com:sundaysenergy/nodewords.git"
+projects[nodewords][type] = "module"
 
 ; uc_cim
 projects[uc_cim][download][type] = "git"
 projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
 projects[uc_cim][type] = "module"
 
-; nodewords
-projects[nodewords][download][type] = "git"
-projects[nodewords][download][url] = "git@github.com:sundaysenergy/nodewords.git"
-projects[nodewords][type] = "module"
+; uc_fedex
+projects[uc_fedex][download][type] = "git"
+projects[uc_fedex][download][url] = "git@github.com:sundaysenergy/uc_fedex.git"
+projects[uc_fedex][type] = "module"
+
+; uc_gift_wrap
+projects[uc_gift_wrap][download][type] = "git"
+projects[uc_gift_wrap][download][url] = "git@github.com:sundaysenergy/uc_gift_wrap.git"
+projects[uc_gift_wrap][type] = "module"
 
 ; uc_registry
 projects[uc_registry][download][type] = "git"
 projects[uc_registry][download][url] = "git@github.com:sundaysenergy/uc_registry.git"
 projects[uc_registry][type] = "module"
 
-;projects[apachesolr_nodetype][download][type] = ""
-;projects[apachesolr_nodetype][download][url] = ""
-;projects[apachesolr_nodetype][type] = "module"
+; uc_wishlist
+projects[uc_wishlist][download][type] = "git"
+projects[uc_wishlist][download][url] = "git@github.com:sundaysenergy/uc_wishlist.git"
+projects[uc_wishlist][download][branch] = "mightyn"
+projects[uc_wishlist][type] = "module"
+
 
 ; Custom modules
+; -----------
+
 ; Mighty Nest Custom
 projects[mightynest_custom][type] = module
 projects[mightynest_custom][download][type] = "git"
