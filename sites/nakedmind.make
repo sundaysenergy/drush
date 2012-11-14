@@ -1,7 +1,7 @@
 ; ======================================
 ; Nakedmind website platform
 ;
-; $ drush make nakedmind.make nakedmind_001 
+; $ drush make nakedmind.make nakedmind-001 
 ; ======================================
 
 api = 2
