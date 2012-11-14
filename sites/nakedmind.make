@@ -24,6 +24,10 @@ projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 
+; FLICKR PATCH - fixes issue with medium 500 display 
+; --------------------
+projects[flickr][patch][] = "http://drupal.org/files/flickr-more-sizes-1440918-0.patch"
+
 ; CUSTOM MODULES
 ; --------------------
 
