@@ -70,6 +70,7 @@ projects[thickbox][type] = module
 projects[tinymce][type] = module
 projects[token][type] = module
 
+projects[ubercart][type] = module
 projects[update_status][type] = module
 projects[userpoints][type] = module
 
@@ -77,6 +78,9 @@ projects[views][type] = module
 projects[views_fastsearch][type] = module
 
 projects[webform][type] = module
+; hearthconnection requires 1.x
+projects[webform][version] = "1.10"
+
 projects[workflow_ng][type] = module
 
 projects[zengine][type] = theme
