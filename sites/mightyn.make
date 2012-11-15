@@ -18,6 +18,7 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Contrib Modules
 
+; apachesolr was hacked
 projects[apachesolr][type] = module
 ;projects[apachesolr][subdir] = contrib
 
@@ -39,11 +40,18 @@ projects[content_profile][subdir] = contrib
 
 projects[custom_formatters][subdir] = contrib
 
+;devel was hacked
+
+; disqus was hacked
 projects[disqus][subdir] = contrib
+
+; fivestar was hacked
 
 projects[flag][subdir] = contrib
 
 projects[imagecache_actions][subdir] = contrib
+
+; link was hacked
 
 projects[logintoboggan][subdir] = contrib
 
@@ -53,6 +61,8 @@ projects[logintoboggan][subdir] = contrib
 projects[menu_block][subdir] = contrib
 
 projects[mimemail][subdir] = contrib
+
+; page_title was hacked
 
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = "2.1"
@@ -70,6 +80,8 @@ projects[tabs][subdir] = contrib
 
 projects[taxonomy_context][subdir] = contrib
 
+; taxonomy_context was hacked
+
 projects[taxonomy_csv][subdir] = contrib
 projects[taxonomy_csv][version] = "1.5"
 
@@ -77,6 +89,7 @@ projects[taxonomy_image][subdir] = contrib
 ; http://drupal.org/node/961834 Images have incomplete path
 projects[taxonomy_image][patch] = "http://drupal.org/files/issues/taxonomy_image-fullpath.patch"
 
+; taxonomy_menu was hacked
 projects[taxonomy_menu][subdir] = contrib
 
 projects[term_fields][subdir] = contrib
@@ -86,13 +99,28 @@ projects[thickbox][subdir] = contrib
 
 projects[twitter][subdir] = contrib
 
+; uc_gift_certificate
+; uc_out_of_stock
+; uc_referrals
+: uc_views
+; uc_stock_notify
+
+; views_bonus hacked
+
 projects[views_customfield][subdir] = contrib
+
+; views_data_export hacked
 projects[views_data_export][subdir] = contrib
+
+; viewscarousel hacked
 projects[viewscarousel][subdir] = contrib
 
+; xmlsitemap hacked
 projects[web_widgets][subdir] = contrib
 
 projects[xmlsitemap][version] = "1.2"
+
+; zen hacked
 projects[zen][version] = "1.2"
 
 
