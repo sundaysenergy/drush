@@ -34,37 +34,48 @@ projects[admin_menu][type] = module
 projects[admin_menu][type] = module
 projects[auto_nodetitle][type] = module
 
+projects[backup][type] = module
 projects[bio][type] = module
+
 projects[calendar][type] = module
 projects[cck][type] = module
 projects[custom_breadcrumbs][type] = module
+
 projects[date][type] = module
 projects[devel][type] = module
-projects[email][type] = module
 
+projects[email][type] = module
 projects[event][type] = module
+
 projects[image][type] = module
 projects[imagecache][type] = module
 projects[imagefield][type] = module
 projects[imce][type] = module
 projects[img_assist][type] = module
 projects[image_pub][type] = module
+
 projects[jstools][type] = module
 projects[link][type] = module
 projects[menu_block_split][type] = module
+
 projects[nice_menus][type] = module
 projects[node_clone][type] = module
 projects[nodewords][type] = module
+
 projects[pathauto][type] = module
 projects[private][type] = module
 projects[returnpath][type] = module
+
 projects[thickbox][type] = module
 projects[tinymce][type] = module
 projects[token][type] = module
+
 projects[update_status][type] = module
 projects[userpoints][type] = module
+
 projects[views][type] = module
 projects[views_fastsearch][type] = module
+
 projects[webform][type] = module
 projects[workflow_ng][type] = module
 
