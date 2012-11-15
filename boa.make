@@ -13,6 +13,8 @@ projects[blockcache_alter][subdir] = boa
 
 projects[boost][subdir] = boa
 
+projects[cdn][subdir] = boa
+
 projects[config_perms][subdir] = boa
 
 projects[core_library][subdir] = boa
@@ -31,8 +33,7 @@ projects[flood_control][subdir] = boa
 ; permission filter
 projects[fpa][subdir] = boa
 
-; HTTP Parallel Request Library
-projects[httprl][subdir] = boa
+projects[login_security][subdir] = boa
 
 projects[purge][subdir] = boa
 

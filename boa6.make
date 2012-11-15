@@ -8,6 +8,7 @@ projects[admin][subdir] = boa
 projects[backup_migrate][subdir] = boa
 projects[blockcache_alter][subdir] = boa
 projects[boost][subdir] = boa
+projects[cdn][subdir] = boa
 projects[config_perms][subdir] = boa
 
 projects[fb][subdir] = boa
@@ -21,8 +22,8 @@ projects[filefield_nginx_progress][subdir] = boa
 ; permission filter
 projects[fpa][subdir] = boa
 
-; HTTP Parallel Request Library
-projects[httprl][subdir] = boa
+; Removed - HTTP Parallel Request Library
+; projects[httprl][subdir] = boa
 
 ; alternative to maintence mode
 projects[readonlymode][subdir] = boa
