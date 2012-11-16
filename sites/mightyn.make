@@ -174,6 +174,22 @@ projects[uc_wishlist][download][branch] = "mightyn"
 projects[uc_wishlist][type] = "module"
 
 
+; Created drupal.org modules
+; -----------
+
+; Block Modal - http://drupal.org/sandbox/webmasterkai/1842268
+projects[block_modal][type] = module
+projects[block_modal][download][type] = "git"
+projects[block_modal][download][url] = "http://git.drupal.org/sandbox/webmasterkai/1842268.git"
+projects[block_modal][directory_name] = block_modal
+
+; Perfectaudience
+projects[perfectaudience][type] = module
+projects[perfectaudience][download][type] = "git"
+projects[perfectaudience][download][url] = "http://git.drupal.org/sandbox/webmasterkai/1842290.git"
+projects[perfectaudience][directory_name] = perfectaudience
+
+
 ; Custom modules
 ; -----------
 
