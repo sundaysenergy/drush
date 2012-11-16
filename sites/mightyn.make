@@ -7,6 +7,10 @@
 api = 2
 core = 6.x
 
+; UPGRADE THESE MANUALLY AT FIRST
+; ubercart
+;
+
 ; INCLUDES
 ; -----------
 
@@ -98,6 +102,8 @@ projects[term_fields][version] = "1.16"
 projects[thickbox][subdir] = contrib
 
 projects[twitter][subdir] = contrib
+
+projects[ubercart][subdir] = ""
 
 ; uc_gift_certificate
 ; uc_out_of_stock
