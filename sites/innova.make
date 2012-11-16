@@ -34,6 +34,9 @@ projects[commerce_shipping][version] = "2.x-dev"
 ; disabling this to see if it still works fine
 projects[commerce_coupon][version] = "1.0-beta4"
 
+; Add international shipping for commerce usps module
+projects[commerce_usps][patch][] = "http://drupal.org/files/1630788-add_international_shipping-10.patch"
+
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
 projects[facebook_pull][version] = "1.0"
