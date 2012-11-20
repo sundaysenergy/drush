@@ -13,7 +13,8 @@ core = 7.x
 ; CORE
 ; -----------
 projects[drupal][type] = core
-
+; Registry rebuild should not parse the same file twice in the same request
+projects[drupal][patch][] = "http://drupal.org/files/drupal-1470656-14.patch"
 
 ; CONTRIB
 ; ---------

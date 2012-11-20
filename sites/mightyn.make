@@ -187,10 +187,11 @@ projects[block_modal][directory_name] = block_modal
 
 ; Perfectaudience
 projects[perfectaudience][type] = module
-projects[perfectaudience][download][type] = "git"
-projects[perfectaudience][download][url] = "http://git.drupal.org/project/perfectaudience.git"
+projects[perfectaudience][version] = "1.x-dev"
+;projects[perfectaudience][download][type] = "git"
+;projects[perfectaudience][download][url] = "http://git.drupal.org/project/perfectaudience.git"
 ;projects[perfectaudience][subdir] = contrib
-projects[perfectaudience][directory_name] = perfectaudience
+;projects[perfectaudience][directory_name] = perfectaudience
 
 
 ; Custom modules
@@ -199,7 +200,7 @@ projects[perfectaudience][directory_name] = perfectaudience
 ; Mighty Nest Custom
 projects[mightynest_custom][type] = module
 projects[mightynest_custom][download][type] = "git"
-projects[mightynest_custom][download][url] = "git@github.com:sundaysenergy/mightynest_custom.git"
+projects[mightynest_custom][download][url] = "git@bitbucket.org:sundaysenergy/mightynest-custom.git"
 
 ; Review Email Module
 projects[mightynest_review][type] = module

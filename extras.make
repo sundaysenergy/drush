@@ -66,6 +66,9 @@ projects[linkimagefield][version] = "1.x-dev"
 ; Allows you to specify additional attributes for menu items, in this case Target
 projects[menu_attributes][subdir] = contrib
 
+projects[uuid][subdir] = contrib
+projects[uuid_features][subdir] = contrib
+
 ; NOT ENABLED
 ;projects[workbench][subdir] = contrib
 ;projects[workbench_moderation][subdir] = contrib
