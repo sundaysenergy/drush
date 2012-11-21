@@ -20,12 +20,9 @@ projects[popups][subdir] = contrib
 
 ;theme243 - not on drupal. skipping
 
-
-; Modules - Sandbox
-
 projects[uc_disable_product][type] = theme
 projects[uc_disable_product][download][type] = git
-projects[uc_disable_product][download][url] = "webmasterkai@git.drupal.org:sandbox/webmasterkai/1846914.git"
+projects[uc_disable_product][download][url] = "http://git.drupal.org/project/uc_disable_product.git"
 projects[uc_disable_product][download][branch] = "6.x-1.x"
 
 
