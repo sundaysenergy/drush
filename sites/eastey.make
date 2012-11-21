@@ -14,8 +14,25 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Modules
 
+projects[path_redirect][subdir] = contrib
+
+projects[popups][subdir] = contrib
+
+;theme243 - not on drupal. skipping
+
+
+; Modules - Sandbox
+
+projects[uc_disable_product][type] = theme
+projects[uc_disable_product][download][type] = git
+projects[uc_disable_product][download][url] = "webmasterkai@git.drupal.org:sandbox/webmasterkai/1846914.git"
+projects[uc_disable_product][download][branch] = "6.x-1.x"
+
 
 ; Custom modules
+projects[uc_search_model][type] = theme
+projects[uc_search_model][download][type] = git
+projects[uc_search_model][download][url] = "git@github.com:sundaysenergy/uc_search_model.git"
 
 
 ; Custom Theme
