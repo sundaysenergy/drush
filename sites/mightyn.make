@@ -105,7 +105,6 @@ projects[twitter][subdir] = contrib
 
 projects[ubercart][subdir] = ""
 
-; uc_gift_certificate
 ; uc_out_of_stock
 ; uc_referrals
 : uc_views
@@ -157,6 +156,14 @@ projects[uc_cim][type] = "module"
 projects[uc_fedex][download][type] = "git"
 projects[uc_fedex][download][url] = "git@github.com:sundaysenergy/uc_fedex.git"
 projects[uc_fedex][type] = "module"
+
+; uc_gift_certificate - http://drupal.org/sandbox/webmasterkai/1846116
+projects[uc_gift_certificate][download][type] = "git"
+projects[uc_gift_certificate][download][url] = "http://git.drupal.org/sandbox/webmasterkai/1846116.git"
+projects[uc_gift_certificate][download][branch] = "6.x-2.x"
+projects[uc_gift_certificate][type] = "module"
+projects[uc_gift_certificate][directory_name] = uc_gift_certificate
+projects[uc_gift_certificate][subdir] = contrib
 
 ; uc_gift_wrap
 projects[uc_gift_wrap][download][type] = "git"
