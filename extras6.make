@@ -50,6 +50,18 @@ libraries[ckeditor][download][type] = "svn"
 libraries[ckeditor][download][url] = "http://svn.ckeditor.com/CKEditor/releases/stable/"
 libraries[ckeditor][directory_name] = "ckeditor"
 
+
+; Custom modules
+; -----------
+
+; Sundays Energy feature module
+projects[sundays_energy][type] = module
+projects[sundays_energy][subdir] = custom
+projects[sundays_energy][directory_name] = sundays_energy
+projects[sundays_energy][download][type] = "git"
+projects[sundays_energy][download][url] = "git@github.com:sundaysenergy/sundays_energy.git"
+
+
 ; THEMES
 
 projects[omega][type] = theme

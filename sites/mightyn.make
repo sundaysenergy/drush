@@ -1,7 +1,7 @@
 ; ======================================
 ; Mightyn Site
 ;
-; $ drush make  --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/mightyn.make mightyn-002
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/mightyn.make mightyn-002
 ; ======================================
 
 api = 2
