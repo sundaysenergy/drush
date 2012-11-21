@@ -20,7 +20,6 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Custom Theme
 
-projects[acfzen][type] = theme
-;projects[acfzen][subdir] = custom
-projects[acfzen][download][type] = git
-projects[acfzen][download][url] = "git@github.com:sundaysenergy/zeropoint.git"
+projects[zeropoint][type] = theme
+projects[zeropoint][download][type] = git
+projects[zeropoint][download][url] = "git@github.com:sundaysenergy/zeropoint.git"

@@ -31,6 +31,8 @@ projects[nodesquirrel][subdir] = contrib
 
 projects[panels][subdir] = contrib
 
+projects[thickbox][subdir] = contrib
+
 projects[views_bonus][subdir] = contrib
 
 projects[votingapi][subdir] = contrib
