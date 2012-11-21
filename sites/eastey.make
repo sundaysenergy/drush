@@ -17,7 +17,10 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 projects[image][subdir] = contrib
 ;projects[image_attach][subdir] = contrib
 ;projects[image_gallery][subdir] = contrib
-projects[image_import][subdir] = contrib
+
+; image_import no longer has a module on drupal.org because it's deprecated.
+;projects[image_import][subdir] = contrib
+
 ;projects[image_im_advanced][subdir] = contrib
 
 projects[path_redirect][subdir] = contrib
