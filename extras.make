@@ -24,6 +24,8 @@ projects[panels][subdir] = contrib
 ; Do not require current password during change
 projects[nocurrent_pass][subdir] = contrib
 
+projects[nodesquirrel][subdir] = admin
+
 projects[locationmap][subdir] = contrib
 
 projects[migrate][subdir] = contrib
