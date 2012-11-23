@@ -22,6 +22,7 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Contrib Modules
 
+; APACHESOLR
 ; apachesolr was hacked
 projects[apachesolr][type] = module
 ;projects[apachesolr][subdir] = contrib
@@ -34,7 +35,11 @@ libraries[SolrPhpClient][destination] = "modules/apachesolr"
 projects[apachesolr_exclude][type] = module
 projects[apachesolr_ubercart][type] = module
 
+; AUTHNET
 projects[authnet][subdir] = contrib
+projects[authnet][download][type] = "git"
+projects[authnet][download][url] = http://git.drupal.org/project/authnet.git
+projects[authnet][download][branch] = "6.x-1.x"
 
 projects[autosave][subdir] = contrib
 
