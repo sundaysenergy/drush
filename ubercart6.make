@@ -11,7 +11,7 @@ projects[securepages_prevent_hijack][subdir] = contrib
 
 projects[uc_affiliate2][version] = "2.5"
 
-projects[uc_cim][version] = "1.x-dev"
+;projects[uc_cim][version] = "1.x-dev"
 
 projects[uc_coupon][version] = "1.7"
 
@@ -35,3 +35,14 @@ projects[uc_stock_notify][version] = "1.x-dev"
 projects[uc_views][subdir] = contrib
 
 projects[uc_wishlist][version] = "1.0"
+
+
+; Custom modules
+; -----------
+
+; Sundays Energy feature module
+projects[sundays_energy_uc][type] = module
+projects[sundays_energy_uc][subdir] = custom
+projects[sundays_energy_uc][directory_name] = sundays_energy_uc
+projects[sundays_energy_uc][download][type] = "git"
+projects[sundays_energy_uc][download][url] = "git@github.com:sundaysenergy/sundays_energy_uc.git"
