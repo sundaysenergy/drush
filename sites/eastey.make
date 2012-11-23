@@ -23,7 +23,7 @@ projects[image][subdir] = contrib
 
 ;projects[image_im_advanced][subdir] = contrib
 
-projects[path_redirect][subdir] = contrib
+;projects[path_redirect][subdir] = contrib
 
 projects[popups][subdir] = contrib
 
