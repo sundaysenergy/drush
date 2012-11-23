@@ -24,7 +24,7 @@ projects[uc_out_of_stock][version] = "1.4"
 
 projects[uc_product_power_tools][subdir] = contrib
 
-projects[uc_recurring][version] = "2.0-beta1"
+projects[uc_recurring][subdir] = contrib
 
 projects[uc_referrals][version] = "1.0-beta5"
 
