@@ -24,6 +24,8 @@ projects[panels][subdir] = contrib
 ; Do not require current password during change
 projects[nocurrent_pass][subdir] = contrib
 
+projects[nodesquirrel][subdir] = admin
+
 projects[locationmap][subdir] = contrib
 
 projects[migrate][subdir] = contrib
@@ -66,11 +68,25 @@ projects[linkimagefield][version] = "1.x-dev"
 ; Allows you to specify additional attributes for menu items, in this case Target
 projects[menu_attributes][subdir] = contrib
 
+projects[uuid][subdir] = contrib
+projects[uuid_features][subdir] = contrib
+
 ; NOT ENABLED
 ;projects[workbench][subdir] = contrib
 ;projects[workbench_moderation][subdir] = contrib
 ;projects[workbench_access][subdir] = contrib
 ;projects[features_extra][subdir] = contrib
+
+; Custom modules
+; -----------
+
+; Sundays Energy feature module
+;projects[sundays_energy][type] = module
+;projects[sundays_energy][subdir] = custom
+;projects[sundays_energy][directory_name] = sundays_energy
+;projects[sundays_energy][download][type] = "git"
+;projects[sundays_energy][download][url] = "git@github.com:sundaysenergy/sundays_energy.git"
+
 
 ; THEMES
 

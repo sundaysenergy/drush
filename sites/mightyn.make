@@ -1,7 +1,7 @@
 ; ======================================
 ; Mightyn Site
 ;
-; $ drush make  --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/mightyn.make mightyn-002
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/mightyn.make mightyn-002
 ; ======================================
 
 api = 2
@@ -105,7 +105,6 @@ projects[twitter][subdir] = contrib
 
 projects[ubercart][subdir] = ""
 
-; uc_gift_certificate
 ; uc_out_of_stock
 ; uc_referrals
 : uc_views
@@ -158,6 +157,14 @@ projects[uc_fedex][download][type] = "git"
 projects[uc_fedex][download][url] = "git@github.com:sundaysenergy/uc_fedex.git"
 projects[uc_fedex][type] = "module"
 
+; uc_gift_certificate - http://drupal.org/sandbox/webmasterkai/1846116
+projects[uc_gift_certificate][download][type] = "git"
+projects[uc_gift_certificate][download][url] = "http://git.drupal.org/sandbox/webmasterkai/1846116.git"
+projects[uc_gift_certificate][download][branch] = "6.x-2.x"
+projects[uc_gift_certificate][type] = "module"
+projects[uc_gift_certificate][directory_name] = uc_gift_certificate
+projects[uc_gift_certificate][subdir] = contrib
+
 ; uc_gift_wrap
 projects[uc_gift_wrap][download][type] = "git"
 projects[uc_gift_wrap][download][url] = "git@github.com:sundaysenergy/uc_gift_wrap.git"
@@ -182,13 +189,16 @@ projects[uc_wishlist][type] = "module"
 projects[block_modal][type] = module
 projects[block_modal][download][type] = "git"
 projects[block_modal][download][url] = "http://git.drupal.org/sandbox/webmasterkai/1842268.git"
+;projects[block_modal][subdir] = contrib
 projects[block_modal][directory_name] = block_modal
 
 ; Perfectaudience
 projects[perfectaudience][type] = module
-projects[perfectaudience][download][type] = "git"
-projects[perfectaudience][download][url] = "http://git.drupal.org/sandbox/webmasterkai/1842290.git"
-projects[perfectaudience][directory_name] = perfectaudience
+projects[perfectaudience][version] = "1.x-dev"
+;projects[perfectaudience][download][type] = "git"
+;projects[perfectaudience][download][url] = "http://git.drupal.org/project/perfectaudience.git"
+;projects[perfectaudience][subdir] = contrib
+;projects[perfectaudience][directory_name] = perfectaudience
 
 
 ; Custom modules
@@ -197,7 +207,7 @@ projects[perfectaudience][directory_name] = perfectaudience
 ; Mighty Nest Custom
 projects[mightynest_custom][type] = module
 projects[mightynest_custom][download][type] = "git"
-projects[mightynest_custom][download][url] = "git@github.com:sundaysenergy/mightynest_custom.git"
+projects[mightynest_custom][download][url] = "git@bitbucket.org:sundaysenergy/mightynest-custom.git"
 
 ; Review Email Module
 projects[mightynest_review][type] = module

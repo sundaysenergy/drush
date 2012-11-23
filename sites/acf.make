@@ -58,6 +58,9 @@ projects[uc_webform][version] = "1.x-dev"
 projects[uc_webform][patch][] = "http://drupal.org/files/uc_webform-uc_donation-1835738-1.patch"
 projects[uc_webform][patch][] = "https://raw.github.com/gist/4079628/53bb371f4267c8d36163beb1d4e8fa72c655489d/uc_webform.module"
 
+projects[webform_views_submitted][subdir] = contrib
+projects[webform_views_submitted][patch][] = "http://drupal.org/files/nid-fix-1321432-3.patch"
+
 projects[views_search][subdir] = contrib
 
 projects[views_slideshow][subdir] = contrib
