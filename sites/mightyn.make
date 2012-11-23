@@ -34,6 +34,8 @@ libraries[SolrPhpClient][destination] = "modules/apachesolr"
 projects[apachesolr_exclude][type] = module
 projects[apachesolr_ubercart][type] = module
 
+projects[authnet][subdir] = contrib
+
 projects[autosave][subdir] = contrib
 
 projects[better_formats][subdir] = contrib
@@ -150,6 +152,8 @@ projects[nodewords][type] = "module"
 ; uc_cim
 projects[uc_cim][download][type] = "git"
 projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
+;projects[uc_cim][download][branch] = "mightynest"
+projects[uc_cim][download][branch] = "6.x-1.x"
 projects[uc_cim][type] = "module"
 
 ; uc_fedex

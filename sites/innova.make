@@ -53,6 +53,7 @@ projects[jquery_plugin][subdir] = contrib
 
 projects[location][subdir] = contrib
 
+projects[maxlength][type] = module
 projects[maxlength][subdir] = contrib
 
 projects[menu_block][subdir] = contrib
