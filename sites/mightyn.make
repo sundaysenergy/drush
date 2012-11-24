@@ -41,6 +41,10 @@ projects[authnet][download][type] = "git"
 projects[authnet][download][url] = http://git.drupal.org/project/authnet.git
 projects[authnet][download][branch] = "6.x-1.x"
 
+libraries[anet_php_sdk][download][type] = "git"
+libraries[anet_php_sdk][download][url] = "git@github.com:sundaysenergy/anet_php_sdk.git"
+libraries[anet_php_sdk][directory_name] = "anet_php_sdk"
+
 projects[autosave][subdir] = contrib
 
 projects[better_formats][subdir] = contrib
