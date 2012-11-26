@@ -60,6 +60,7 @@ projects[uc_webform][patch][] = "https://raw.github.com/gist/4079628/53bb371f426
 
 projects[webform_views_submitted][subdir] = contrib
 projects[webform_views_submitted][patch][] = "http://drupal.org/files/nid-fix-1321432-3.patch"
+projects[webform_views_submitted][patch][] = "http://drupal.org/files/webform_views_submitted-missing_nid-1841758-2.patch"
 
 projects[views_search][subdir] = contrib
 
