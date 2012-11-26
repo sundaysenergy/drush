@@ -39,6 +39,7 @@ projects[backup][type] = module
 projects[bio][type] = module
 
 projects[calendar][type] = module
+projects[captcha][type] = module
 projects[cck][type] = module
 projects[custom_breadcrumbs][type] = module
 
