@@ -51,7 +51,11 @@ projects[event][type] = module
 projects[event_views][version] = 2.x-dev
 
 projects[image][type] = module
+
 projects[imagecache][type] = module
+; The newest version is 2.6
+projects[imagecache][version] = 1.7
+
 projects[imagefield][type] = module
 projects[imce][type] = module
 projects[img_assist][type] = module
@@ -75,7 +79,11 @@ projects[returnpath][type] = module
 projects[taxonomy_access][type] = module
 projects[taxonomy_image][type] = module
 projects[textimage][type] module
+
 projects[thickbox][type] = module
+; The newest version is 2.1. Requires imagecache 2.x
+projects[thickbox][version] = 1.2
+
 projects[tinymce][type] = module
 projects[token][type] = module
 
