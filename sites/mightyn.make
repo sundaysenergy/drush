@@ -22,6 +22,7 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Contrib Modules
 
+; APACHESOLR
 ; apachesolr was hacked
 projects[apachesolr][type] = module
 ;projects[apachesolr][subdir] = contrib
@@ -33,6 +34,16 @@ libraries[SolrPhpClient][destination] = "modules/apachesolr"
 
 projects[apachesolr_exclude][type] = module
 projects[apachesolr_ubercart][type] = module
+
+; AUTHNET
+projects[authnet][subdir] = contrib
+projects[authnet][download][type] = "git"
+projects[authnet][download][url] = http://git.drupal.org/project/authnet.git
+projects[authnet][download][branch] = "6.x-1.x"
+
+libraries[anet_php_sdk][download][type] = "git"
+libraries[anet_php_sdk][download][url] = "git@github.com:sundaysenergy/anet_php_sdk.git"
+libraries[anet_php_sdk][directory_name] = "anet_php_sdk"
 
 projects[autosave][subdir] = contrib
 
@@ -150,6 +161,8 @@ projects[nodewords][type] = "module"
 ; uc_cim
 projects[uc_cim][download][type] = "git"
 projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
+;projects[uc_cim][download][branch] = "mightynest"
+projects[uc_cim][download][branch] = "6.x-1.x"
 projects[uc_cim][type] = "module"
 
 ; uc_fedex

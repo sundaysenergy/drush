@@ -14,7 +14,7 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Modules
 
-projects[image][subdir] = contrib
+;projects[image][subdir] = contrib
 ;projects[image_attach][subdir] = contrib
 ;projects[image_gallery][subdir] = contrib
 
@@ -23,7 +23,7 @@ projects[image][subdir] = contrib
 
 ;projects[image_im_advanced][subdir] = contrib
 
-projects[path_redirect][subdir] = contrib
+;projects[path_redirect][subdir] = contrib
 
 projects[popups][subdir] = contrib
 

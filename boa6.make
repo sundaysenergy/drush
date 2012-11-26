@@ -17,6 +17,8 @@ projects[fb][version] = "3.x-dev"
 ; CSS Embedded Images, alternative to sprites for tiny images
 projects[css_emimage][subdir] = boa
 
+projects[expire][subdir] = boa
+
 projects[filefield_nginx_progress][subdir] = boa
 
 ; permission filter
@@ -24,6 +26,8 @@ projects[fpa][subdir] = boa
 
 ; Removed - HTTP Parallel Request Library
 ; projects[httprl][subdir] = boa
+
+projects[purge][subdir] = boa
 
 ; alternative to maintence mode
 projects[readonlymode][subdir] = boa
