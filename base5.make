@@ -35,6 +35,7 @@ projects[admin_menu][type] = module
 projects[auto_nodetitle][type] = module
 
 projects[backup][type] = module
+;projects[basicevent][type] = module
 projects[bio][type] = module
 
 projects[calendar][type] = module
@@ -43,9 +44,11 @@ projects[custom_breadcrumbs][type] = module
 
 projects[date][type] = module
 projects[devel][type] = module
+projects[diff][type] = module
 
 projects[email][type] = module
 projects[event][type] = module
+projects[event_views][version] = 2.x-dev
 
 projects[image][type] = module
 projects[imagecache][type] = module
@@ -60,12 +63,18 @@ projects[menu_block_split][type] = module
 
 projects[nice_menus][type] = module
 projects[node_clone][type] = module
+projects[node_images][type] = module
 projects[nodewords][type] = module
+
+projects[openid][type] = module
 
 projects[pathauto][type] = module
 projects[private][type] = module
 projects[returnpath][type] = module
 
+projects[taxonomy_access][type] = module
+projects[taxonomy_image][type] = module
+projects[textimage][type] module
 projects[thickbox][type] = module
 projects[tinymce][type] = module
 projects[token][type] = module
@@ -82,6 +91,8 @@ projects[webform][type] = module
 projects[webform][version] = "1.10"
 
 projects[workflow_ng][type] = module
+
+projects[zen][type] = theme
 
 projects[zengine][type] = theme
 projects[zengine][subdir] = engines
