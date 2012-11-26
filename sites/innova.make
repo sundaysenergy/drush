@@ -66,8 +66,6 @@ projects[print][subdir] = contrib
 
 projects[quicktabs][subdir] = contrib
 
-; Remove this version to allow upgrade to 2.x
-projects[submenutree][version] = "1.2"
 projects[submenutree][subdir] = contrib
 
 projects[twitter_pull][subdir] = contrib
