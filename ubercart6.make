@@ -15,6 +15,8 @@ projects[uc_affiliate2][version] = "2.5"
 
 projects[uc_coupon][version] = "1.7"
 
+projects[uc_disable_product][version] = 1.x-dev
+
 ; Not sure why it was the dev version.
 projects[uc_fedex][version] = "2.x-dev"
 

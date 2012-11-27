@@ -29,12 +29,6 @@ projects[popups][subdir] = contrib
 
 ;theme243 - not on drupal. skipping
 
-projects[uc_disable_product][type] = theme
-projects[uc_disable_product][download][type] = git
-projects[uc_disable_product][download][url] = "http://git.drupal.org/project/uc_disable_product.git"
-projects[uc_disable_product][download][branch] = "6.x-1.x"
-
-
 ; Custom modules
 projects[uc_search_model][type] = theme
 projects[uc_search_model][download][type] = git
