@@ -44,6 +44,8 @@ projects[facebook_pull][version] = "1.0"
 projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
 
 projects[gmap][subdir] = contrib
+; 7.x-2.x targeting Google Maps API V3
+projects[gmap][version] = "7.x-2.2"
 
 projects[google_fonts][subdir] = contrib
 
