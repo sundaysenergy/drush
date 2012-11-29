@@ -38,7 +38,8 @@ projects[apachesolr_ubercart][type] = module
 ; AUTHNET
 projects[authnet][subdir] = contrib
 projects[authnet][download][type] = "git"
-projects[authnet][download][url] = http://git.drupal.org/project/authnet.git
+; Point back to http://git.drupal.org/project/authnet.git after our module merge with main branch
+projects[authnet][download][url] = http://git.drupal.org/sandbox/webmasterkai/1852478.git
 projects[authnet][download][branch] = "6.x-1.x"
 
 libraries[anet_php_sdk][download][type] = "git"
