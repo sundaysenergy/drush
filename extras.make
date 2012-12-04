@@ -18,8 +18,28 @@ projects[hacked][subdir] = admin
 
 projects[beautytips][subdir] = contrib
 
+projects[chosen][version] = 1.x-dev
+projects[chosen][subdir] = "contrib"
+libraries[chosen][type] = "libraries"
+libraries[chosen][download][type] = "git"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
+libraries[chosen][overwrite] = TRUE
+
 projects[ds][subdir] = contrib
 projects[panels][subdir] = contrib
+
+projects[eva][subdir] = "contrib"
+
+projects[i18n][version] = "1.x-dev"
+projects[i18n][subdir] = "contrib"
+
+projects[message][subdir] = "contrib"
+projects[message][patch][] = "http://drupal.org/files/1729800-add-message-type-category-filter-drush.patch"
+
+projects[message_notify][subdir] = "contrib"
+
+projects[mimemail][subdir] = "contrib"
+projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
 ; Do not require current password during change
 projects[nocurrent_pass][subdir] = contrib
@@ -31,10 +51,45 @@ projects[locationmap][subdir] = contrib
 projects[migrate][subdir] = contrib
 projects[migrate_extras][subdir] = contrib
 
+projects[special_menu_items][subdir] = contrib
+
+projects[taxonomy_menu][subdir] = contrib
+
+projects[views_megarow][version] = 1.x-dev
+projects[views_megarow][subdir] = "contrib"
+
+; SEARCH
+
+projects[search_api][subdir] = "contrib"
+projects[search_api_db][subdir] = "contrib"
+projects[search_api_ranges][subdir] = "contrib"
+projects[facetapi][subdir] = "contrib"
+projects[facetapi][patch][] = "http://drupal.org/files/1616518-7-show-active-term.patch"
+projects[search_api_sorts][subdir] = "contrib"
+
+
 ; FIELDS
+
+projects[addressfield][subdir] = contrib
 
 projects[field_collection][subdir] = contrib
 projects[field_collection_table][subdir] = contrib
+
+projects[field_extractor][subdir] = "contrib"
+
+projects[image_delta_formatter][subdir] = "contrib"
+
+projects[inline_entity_form][version] = 1.x-dev
+projects[inline_entity_form][subdir] = "contrib"
+
+projects[title][version] = "1.x-dev"
+projects[title][subdir] = "contrib"
+
+projects[cloud_zoom][version] = 1.x-dev
+projects[cloud_zoom][subdir] = "contrib"
+libraries[cloud-zoom][type] = "libraries"
+libraries[cloud-zoom][download][type] = "file"
+libraries[cloud-zoom][download][url] = "http://www.professorcloud.com/downloads/cloud-zoom.1.0.2.zip"
 
 ; CONTENT INPUT
 
@@ -90,9 +145,10 @@ projects[uuid_features][subdir] = contrib
 
 ; THEMES
 
-projects[omega][type] = theme
+projects[omega][type] = theme5
 projects[adaptivetheme][type] = theme
 projects[sky][type] = theme
+projects[shiny][type] = theme
 projects[corolla][type] = theme
 projects[zen][type] = theme
 projects[mothership][type] = theme
@@ -102,3 +158,27 @@ projects[mothership][type] = theme
 projects[delta][subdir] = contrib
 projects[omega_tools][subdir] = contrib
 projects[fences][subdir] = contrib
+projects[fences][patch][] = "http://drupal.org/files/undefined-index-1561244-7.patch"
+
+; LIBRARIES
+
+libraries[jquery.bxSlider][type] = "libraries"
+libraries[jquery.bxSlider][download][type] = "git"
+libraries[jquery.bxSlider][download][url] = "https://github.com/wandoledzep/bxslider.git"
+
+libraries[jquery_ui_spinner][type] = "libraries"
+libraries[jquery_ui_spinner][download][type] = "git"
+libraries[jquery_ui_spinner][download][url] = "https://github.com/btburnett3/jquery.ui.spinner.git"
+
+libraries[jquery_expander][type] = "libraries"
+libraries[jquery_expander][download][type] = "git"
+libraries[jquery_expander][download][url] = "https://github.com/kswedberg/jquery-expander.git"
+
+libraries[selectnav.js][type] = "libraries"
+libraries[selectnav.js][download][type] = "git"
+libraries[selectnav.js][download][url] = "https://github.com/lukaszfiszer/selectnav.js.git"
+
+libraries[ie7-js][type] = "libraries"
+libraries[ie7-js][download][type] = "file"
+libraries[ie7-js][download][url] = "https://ie7-js.googlecode.com/files/ie7-2.1%28beta4%29.zip"
+

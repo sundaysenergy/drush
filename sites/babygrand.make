@@ -1,7 +1,7 @@
 ; ======================================
-; Blend make file
+; Baby on Grand make file
 ;
-; $ drush make --no-core https://raw.github.com/sundaysenergy/drush/master/sites/blend.make blend-003
+; $ drush make --no-core https://raw.github.com/sundaysenergy/drush/master/sites/babygrand.make babygrand-002
 ; ======================================
 
 api = 2
@@ -40,6 +40,6 @@ projects[views][version] = "1.7"
 projects[workflow_ng][version] = "2.2"
 
 ; Themes
-projects[blendedapparel][type] = "theme"
-projects[blendedapparel][download][type] = git
-projects[blendedapparel][download][url] = git@github.com:sundaysenergy/blendedapparel.git
+projects[babygrandzentheme][type] = "theme"
+projects[babygrandzentheme][download][type] = git
+projects[babygrandzentheme][download][url] = git@github.com:sundaysenergy/blendedapparel.git

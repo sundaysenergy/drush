@@ -14,6 +14,7 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 ; Modules
 
+; disabled because they didn't have any image nodes.
 ;projects[image][subdir] = contrib
 ;projects[image_attach][subdir] = contrib
 ;projects[image_gallery][subdir] = contrib
