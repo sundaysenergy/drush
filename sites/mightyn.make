@@ -160,11 +160,12 @@ projects[nodewords][type] = "module"
 ;projects[uc_affiliate2][patch][] = "https://raw.github.com/gist/4068424/8bdb58a114728b43ee7e4a4ec11b3924acc5a9a7/uc_affiliate2.module"
 
 ; uc_cim
-projects[uc_cim][download][type] = "git"
-projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
+;projects[uc_cim][download][type] = "git"
+;projects[uc_cim][download][url] = "git@github.com:sundaysenergy/uc_cim.git"
 ;projects[uc_cim][download][branch] = "mightynest"
-projects[uc_cim][download][branch] = "6.x-1.x"
+;projects[uc_cim][download][branch] = "6.x-1.x"
 projects[uc_cim][type] = "module"
+projects[uc_cim][version] = "1.0-alpha1"
 
 ; uc_fedex
 projects[uc_fedex][download][type] = "git"
