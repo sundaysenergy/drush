@@ -36,7 +36,7 @@ projects[commerce_extra_price_formatters][subdir] = dc
 projects[commerce_fancy_attributes][subdir] = dc
 
 projects[commerce_features][subdir] = dc
-projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
+;projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
 
 projects[commerce_migrate][subdir] = dc
 
