@@ -21,8 +21,10 @@ includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce
 projects[aes][subdir] = contrib
 
 ; WHY IS THIS BEING USED?!?
-projects[cck][version] = "2.x-dev"
+projects[cck][version] = 2.x-dev
 projects[cck][subdir] = contrib
+
+projects[colorbox][version] = 1.4
 
 ; Commerce
 
