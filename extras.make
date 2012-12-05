@@ -34,7 +34,6 @@ projects[i18n][version] = "1.x-dev"
 projects[i18n][subdir] = "contrib"
 
 projects[message][subdir] = "contrib"
-projects[message][patch][] = "http://drupal.org/files/1729800-add-message-type-category-filter-drush.patch"
 
 projects[message_notify][subdir] = "contrib"
 
