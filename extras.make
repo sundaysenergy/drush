@@ -184,3 +184,13 @@ libraries[ie7-js][type] = "libraries"
 libraries[ie7-js][download][type] = "file"
 libraries[ie7-js][download][url] = "https://ie7-js.googlecode.com/files/ie7-2.1%28beta4%29.zip"
 
+; Custom modules
+; -----------
+
+; Sundays Energy feature module
+projects[sundays_energy][type] = module
+projects[sundays_energy][subdir] = custom
+projects[sundays_energy][directory_name] = sundays_energy
+projects[sundays_energy][download][type] = "git"
+projects[sundays_energy][download][url] = "git@github.com:sundaysenergy/sundays_energy.git"
+projects[sundays_energy][download][branch] = 7.x-1.x

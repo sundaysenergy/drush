@@ -29,7 +29,8 @@ projects[token][subdir] = contrib
 projects[features][subdir] = contrib
 projects[features][patch][] = "http://drupal.org/files/1572578-part-one.patch"
 projects[features][patch][] = "http://drupal.org/files/1597186-1-features-do-not-cache-includes.patch"
-projects[features][patch][] = "http://drupal.org/files/927566-multiple-link_path.patch"
+; Unable to patch features with 927566-multiple-link_path.patch.
+;projects[features][patch][] = "http://drupal.org/files/927566-multiple-link_path.patch"
 projects[features][patch][] = "http://drupal.org/files/1669720-fix-features-flush-cache.patch"
 
 projects[strongarm][subdir] = contrib
