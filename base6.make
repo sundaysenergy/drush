@@ -19,13 +19,14 @@ projects[pressflow][download][url] = "https://github.com/pressflow/6/tarball/mas
 ; REQUIRED
 
 projects[ctools][subdir] = contrib
-projects[token][subdir] = contrib
-projects[features][subdir] = contrib
-projects[strongarm][subdir] = contrib
 projects[date][subdir] = contrib
-projects[rules][subdir] = contrib
-projects[views][subdir] = contrib
+projects[features][subdir] = contrib
 projects[libraries][subdir] = contrib
+projects[strongarm][subdir] = contrib
+projects[rules][subdir] = contrib
+projects[token][subdir] = contrib
+projects[transliteration][subdir] = contrib
+projects[views][subdir] = contrib
 
 
 ; ADMIN
@@ -54,7 +55,6 @@ projects[diff][subdir] = contrib
 projects[feeds][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
-projects[transliteration][subdir] = contrib
 
 
 ; API for scheduling tasks once or periodically.

@@ -39,6 +39,7 @@ projects[libraries][subdir] = contrib
 
 projects[date][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[transliteration][subdir] = contrib
 projects[views][subdir] = contrib
 
 
@@ -85,7 +86,6 @@ projects[feeds][subdir] = contrib
 projects[feeds_jsonpath_parser][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[pathologic][subdir] = contrib
-projects[transliteration][subdir] = contrib
 
 
 ; API for scheduling tasks once or periodically.
