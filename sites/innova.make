@@ -1,7 +1,7 @@
 ; ======================================
 ; Innova
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-013
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-018
 ; ======================================
 
 api = 2
@@ -85,16 +85,16 @@ projects[ninesixty][version] = "1.0"
 
 ; Custom Modules
 
+projects[innova][type] = "module"
 projects[innova][download][type] = "git"
 projects[innova][download][url] = "git@github.com:sundaysenergy/innovamodules.git"
-projects[innova][type] = "module"
 projects[innova][subdir] = custom
 
 ; Custom Themes
 
+projects[innova_ninesixty][type] = "theme"
 projects[innova_ninesixty][download][type] = "git"
 projects[innova_ninesixty][download][url] = "git@github.com:sundaysenergy/innovatheme.git"
-projects[innova_ninesixty][type] = "theme"
 
 ; Maxlength module conflicts with TinyMCE 3.2.7
 ; Don't take time to test other sites, we override definition in extras.make
