@@ -9,11 +9,11 @@ core = 7.x
 
 ; Include other make files that should include almost all necessary module packages.
 
-includes[base] = "https://raw.github.com/sundaysenergy/drush/master/base.make"
-includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa.make"
-includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
-includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.make"
-includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce.make"
+;includes[base] = "https://raw.github.com/sundaysenergy/drush/master/base.make"
+;includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa.make"
+;includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
+;includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.make"
+;includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce.make"
 
 ; Modules
 
@@ -92,8 +92,9 @@ projects[innova][subdir] = custom
 
 ; Custom Themes
 
-projects[innova_ninesixty][type] = "theme"
-projects[innova_ninesixty][download][type] = "git"
+projects[innova_ninesixty][type] = theme
+projects[innova_ninesixty][directory_name] = innova_ninesixty
+projects[innova_ninesixty][download][type] = git
 projects[innova_ninesixty][download][url] = "git@github.com:sundaysenergy/innovatheme.git"
 
 ; Maxlength module conflicts with TinyMCE 3.2.7
