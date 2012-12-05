@@ -32,9 +32,6 @@ projects[addthis][version] = "4.0-alpha1"
 ; See issue #1608358
 projects[entityreference][version] = "1.x-dev"
 
-; Ability to use Amazon info
-projects[amazon][subdir] = contrib
-
 ; Print module for printer friendly (and pdf) pages
 projects[print][subdir] = contrib
 

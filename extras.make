@@ -72,6 +72,9 @@ projects[search_api_sorts][subdir] = "contrib"
 
 projects[addressfield][subdir] = contrib
 
+; Ability to use Amazon info
+projects[amazon][subdir] = contrib
+
 projects[field_collection][subdir] = contrib
 projects[field_collection_table][subdir] = contrib
 

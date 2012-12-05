@@ -56,6 +56,7 @@ projects[uc_webform][subdir] = contrib
 projects[uc_webform][version] = "1.x-dev"
 ; Issue #1835738 Integration with uc_donation
 projects[uc_webform][patch][] = "http://drupal.org/files/uc_webform-uc_donation-1835738-1.patch"
+; Do we have an issue for the following patch? Describe what it does.
 projects[uc_webform][patch][] = "https://raw.github.com/gist/4079628/53bb371f4267c8d36163beb1d4e8fa72c655489d/uc_webform.module"
 
 projects[webform_views_submitted][subdir] = contrib
@@ -81,6 +82,5 @@ projects[acf][download][url] = "git@bitbucket.org:sundaysenergy/acf.git"
 ; Custom Theme
 
 projects[acfzen][type] = theme
-;projects[acfzen][subdir] = custom
 projects[acfzen][download][type] = git
 projects[acfzen][download][url] = "git@bitbucket.org:sundaysenergy/acfzen.git"
