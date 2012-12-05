@@ -147,7 +147,7 @@ projects[uuid_features][subdir] = contrib
 
 ; THEMES
 
-projects[omega][type] = theme5
+projects[omega][type] = theme
 projects[adaptivetheme][type] = theme
 projects[sky][type] = theme
 projects[shiny][type] = theme
