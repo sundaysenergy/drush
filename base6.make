@@ -81,9 +81,15 @@ libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profil
 
 ; d6 Specific
 projects[cck][subdir] = contrib
+
+projects[filefield][type] = module
 projects[filefield][subdir] = contrib
+projects[filefield][version] = 3.10
+
 projects[imagefield][subdir] = contrib
+projects[imagefield][version] = 3.10
 
 projects[imageapi][subdir] = contrib
-projects[imagecache][subdir] = contrib
 
+projects[imagecache][subdir] = contrib
+projects[imagecache][version] = 2.0-rc1
