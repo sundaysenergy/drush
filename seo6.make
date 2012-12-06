@@ -24,3 +24,4 @@ projects[seo_checklist][subdir] = seo
 projects[seotools][subdir] = seo
 
 projects[xmlsitemap][subdir] = seo
+projects[xmlsitemap][type] = module
