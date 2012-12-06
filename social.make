@@ -15,7 +15,7 @@ projects[http_client][subdir] = contrib
 
 projects[oauth][version] = 3.x-dev
 projects[oauth][subdir] = "contrib"
-projects[oauth][patch][] = "http://drupal.org/files/980340-d7.patch"
+;projects[oauth][patch][] = "http://drupal.org/files/980340-d7.patch"
 projects[oauthconnector][version] = 1.x-dev
 projects[oauthconnector][subdir] = "contrib"
 projects[oauthconnector][patch][] = "http://drupal.org/files/oathuconnector-notice-no-csid.patch"
@@ -31,11 +31,11 @@ projects[flickr][version] = 1.x-dev
 
 ; FLICKR PATCH - fixes issue with medium 500 display  - http://drupal.org/node/1440918
 ; --------------------
-projects[flickr][patch][] = "http://drupal.org/files/flickr-more-sizes-1440918-0.patch"
+;projects[flickr][patch][] = "http://drupal.org/files/flickr-more-sizes-1440918-0.patch"
 
 projects[socialmedia][subdir] = social
 projects[service_links][subdir] = social
-;projects[service_links][patch][] = "http://drupal.org/files/twitter-share-button-ssl-page-1524562-5.patch"
+projects[service_links][patch][] = "http://drupal.org/files/twitter-share-button-ssl-page-1524562-5.patch"
 
 projects[twitter][subdir] = social
 projects[widgets][subdir] = social
