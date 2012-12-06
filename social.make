@@ -35,7 +35,7 @@ projects[flickr][patch][] = "http://drupal.org/files/flickr-more-sizes-1440918-0
 
 projects[socialmedia][subdir] = social
 projects[service_links][subdir] = social
-projects[service_links][patch][] = "http://drupal.org/files/twitter-share-button-ssl-page-1524562-5.patch"
+;projects[service_links][patch][] = "http://drupal.org/files/twitter-share-button-ssl-page-1524562-5.patch"
 
 projects[twitter][subdir] = social
 projects[widgets][subdir] = social
