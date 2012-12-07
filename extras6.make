@@ -9,6 +9,9 @@ projects[email][subdir] = contrib
 projects[fivestar][subdir] = contrib
 projects[flag][subdir] = contrib
 
+; used by solerdman - easiest way for Sol to embed a video into a node
+projects[googtube][subdir] = contrib
+
 ; getid3 doesn't contain a wrapper folder. All files are in the root of the archive.
 libraries[getid3][destination] = libraries
 libraries[getid3][download][type] = get
