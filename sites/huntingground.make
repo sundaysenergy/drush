@@ -36,7 +36,7 @@ libraries[views_slideshow][directory_name] = "jquery.cycle"
 
 ; CUSTOM Theme
 ; --------------------
-projects[dcenter][type]           = theme
-projects[dcenter][subdir]         = custom
-projects[dcenter][download][type] = git
-projects[dcenter][download][url]  = "https://github.com/bjornmeansbear/dcenter.git"
+projects[hg][type]           = theme
+projects[hg][subdir]         = custom
+projects[hg][download][type] = git
+projects[hg][download][url]  = "https://github.com/OOKB/HuntingGroundTheme.git"
