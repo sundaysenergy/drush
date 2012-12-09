@@ -1,9 +1,8 @@
 ; ======================================
-; D Center Baltimore
-; Initial creation by KB 8/14/2012 for v1
-; used in the moving process from old server to new AEGIR env
+; Hunting Ground Shop
+; Initial setup by KB 12/9/2012 for v1
 ;
-; $ drush make dcenter.make dcenter_001
+; $ drush make huntingground.make huntingground_001
 ; ======================================
 
 api = 2
