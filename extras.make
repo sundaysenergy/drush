@@ -125,6 +125,9 @@ projects[linkimagefield][version] = "1.x-dev"
 ; Allows you to specify additional attributes for menu items, in this case Target
 projects[menu_attributes][subdir] = contrib
 
+; Print module for printer friendly (and pdf) pages
+projects[print][subdir] = contrib
+
 projects[uuid][subdir] = contrib
 projects[uuid_features][subdir] = contrib
 

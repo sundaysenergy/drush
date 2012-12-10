@@ -33,6 +33,7 @@ projects[mollom][subdir] = contrib
 projects[nodesquirrel][subdir] = contrib
 
 projects[panels][subdir] = contrib
+projects[print][subdir] = contrib
 
 projects[thickbox][subdir] = contrib
 

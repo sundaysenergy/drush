@@ -32,10 +32,6 @@ projects[addthis][version] = "4.0-alpha1"
 ; See issue #1608358
 projects[entityreference][version] = "1.x-dev"
 
-; Print module for printer friendly (and pdf) pages
-projects[print][subdir] = contrib
-
-
 ; CONTRIB PATCH PATCHES
 ; --------------------
 ; This patch fix Embedded field collection items with a default value result in new items on save by fago

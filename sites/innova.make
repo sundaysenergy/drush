@@ -67,8 +67,6 @@ projects[nodesinblock][subdir] = contrib
 projects[physical][version] = "1.x-dev"
 projects[physical][subdir] = contrib
 
-projects[print][subdir] = contrib
-
 projects[quicktabs][subdir] = contrib
 
 projects[submenutree][subdir] = contrib
