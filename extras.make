@@ -25,6 +25,8 @@ libraries[chosen][download][type] = "git"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen.git"
 libraries[chosen][overwrite] = TRUE
 
+projects[context][subdir] = contrib
+
 projects[ds][subdir] = contrib
 projects[panels][subdir] = contrib
 
