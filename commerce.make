@@ -28,6 +28,10 @@ projects[commerce_checkout_redirect][patch][] = "http://drupal.org/files/1275330
 projects[commerce_checkout_redirect][patch][] = "http://drupal.org/files/1677106-commerce_checkout_redirect-user_pass-2.patch"
 
 projects[commerce_coupon][subdir] = dc
+projects[commerce_coupon_fixed_amount][subdir] = dc
+projects[commerce_coupon_fixed_amount][version] = 1.x-dev
+projects[commerce_coupon_pct][subdir] = dc
+projects[commerce_coupon_pct][version] = 1.x-dev
 
 projects[commerce_discount][subdir] = dc
 
