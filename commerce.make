@@ -42,6 +42,8 @@ projects[commerce_migrate][subdir] = dc
 
 projects[commerce_search_api][subdir] = dc
 
+projects[commerce_wishlist][subdir] = dc
+
 ; Shipping related
 
 projects[commerce_flat_rate][subdir] = dc
