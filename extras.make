@@ -131,6 +131,7 @@ projects[menu_attributes][subdir] = contrib
 projects[print][subdir] = contrib
 
 projects[uuid][subdir] = contrib
+projects[uuid][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
 
 ; NOT ENABLED
