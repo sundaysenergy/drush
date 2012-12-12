@@ -34,7 +34,7 @@ projects[commerce_shipping][version] = "2.x-dev"
 
 ; In commerce.make - Specific version - "1.0-beta4+3-dev"
 ; disabling this to see if it still works fine
-projects[commerce_coupon][version] = "1.0-beta4"
+; projects[commerce_coupon][version] = "1.0-beta4"
 
 ; Add international shipping for commerce usps module
 projects[commerce_usps][patch][] = "http://drupal.org/files/1630788-add_international_shipping-10.patch"
