@@ -31,6 +31,7 @@ projects[insert][subdir]                   = contrib
 projects[caption_filter][subdir]           = contrib
 projects[image_resize_filter][subdir]      = contrib
 projects[wysiwyg_filter][subdir]           = contrib
+projects[shurly][subdir]                   = contrib
 
 
 projects[views_slideshow][subdir]          = contrib
