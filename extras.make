@@ -131,6 +131,7 @@ projects[menu_attributes][subdir] = contrib
 projects[print][subdir] = contrib
 
 projects[uuid][subdir] = contrib
+; Use the dev version http://drupal.org/node/1736780
 projects[uuid][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
 
