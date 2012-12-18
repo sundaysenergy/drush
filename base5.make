@@ -95,6 +95,7 @@ projects[simplemenu][type] = module
 projects[simplenews][type] = module
 projects[simplenews_roles][type] = module
 
+projects[tapir][type] = module
 projects[taxonomy_access][type] = module
 projects[taxonomy_image][type] = module
 projects[textimage][type] module
