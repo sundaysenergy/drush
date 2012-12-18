@@ -94,6 +94,7 @@ projects[securepages][type] = module
 projects[simplemenu][type] = module
 projects[simplenews][type] = module
 projects[simplenews_roles][type] = module
+projects[subform_element][type] = module
 
 projects[tapir][type] = module
 projects[taxonomy_access][type] = module
