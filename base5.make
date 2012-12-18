@@ -1,7 +1,7 @@
 ; ======================================
 ; Sundays Energy Base 5 Drush Make
 ; Drupal 5
-; $ drush make base5.make drupal5-003
+; $ drush make base5.make d5-se-full-006
 ; ======================================
 
 api = 2
