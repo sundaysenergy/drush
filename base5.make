@@ -80,8 +80,6 @@ projects[mimemail][type] = module
 projects[nice_menus][type] = module
 projects[node_clone][type] = module
 projects[node_images][type] = module
-projects[nodefamily][type] = module
-projects[nodeprofile][type] = module
 projects[nodewords][type] = module
 
 projects[openid][type] = module
@@ -95,7 +93,6 @@ projects[securepages][type] = module
 projects[simplemenu][type] = module
 projects[simplenews][type] = module
 projects[simplenews_roles][type] = module
-projects[subform_element][type] = module
 
 projects[tapir][type] = module
 projects[taxonomy_access][type] = module
