@@ -32,6 +32,8 @@ projects[drupal][type] = core
 projects[acl][type] = module
 projects[admin_menu][type] = module
 projects[admin_menu][type] = module
+projects[advpoll][type] = module
+projects[advpoll][version] = 1.x-dev
 projects[auto_nodetitle][type] = module
 
 projects[backup][type] = module
@@ -41,6 +43,9 @@ projects[bio][type] = module
 projects[calendar][type] = module
 projects[captcha][type] = module
 projects[cck][type] = module
+projects[cck_fullname][type] = module
+projects[cck_taxonomy_ssu][type] = module
+projects[content_access][type] = module
 projects[custom_breadcrumbs][type] = module
 
 projects[date][type] = module
@@ -63,19 +68,30 @@ projects[img_assist][type] = module
 projects[image_pub][type] = module
 
 projects[jstools][type] = module
+
 projects[link][type] = module
+projects[logintoboggan][type] = module
+
 projects[menu_block_split][type] = module
+projects[mimemail][type] = module
 
 projects[nice_menus][type] = module
 projects[node_clone][type] = module
 projects[node_images][type] = module
+projects[nodeprofile][type] = module
 projects[nodewords][type] = module
 
 projects[openid][type] = module
 
 projects[pathauto][type] = module
+projects[phone][type] = module
 projects[private][type] = module
 projects[returnpath][type] = module
+
+projects[securepages][type] = module
+projects[simplemenu][type] = module
+projects[simplenews][type] = module
+projects[simplenews_roles][type] = module
 
 projects[taxonomy_access][type] = module
 projects[taxonomy_image][type] = module
@@ -89,6 +105,10 @@ projects[tinymce][type] = module
 projects[token][type] = module
 
 projects[ubercart][type] = module
+projects[ubrowser][type] = module
+projects[uc_discounts][type] = module
+projects[uc_purchases][download][type] = "get"
+projects[uc_purchases][download][url] ="http://d2r9pedfvmkmjn.cloudfront.net/cdn/farfuture/LffCvqCpNA3VTtIgBqhX_CkRC_rjRDolC9AWq2rBxHw/mtime:1335472071/files/uc_purchases.tar.gz"
 projects[update_status][type] = module
 projects[userpoints][type] = module
 
