@@ -109,6 +109,7 @@ projects[ubrowser][type] = module
 projects[uc_discounts][type] = module
 projects[uc_purchases][download][type] = get
 projects[uc_purchases][download][url] = "http://d2r9pedfvmkmjn.cloudfront.net/cdn/farfuture/LffCvqCpNA3VTtIgBqhX_CkRC_rjRDolC9AWq2rBxHw/mtime:1335472071/files/uc_purchases.tar.gz"
+projects[uc_purchases][directory_name] = "uc_purchases"
 projects[update_status][type] = module
 projects[userpoints][type] = module
 
