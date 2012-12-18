@@ -80,6 +80,7 @@ projects[mimemail][type] = module
 projects[nice_menus][type] = module
 projects[node_clone][type] = module
 projects[node_images][type] = module
+projects[nodefamily][type] = module
 projects[nodeprofile][type] = module
 projects[nodewords][type] = module
 
