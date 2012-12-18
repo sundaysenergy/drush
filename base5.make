@@ -34,8 +34,6 @@ projects[pressflow][download][url] = "https://launchpad.net/pressflow/5.x/5.23.5
 projects[acl][type] = module
 projects[admin_menu][type] = module
 projects[admin_menu][type] = module
-projects[advpoll][type] = module
-projects[advpoll][version] = 1.x-dev
 projects[auto_nodetitle][type] = module
 
 projects[backup][type] = module
@@ -121,7 +119,6 @@ projects[userpoints][type] = module
 projects[views][type] = module
 projects[views_bonus][type] = module
 projects[views_fastsearch][type] = module
-projects[votingapi][type] = module
 
 projects[webform][type] = module
 ; hearthconnection requires 1.x
