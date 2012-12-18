@@ -113,7 +113,9 @@ projects[update_status][type] = module
 projects[userpoints][type] = module
 
 projects[views][type] = module
+projects[views_bonus][type] = module
 projects[views_fastsearch][type] = module
+projects[votingapi][type] = module
 
 projects[webform][type] = module
 ; hearthconnection requires 1.x
