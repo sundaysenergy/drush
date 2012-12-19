@@ -52,6 +52,7 @@ projects[uc_product_minmax][version] = 1.x-dev
 
 ; Custom modules
 ; -----------
+projects[pmt_custom][type] = module
 projects[pmt_custom][download][type] = git
 projects[pmt_custom][download][url] = "git@bitbucket.org:sundaysenergy/pmt_custom.git"
 
