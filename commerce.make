@@ -8,6 +8,7 @@ core = 7.x
 projects[drupal][patch][] = "http://drupal.org/files/961508-20.patch"
 projects[drupal][patch][] = "http://drupal.org/files/issues/471970_0.patch"
 
+projects[barcode][subdir] = contrib
 
 projects[commerce][subdir] = dc
 projects[commerce][patch][] = "http://drupal.org/files/commerce-product-hide-title-field-1713790-7.patch"
@@ -61,6 +62,9 @@ projects[commerce_ups][subdir] = dc
 projects[commerce_usps][subdir] = dc
 
 projects[jirafe][subdir] = dc
+
+projects[physical][subdir] = contrib
+
 projects[securepages][subdir] = dc
 
 ; Sundays Energy modules
