@@ -57,7 +57,7 @@ projects[visibility_field][download][type] = git
 projects[visibility_field][download][url] = "git@bitbucket.org:sundaysenergy/visibility_field.git"
 
 
-projects[pmt_custom][type] = theme
+projects[pmt_custom][type] = module
 projects[pmt_custom][download][type] = git
 projects[pmt_custom][download][url] = "git@bitbucket.org:sundaysenergy/pmt_custom.git"
 
