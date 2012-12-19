@@ -24,7 +24,10 @@ projects[css3pie][subdir] = contrib
 projects[forward][subdir] = contrib
 projects[image][subdir] = contrib
 projects[imagecache_actions][subdir] = contrib
+
 projects[img_assist][subdir] = contrib
+projects[img_assist][version] = 3.x-dev
+
 projects[jcarousel][subdir] = contrib
 projects[jlightbox][subdir] = contrib
 projects[menu_block][subdir] = contrib
@@ -34,8 +37,11 @@ projects[nodequeue][subdir] = contrib
 
 projects[node_import][subdir] = contrib
 
-projects[viewscarousel][subdir] = contrib
-projects[viewscarousel][version] = 1.0
+projects[uc_extra_fields_pane][subdir] = contrib
+projects[uc_node_checkout][subidr] = contrib
+
+projects[uc_product_minmax][subdir] = contrib
+projects[uc_product_minmax][version] = 1.x-dev
 
 #projects[visibility_field][subdir] = contrib
 
@@ -45,6 +51,13 @@ projects[viewscarousel][version] = 1.0
 
 ; Custom modules
 ; -----------
-#pmt
+projects[pmt_custom][type] = theme
+projects[pmt_custom][download][type] = git
+projects[pmt_custom][download][url] = "git@bitbucket.org:sundaysenergy/pmt_custom.git"
+
 
 ; Custom Theme
+
+projects[pmt][type] = theme
+projects[pmt][download][type] = git
+projects[pmt][download][url] = "git@bitbucket.org:sundaysenergy/pmt.git"
