@@ -33,7 +33,8 @@ projects[jlightbox][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[nodequeue][subdir] = contrib
 
-#projects[nodewords_custom][subdir] = contrib
+; nodewords_custom does not contain anything.
+;projects[nodewords_custom][subdir] = contrib
 
 projects[node_import][subdir] = contrib
 
@@ -41,6 +42,8 @@ projects[uc_extra_fields_pane][subdir] = contrib
 
 projects[uc_product_minmax][subdir] = contrib
 projects[uc_product_minmax][version] = 1.x-dev
+
+projects[views_slideshow][version] = 2.4
 
 ; Hacked
 ; -----------
@@ -51,6 +54,14 @@ projects[css3pie][download][url] = "git@github.com:sundaysenergy/css3pie.git"
 projects[uc_node_checkout][type] = module
 projects[uc_node_checkout][download][type] = git
 projects[uc_node_checkout][download][url] = "git@github.com:sundaysenergy/viewscarousel.git"
+
+projects[uc_product_max][type] = module
+projects[uc_product_max][download][type] = git
+projects[uc_product_max][download][url] = "git@github.com:sundaysenergy/uc_product_max.git"
+
+projects[uc_product_min][type] = module
+projects[uc_product_min][download][type] = git
+projects[uc_product_min][download][url] = "git@github.com:sundaysenergy/uc_product_min.git"
 
 projects[viewscarousel][type] = module
 projects[viewscarousel][download][type] = git
