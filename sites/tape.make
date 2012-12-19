@@ -43,14 +43,20 @@ projects[uc_node_checkout][subidr] = contrib
 projects[uc_product_minmax][subdir] = contrib
 projects[uc_product_minmax][version] = 1.x-dev
 
-#projects[visibility_field][subdir] = contrib
-
 ; Created drupal.org modules
 ; -----------
 
 
 ; Custom modules
 ; -----------
+
+; Gorton Studios
+projects[visibility_field][type] = module
+projects[visibility_field][subdir] = gorton
+projects[visibility_field][download][type] = git
+projects[visibility_field][download][url] = "git@bitbucket.org:sundaysenergy/visibility_field.git"
+
+
 projects[pmt_custom][type] = theme
 projects[pmt_custom][download][type] = git
 projects[pmt_custom][download][url] = "git@bitbucket.org:sundaysenergy/pmt_custom.git"
