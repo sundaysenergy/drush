@@ -45,6 +45,9 @@ projects[uc_product_minmax][version] = 1.x-dev
 
 #projects[visibility_field][subdir] = contrib
 
+; Contrib theme
+projects[zen][type] = theme
+
 ; Created drupal.org modules
 ; -----------
 
