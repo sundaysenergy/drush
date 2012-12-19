@@ -29,6 +29,8 @@ projects[img_assist][subdir] = contrib
 projects[img_assist][version] = 3.x-dev
 
 projects[jcarousel][subdir] = contrib
+projects[jcarousel][version] = 1.1
+
 projects[jlightbox][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[nodequeue][subdir] = contrib
