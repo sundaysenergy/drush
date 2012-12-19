@@ -4,7 +4,9 @@
 api = 2
 core = 6.x
 
+projects[captcha][subdir] = contrib
 projects[context][subdir] = contrib
+
 projects[email][subdir] = contrib
 projects[fivestar][subdir] = contrib
 projects[flag][subdir] = contrib
@@ -38,6 +40,7 @@ projects[print][subdir] = contrib
 projects[thickbox][subdir] = contrib
 
 projects[views_bonus][subdir] = contrib
+projects[views_slideshow][subdir] = contrib
 
 projects[votingapi][subdir] = contrib
 

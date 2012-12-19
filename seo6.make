@@ -7,8 +7,8 @@ core = 6.x
 
 projects[alchemy][subdir] = contrib
 
-projects[google_analytics_reports][subdir] = contrib
-
+projects[google_adwords][subdir] = seo
+projects[google_analytics_reports][subdir] = seo
 projects[globalredirect][subdir] = seo
 
 projects[nodewords][subdir] = seo

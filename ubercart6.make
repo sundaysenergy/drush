@@ -9,6 +9,7 @@ projects[ubercart][subdir] = contrib
 projects[securepages][subdir] = contrib
 projects[securepages_prevent_hijack][subdir] = contrib
 
+projects[uc_aac][subdir] = contrib
 projects[uc_affiliate2][version] = "2.5"
 
 ;projects[uc_cim][version] = "1.x-dev"
