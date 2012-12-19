@@ -38,10 +38,23 @@ projects[nodequeue][subdir] = contrib
 projects[node_import][subdir] = contrib
 
 projects[uc_extra_fields_pane][subdir] = contrib
-projects[uc_node_checkout][subidr] = contrib
 
 projects[uc_product_minmax][subdir] = contrib
 projects[uc_product_minmax][version] = 1.x-dev
+
+; Hacked
+; -----------
+projects[css3pie][type] = module
+projects[css3pie][download][type] = git
+projects[css3pie][download][url] = "git@github.com:sundaysenergy/css3pie.git"
+
+projects[uc_node_checkout][type] = module
+projects[uc_node_checkout][download][type] = git
+projects[uc_node_checkout][download][url] = "git@github.com:sundaysenergy/viewscarousel.git"
+
+projects[viewscarousel][type] = module
+projects[viewscarousel][download][type] = git
+projects[viewscarousel][download][url] = "git@github.com:sundaysenergy/uc_node_checkout.git"
 
 ; Created drupal.org modules
 ; -----------
