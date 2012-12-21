@@ -62,7 +62,7 @@ projects[css3pie][download][url] = "git@github.com:sundaysenergy/css3pie.git"
 
 projects[uc_node_checkout][type] = module
 projects[uc_node_checkout][download][type] = git
-projects[uc_node_checkout][download][url] = "git@github.com:sundaysenergy/viewscarousel.git"
+projects[uc_node_checkout][download][url] = "git@github.com:sundaysenergy/uc_node_checkout.git"
 
 projects[uc_product_max][type] = module
 projects[uc_product_max][download][type] = git
@@ -74,7 +74,7 @@ projects[uc_product_min][download][url] = "git@github.com:sundaysenergy/uc_produ
 
 projects[viewscarousel][type] = module
 projects[viewscarousel][download][type] = git
-projects[viewscarousel][download][url] = "git@github.com:sundaysenergy/uc_node_checkout.git"
+projects[viewscarousel][download][url] = "git@github.com:sundaysenergy/viewscarousel.git"
 
 ; Created drupal.org modules
 ; -----------
