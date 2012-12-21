@@ -24,9 +24,6 @@ projects[commerce_autosku][subdir] = dc
 projects[commerce_backoffice][subdir] = dc
 
 projects[commerce_checkout_redirect][subdir] = dc
-projects[commerce_checkout_redirect][version] = 1.x-dev
-projects[commerce_checkout_redirect][patch][] = "http://drupal.org/files/1275330-commerce_checkout_redirect-user_register.patch"
-projects[commerce_checkout_redirect][patch][] = "http://drupal.org/files/1677106-commerce_checkout_redirect-user_pass-2.patch"
 
 projects[commerce_coupon][subdir] = dc
 projects[commerce_coupon_fixed_amount][subdir] = dc
