@@ -38,7 +38,11 @@ projects[nodequeue][subdir] = contrib
 ; nodewords_custom does not contain anything.
 ;projects[nodewords_custom][subdir] = contrib
 
-projects[node_import][subdir] = contrib
+; projects[node_import][subdir] = contrib
+
+projects[uc_aac][subdir] = ''
+projects[uc_aac][version] = 1.x-dev
+
 
 projects[uc_extra_fields_pane][subdir] = contrib
 
