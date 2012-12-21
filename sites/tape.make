@@ -40,6 +40,7 @@ projects[nodequeue][subdir] = contrib
 
 ; projects[node_import][subdir] = contrib
 
+; #41608293
 projects[uc_aac][subdir] = ''
 projects[uc_aac][version] = 1.x-dev
 
