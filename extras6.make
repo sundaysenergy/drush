@@ -69,12 +69,3 @@ projects[sundays_energy][subdir] = custom
 projects[sundays_energy][directory_name] = sundays_energy
 projects[sundays_energy][download][type] = "git"
 projects[sundays_energy][download][url] = "git@github.com:sundaysenergy/sundays_energy.git"
-
-
-; THEMES
-
-projects[omega][type] = theme
-projects[adaptivetheme][type] = theme
-projects[sky][type] = theme
-projects[corolla][type] = theme
-projects[zen][type] = theme

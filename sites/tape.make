@@ -100,3 +100,7 @@ projects[pmt_custom][download][url] = "git@bitbucket.org:sundaysenergy/pmt_custo
 projects[pmt][type] = theme
 projects[pmt][download][type] = git
 projects[pmt][download][url] = "git@bitbucket.org:sundaysenergy/pmt.git"
+
+projects[zen][type] = theme
+projects[zen][download][type] = git
+projects[zen][download][url] = "git@github.com:sundaysenergy/zen.git"
