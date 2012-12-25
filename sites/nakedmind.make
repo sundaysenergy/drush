@@ -24,6 +24,10 @@ projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 
+; FLICK PATCH - acting strange on shared platform. Fixes issue with medium images
+; --------------------
+projects[flickr][patch][] = "http://drupal.org/files/flickr-more-sizes-1440918-0.patch"
+
 
 ; CUSTOM MODULES
 ; --------------------
