@@ -59,6 +59,7 @@ projects[uc_webform][version] = "1.x-dev"
 ; Do we have an issue for the following patch? Describe what it does.
 ; projects[uc_webform][patch][] = "https://raw.github.com/gist/4079628/53bb371f4267c8d36163beb1d4e8fa72c655489d/uc_webform.module"
 projects[uc_webform][patch][] = "http://drupal.org/files/uc_webform-uc_add_donation-1835738-3.patch"
+projects[uc_webform_pane][subdir] = contrib
 
 projects[webform_views_submitted][subdir] = contrib
 projects[webform_views_submitted][patch][] = "http://drupal.org/files/webform_submitted_views-node_grouping-1841758-3.patch"
