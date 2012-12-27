@@ -20,6 +20,10 @@ projects[block_class][subdir] = contrib
 projects[clientside_validation][subdir] = contrib
 projects[compact_forms][subdir] = contrib
 projects[content_profile][subdir] = contrib
+
+; Trying to work out bugs on new platform
+projects[context][version] = "3.0"
+
 projects[draggableviews][subdir] = contrib
 projects[email_registration][subdir] = contrib
 projects[emfield][subdir] = contrib
