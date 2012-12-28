@@ -22,7 +22,9 @@ includes[social] = "https://raw.github.com/sundaysenergy/drush/master/social.mak
 ; --------------------
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
+projects[mollom][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
+projects[views_rss][subdir] = contrib
 
 ; FLICK PATCH - acting strange on shared platform. Fixes issue with medium images
 ; --------------------
