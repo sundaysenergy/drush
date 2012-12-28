@@ -75,7 +75,7 @@ libraries[colorbox][directory_name] = "colorbox"
 
 projects[entity][subdir] = contrib
 
-; Patch breaks with 7.18 - Investigating whether it's still needed.
+; Patch breaks with 7.18 - No longer needed.
 ; projects[entity][patch][] = "http://drupal.org/files/entity-array_diff_assoc-1514764-15.patch"
 
 projects[entityreference][subdir] = contrib
