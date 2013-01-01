@@ -22,10 +22,10 @@ includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce
 ; --------------------
 projects[references][subdir] = contrib
 projects[commerce_migrate][subdir] = contrib
-projects[datatables][subdir] = contrib
-libraries[datatables][download][type] = get
-libraries[datatables][download][url] = "http://datatables.net/releases/DataTables-1.9.0.zip"
-libraries[datatables][directory_name] = "datatables"
+; projects[datatables][subdir] = contrib
+; libraries[datatables][download][type] = get
+; libraries[datatables][download][url] = "http://datatables.net/releases/DataTables-1.9.0.zip"
+; libraries[datatables][directory_name] = "datatables"
 
 projects[addthis][version] = "4.0-alpha1"
 
@@ -35,7 +35,7 @@ projects[entityreference][version] = "1.x-dev"
 ; CONTRIB PATCH PATCHES
 ; --------------------
 ; This patch fix Embedded field collection items with a default value result in new items on save by fago
-projects[field_collection][patch][1239946] = http://drupal.org/files/field_collection_embedded.patch
+; projects[field_collection][patch][1239946] = http://drupal.org/files/field_collection_embedded.patch
 
 
 ; CONTRIB INSTALL PROFILES
@@ -55,10 +55,10 @@ projects[adaptivetheme][version] = 2.3
 ; CUSTOM MODULES
 ; --------------------
 
-projects[circles][download][type] = "git"
-projects[circles][download][url] = "git@github.com:sundaysenergy/circles.git"
-projects[circles][type] = "module"
-projects[circles][subdir] = custom
+; projects[circles][download][type] = "git"
+; projects[circles][download][url] = "git@github.com:sundaysenergy/circles.git"
+; projects[circles][type] = "module"
+; projects[circles][subdir] = custom
 ; bichain
 ; bifeatures
 ; bimigrate
