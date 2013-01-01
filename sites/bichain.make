@@ -22,10 +22,10 @@ includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce
 ; --------------------
 projects[references][subdir] = contrib
 projects[commerce_migrate][subdir] = contrib
-; projects[datatables][subdir] = contrib
-; libraries[datatables][download][type] = get
-; libraries[datatables][download][url] = "http://datatables.net/releases/DataTables-1.9.0.zip"
-; libraries[datatables][directory_name] = "datatables"
+projects[datatables][subdir] = contrib
+libraries[datatables][download][type] = get
+libraries[datatables][download][url] = "http://datatables.net/releases/DataTables-1.9.0.zip"
+libraries[datatables][directory_name] = "datatables"
 
 projects[addthis][version] = "4.0-alpha1"
 
