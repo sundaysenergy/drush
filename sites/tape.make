@@ -1,7 +1,7 @@
 ; ======================================
 ; Perfect Measuring Tape Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/tape.make tape-002
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/tape.make tape-008
 ; ======================================
 
 api = 2
