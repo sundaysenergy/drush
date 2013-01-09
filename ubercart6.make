@@ -14,7 +14,7 @@ projects[uc_affiliate2][version] = "2.5"
 
 ;projects[uc_cim][version] = "1.x-dev"
 
-projects[uc_coupon][version] = "1.7"
+projects[uc_coupon][type] = module
 
 projects[uc_disable_product][version] = 1.x-dev
 
