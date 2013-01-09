@@ -1,7 +1,7 @@
 ; ======================================
 ; Perfect Measuring Tape Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/tape.make tape-002
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/tape.make tape-008
 ; ======================================
 
 api = 2
@@ -104,3 +104,12 @@ projects[pmt][download][url] = "git@bitbucket.org:sundaysenergy/pmt.git"
 projects[zen][type] = theme
 projects[zen][download][type] = git
 projects[zen][download][url] = "git@github.com:sundaysenergy/zen.git"
+
+
+; Tape patch file
+
+; #41869165 - 'Call-time pass-by-reference' Errors Should Be Fixed
+
+; uc_views: http://drupal.org/node/1786210#comment-6898848
+
+projects[uc_views][patch][] = "http://drupal.org/files/ereg_preg-1786210-4.patch"
