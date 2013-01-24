@@ -50,6 +50,7 @@ projects[site_map][subdir] = contrib
 projects[taxonomy_hide][subdir] = contrib
 projects[themekey][subdir] = contrib
 
+projects[uc_add_donation][subdir] = contrib
 projects[uc_addresses][subdir] = contrib
 projects[uc_atctweaks][subdir] = contrib
 projects[uc_donation][subdir] = contrib
