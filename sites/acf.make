@@ -34,6 +34,7 @@ projects[image][subdir] = contrib
 
 projects[jquery_update][subdir] = contrib
 projects[logintoboggan][subdir] = contrib
+projects[mandrill][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
 projects[menutrails][subdir] = contrib
 projects[menu_attributes][subdir] = contrib
