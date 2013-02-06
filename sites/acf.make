@@ -12,6 +12,9 @@ includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa6.make"
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras6.make"
 includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart6.make"
 
+; Stay at pressflow 6.26
+projects[pressflow][download][url] = "https://github.com/pressflow/6/archive/pressflow-6.26.109.zip"
+
 ; Modules
 
 projects[beautytips][subdir] = contrib
