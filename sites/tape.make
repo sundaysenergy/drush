@@ -52,7 +52,7 @@ projects[uc_product_minmax][version] = 1.x-dev
 
 projects[views_slideshow][version] = 2.4
 
-projects[webform][version] = 2.10
+; projects[webform][version] = 2.10
 
 ; Hacked
 ; -----------

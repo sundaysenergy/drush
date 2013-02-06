@@ -37,6 +37,7 @@ projects[image][subdir] = contrib
 
 projects[jquery_update][subdir] = contrib
 projects[logintoboggan][subdir] = contrib
+projects[mandrill][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
 projects[menutrails][subdir] = contrib
 projects[menu_attributes][subdir] = contrib
@@ -52,6 +53,7 @@ projects[site_map][subdir] = contrib
 projects[taxonomy_hide][subdir] = contrib
 projects[themekey][subdir] = contrib
 
+projects[uc_add_donation][subdir] = contrib
 projects[uc_addresses][subdir] = contrib
 projects[uc_atctweaks][subdir] = contrib
 projects[uc_donation][subdir] = contrib
