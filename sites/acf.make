@@ -11,9 +11,8 @@ includes[base] = "https://raw.github.com/sundaysenergy/drush/master/base6.make"
 includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa6.make"
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras6.make"
 includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart6.make"
+includes[themes6] = "https://raw.github.com/sundaysenergy/drush/master/themes6.make"
 
-; Stay at pressflow 6.26
-projects[pressflow][download][url] = "https://github.com/pressflow/6/archive/pressflow-6.26.109.zip"
 
 ; Modules
 
@@ -91,7 +90,6 @@ projects[acf][download][type] = "git"
 projects[acf][download][url] = "git@bitbucket.org:sundaysenergy/acf.git"
 
 ; Custom Theme
-
 projects[acfzen][type] = theme
 projects[acfzen][download][type] = git
 projects[acfzen][download][url] = "git@bitbucket.org:sundaysenergy/acfzen.git"
