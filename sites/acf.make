@@ -1,7 +1,7 @@
 ; ======================================
 ; American Composers Forum
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/acf.make acf-031
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/acf.make acf-032
 ; ======================================
 core = 6.x
 
@@ -23,6 +23,7 @@ projects[clientside_validation][subdir] = contrib
 projects[compact_forms][subdir] = contrib
 projects[content_profile][subdir] = contrib
 projects[cck_country][subdir] = contrib
+projects[countries_api][subdir] = contrib
 
 ; Trying to work out bugs on new platform
 projects[context][version] = "3.0"
