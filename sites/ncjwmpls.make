@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_025
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/ncjwmpls.make ncjw_028
 ; ======================================
 
 api = 2
@@ -55,3 +55,6 @@ projects[mobile_tools][version] = "3.x-dev"
 ; provides a way to take advantage of custom url rewrite outbound
 projects[purl][subdir] = contrib
 projects[purl][version] = "1.x-dev"
+
+; Allows hiding all messages of a given type from any role
+projects[disable_messages][subdir] = contrib
