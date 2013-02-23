@@ -27,7 +27,9 @@ libraries[datatables][download][type] = get
 libraries[datatables][download][url] = "http://datatables.net/releases/DataTables-1.9.0.zip"
 libraries[datatables][directory_name] = "datatables"
 
-projects[addthis][version] = "4.0-alpha1"
+projects[addthis][subdir] = contrib
+projects[mollom][subdir] = contrib
+projects[mandrill][subdir] = contrib
 
 ; See issue #1608358
 projects[entityreference][version] = "1.x-dev"
