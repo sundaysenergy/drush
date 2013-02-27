@@ -8,6 +8,8 @@ projects[captcha][subdir] = contrib
 projects[context][subdir] = contrib
 
 projects[email][subdir] = contrib
+; modifies emails sent from the site to be compatible with mandrill reply-to requirement
+projects[email][patch][] = "http://drupal.org/files/email-add_reply_to-508542-2.patch"
 projects[fivestar][subdir] = contrib
 projects[flag][subdir] = contrib
 
