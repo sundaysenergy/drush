@@ -113,3 +113,4 @@ projects[zen][download][url] = "git@github.com:sundaysenergy/zen.git"
 ; uc_views: http://drupal.org/node/1786210#comment-6898848
 
 projects[uc_views][patch][] = "http://drupal.org/files/ereg_preg-1786210-4.patch"
+projects[uc_attributes_in_cart][subdir] = contrib
