@@ -12,7 +12,8 @@ projects[cdn][subdir] = boa
 projects[config_perms][subdir] = boa
 
 projects[fb][subdir] = boa
-projects[fb][version] = "3.x-dev"
+projects[fb][download][type] = "get"
+projects[fb][download][url] = "http://ftp.drupal.org/files/projects/fb-6.x-3.x-dev.tar.gz"
 
 ; CSS Embedded Images, alternative to sprites for tiny images
 projects[css_emimage][subdir] = boa
