@@ -1,7 +1,7 @@
 ; ======================================
 ; Innova
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-018
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-026
 ; ======================================
 
 api = 2
@@ -33,13 +33,13 @@ projects[colorbox][version] = 1.4
 projects[commerce_shipping][version] = "2.x-dev"
 
 ; Add international shipping for commerce usps module
-projects[commerce_usps][patch][] = "http://drupal.org/files/1630788-add_international_shipping-10.patch"
+projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-add_international_shipping-1630788-28.patch"
 
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
 projects[facebook_pull][version] = "1.0"
 ; http://drupal.org/node/1587598 2012-08-10 still not applied.
-projects[facebook_pull][patch][] = "http://drupal.org/files/issue.1587598.patch"
+projects[facebook_pull][patch][] = "https://drupal.org/files/issue.1587598.patch"
 
 projects[gmap][subdir] = contrib
 ; 7.x-2.x targeting Google Maps API V3
