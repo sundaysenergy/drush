@@ -5,7 +5,11 @@ api = 2
 core = 7.x
 
 ; Patch core for Secure Pages - http://drupal.org/project/securepages
-projects[drupal][patch][] = "http://drupal.org/files/961508-20.patch"
+
+; This patch is really old. Next line is a newer version
+; projects[drupal][patch][] = "http://drupal.org/files/961508-20.patch"
+projects[drupal][patch][] = "https://drupal.org/files/961508-159.patch"
+
 projects[drupal][patch][] = "http://drupal.org/files/issues/471970_0.patch"
 
 projects[barcode][subdir] = contrib
