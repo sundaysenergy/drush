@@ -46,7 +46,7 @@ projects[auto_nodetitle][subdir] = contrib
 
 projects[colorbox][subdir] = contrib
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 libraries[colorbox][directory_name] = "colorbox"
 
 projects[views_bulk_operations][subdir] = contrib
