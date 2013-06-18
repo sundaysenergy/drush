@@ -71,6 +71,7 @@ projects[twitter_pull][subdir] = contrib
 ; They are using module_invoke_all() instead of drupal_alter(), reason we can not alter
 ; the tweets. @see http://drupal.org/node/1081658#comment-6584252
 projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_2.diff"
+projects[twitter_pull][patch][] = "https://gist.github.com/tlupfer/5810480/raw/7fc72bef52211c346c0fa41db29e1a8cf78770c9/twitter_pull-cape.patch"
 
 ; Patch to add international shipping to the USPS module
 ; projects[commerce_usps][patch][] = "http://drupal.org/files/1630788-add_international_shipping-10.patch"
