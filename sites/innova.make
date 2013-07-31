@@ -32,9 +32,6 @@ projects[colorbox][version] = 1.4
 ; Standard version is 1.0
 projects[commerce_shipping][version] = "2.x-dev"
 
-; Add international shipping for commerce usps module
-projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-add_international_shipping-1630788-28.patch"
-
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
 projects[facebook_pull][version] = "1.0"
@@ -73,12 +70,6 @@ projects[twitter_pull][subdir] = contrib
 projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_2.diff"
 ; Using CAPE to authenticate API requests
 projects[twitter_pull][patch][] = "https://gist.github.com/tlupfer/5810526/raw/fb223a1295471c3b1e3c2705c2283be13f78bb0d/twitter_pull-cape.patch"
-
-; Patch to add international shipping to the USPS module
-; projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-add_international_shipping-1630788-42.patch"
-
-; Patch to clean up code and prepare for a full release of the USPS module
-; projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-code_clean_up_for_release-1937062-4.patch"
 
 ; Themes
 
