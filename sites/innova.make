@@ -31,6 +31,8 @@ projects[colorbox][version] = 1.4
 ; In commerce.make - Specific version for innova
 ; Standard version is 1.0
 projects[commerce_shipping][version] = "2.x-dev"
+projects[commerce_usps][version] = "1.x-dev"
+projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-code_clean_up_for_release-1937062-4.patch"
 
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
