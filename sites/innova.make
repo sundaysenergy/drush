@@ -65,6 +65,7 @@ projects[quicktabs][subdir] = contrib
 projects[submenutree][subdir] = contrib
 
 projects[twitter_pull][subdir] = contrib
+projects[twitter_pull][version] = "1.0-rc5"
 ; They are using module_invoke_all() instead of drupal_alter(), reason we can not alter
 ; the tweets. @see http://drupal.org/node/1081658#comment-6584252
 projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_2.diff"
