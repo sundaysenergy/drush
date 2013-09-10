@@ -47,8 +47,10 @@ projects[uc_aac][version] = 1.x-dev
 
 projects[uc_extra_fields_pane][subdir] = contrib
 
-projects[uc_product_minmax][subdir] = contrib
-projects[uc_product_minmax][version] = 1.x-dev
+; Not using because further customizations made to uc_product_min
+; ------------
+;projects[uc_product_minmax][subdir] = contrib
+;projects[uc_product_minmax][version] = 1.x-dev
 
 projects[views_slideshow][version] = 2.4
 
