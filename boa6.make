@@ -50,5 +50,5 @@ libraries[textile][download][url] = "http://textpattern.com/file_download/70/tex
 projects[vars][subdir] = boa
 
 ; help clean out old variables no longer needed
-projects[variable_clean][subdir] = boa
-projects[variable_clean][version] = "1.x-dev"
+;projects[variable_clean][subdir] = boa
+;projects[variable_clean][version] = "1.x-dev"
