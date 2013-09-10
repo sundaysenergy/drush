@@ -35,10 +35,12 @@ projects[jlightbox][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[nodequeue][subdir] = contrib
 
+projects[uc_attributes_in_cart][subdir] = contrib
+projects[uc_order_attributes][subdir] = contrib
+
 ; nodewords_custom does not contain anything.
 ;projects[nodewords_custom][subdir] = contrib
-
-; projects[node_import][subdir] = contrib
+;projects[node_import][subdir] = contrib
 
 ; #41608293
 projects[uc_aac][subdir] = ''
@@ -107,11 +109,6 @@ projects[zen][type] = theme
 projects[zen][download][type] = git
 projects[zen][download][url] = "git@github.com:sundaysenergy/zen.git"
 
-
-; Tape patch file
-
-projects[uc_attributes_in_cart][subdir] = contrib
-project[uc_order_attributes][subdir] = contrib
 
 ; Custom Libraries
 
