@@ -110,3 +110,11 @@ projects[zen][download][url] = "git@github.com:sundaysenergy/zen.git"
 
 projects[uc_attributes_in_cart][subdir] = contrib
 project[uc_order_attributes][subdir] = contrib
+
+; Custom Libraries
+
+libraries[it-works][destination] = libraries
+libraries[it-works][download][type] = git
+libraries[it-works][download][url] = "https://github.com/sundaysenergy/PMT-It-Works-Corner.git"
+libraries[it-works][directory_name] = it-works
+
