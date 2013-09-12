@@ -21,6 +21,7 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 ;projects[path_redirect][subdir] = contrib
 
 projects[popups][subdir] = contrib
+projects[taxonomy_edge][subdir] = contrib
 
 projects[uc_disable_product][version] = 1.x-dev
 
