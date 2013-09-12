@@ -22,7 +22,8 @@ includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart
 
 projects[popups][subdir] = contrib
 projects[taxonomy_edge][subdir] = contrib
-
+projects[getid3][subdir] = contrib
+projects[jquery_update][subdir] = contrib
 projects[uc_disable_product][version] = 1.x-dev
 
 ; Custom modules
