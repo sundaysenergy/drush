@@ -85,6 +85,12 @@ projects[webform_conditional][subdir] = contrib
 projects[webform_validation][subdir] = contrib
 projects[zipcode][subdir] = contrib
 
+projects[recurly][subdir] = contrib
+libraries[recurly][destination] = libraries
+libraries[recurly][download][type] = git
+libraries[recurly][download][url] = "https://github.com/recurly/recurly-client-php.git"
+libraries[recurly][directory_name] = recurly
+
 
 ; Custom modules
 
