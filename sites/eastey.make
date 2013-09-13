@@ -31,9 +31,16 @@ projects[uc_search_model][type] = theme
 projects[uc_search_model][download][type] = git
 projects[uc_search_model][download][url] = "git@github.com:sundaysenergy/uc_search_model.git"
 
+; Themes
+
+projects[acquia_marina][type] = theme
 
 ; Custom Theme
 
 projects[zeropoint][type] = theme
 projects[zeropoint][download][type] = git
 projects[zeropoint][download][url] = "git@github.com:sundaysenergy/zeropoint.git"
+
+projects[zeropoint_cogent][type] = theme
+projects[zeropoint_cogent][download][type] = git
+projects[zeropoint_cogent][download][url] = "git@github.com:sundaysenergy/zeropoint_cogent.git"
