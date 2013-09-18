@@ -24,7 +24,7 @@ projects[aes][subdir] = contrib
 projects[cck][version] = 2.x-dev
 projects[cck][subdir] = contrib
 
-projects[colorbox][version] = 1.4
+projects[colorbox][version] = 1.6
 
 ; Commerce
 
