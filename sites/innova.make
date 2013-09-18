@@ -64,6 +64,9 @@ projects[physical][subdir] = contrib
 
 projects[quicktabs][subdir] = contrib
 
+; Platform build breaking with 2.4
+projects[rules][version] = 2.3
+
 projects[submenutree][subdir] = contrib
 
 projects[twitter_pull][subdir] = contrib
