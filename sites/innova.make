@@ -57,6 +57,8 @@ projects[maxlength][subdir] = contrib
 
 projects[menu_block][subdir] = contrib
 
+projects[mollom][subdir] = contrib
+
 projects[nodesinblock][subdir] = contrib
 
 projects[physical][version] = "1.x-dev"
