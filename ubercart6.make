@@ -53,4 +53,4 @@ projects[sundays_energy_uc][type] = module
 projects[sundays_energy_uc][subdir] = custom
 projects[sundays_energy_uc][directory_name] = sundays_energy_uc
 projects[sundays_energy_uc][download][type] = "git"
-projects[sundays_energy_uc][download][url] = "git@github.com:sundaysenergy/sundays_energy_uc.git"
+projects[sundays_energy_uc][download][url] = "https://github.com/sundaysenergy/sundays_energy_uc.git"
