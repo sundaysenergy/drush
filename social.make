@@ -28,7 +28,6 @@ projects[flickr][version] = 1.x-dev
 
 projects[socialmedia][subdir] = social
 projects[service_links][subdir] = social
-projects[service_links][patch][] = "http://drupal.org/files/twitter-share-button-ssl-page-1524562-5.patch"
 
 projects[twitter][subdir] = social
 projects[widgets][subdir] = social
