@@ -17,16 +17,11 @@ includes[themes6] = "https://raw.github.com/sundaysenergy/drush/master/themes6.m
 ; Modules
 
 projects[beautytips][subdir] = contrib
-projects[better_formats][subdir] = contrib
-projects[block_class][subdir] = contrib
 projects[clientside_validation][subdir] = contrib
 projects[compact_forms][subdir] = contrib
 projects[content_profile][subdir] = contrib
 projects[cck_country][subdir] = contrib
 projects[countries_api][subdir] = contrib
-
-; Trying to work out bugs on new platform
-projects[context][version] = "3.0"
 
 projects[draggableviews][subdir] = contrib
 ; Temporary solution to the personal contact form Reply-To: debacle
@@ -38,13 +33,11 @@ projects[gmap][subdir] = contrib
 projects[gmaplocation][subdir] = contrib
 projects[image][subdir] = contrib
 
-projects[jquery_update][subdir] = contrib
 projects[logintoboggan][subdir] = contrib
 projects[mandrill][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
 projects[menutrails][subdir] = contrib
 projects[menu_attributes][subdir] = contrib
-projects[menu_block][subdir] = contrib
 projects[menu_breadcrumb][subdir] = contrib
 projects[nodequeue][subdir] = contrib
 projects[phone][subdir] = contrib

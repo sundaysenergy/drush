@@ -6,9 +6,7 @@ core = 7.x
 
 ; PERFORMANCE
 projects[agrcache][subdir] = performance
-
 projects[entitycache][subdir] = performance
-
 projects[speedy][subdir] = performance
 
 ; SECURITY
@@ -17,6 +15,8 @@ projects[hacked][subdir] = admin
 ; OTHER CONTRIB
 
 projects[beautytips][subdir] = contrib
+projects[better_formats][subdir] = contrib
+projects[block_class][subdir] = contrib
 
 projects[chosen][version] = 1.x-dev
 projects[chosen][subdir] = "contrib"
@@ -31,9 +31,13 @@ projects[ds][subdir] = contrib
 projects[panels][subdir] = contrib
 
 projects[eva][subdir] = "contrib"
+projects[extlink][subdir] = contrib
 
 projects[i18n][version] = "1.x-dev"
 projects[i18n][subdir] = "contrib"
+projects[jquery_update][subdir] = contrib
+projects[login_destination][subdir] = contrib
+projects[menu_block][subdir] = contrib
 
 projects[message][subdir] = "contrib"
 
@@ -41,6 +45,9 @@ projects[message_notify][subdir] = "contrib"
 
 projects[mimemail][subdir] = "contrib"
 projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
+
+projects[multiblock][subdir] = contrib
+projects[multiblock][version] = "1.x-dev"
 
 ; Do not require current password during change
 projects[nocurrent_pass][subdir] = contrib
@@ -52,12 +59,14 @@ projects[locationmap][subdir] = contrib
 projects[migrate][subdir] = contrib
 projects[migrate_extras][subdir] = contrib
 
+projects[shadowbox][subdir] = contrib
 projects[special_menu_items][subdir] = contrib
 
 projects[taxonomy_menu][subdir] = contrib
 
 projects[views_megarow][version] = 1.x-dev
 projects[views_megarow][subdir] = "contrib"
+projects[views_slideshow][subdir] = contrib
 
 ; SEARCH
 

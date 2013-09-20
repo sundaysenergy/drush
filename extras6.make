@@ -3,13 +3,15 @@
 
 api = 2
 core = 6.x
-
+projects[better_formats][subdir] = contrib
+projects[block_class][subdir] = contrib
 projects[captcha][subdir] = contrib
 projects[context][subdir] = contrib
 
 projects[email][subdir] = contrib
 ; modifies emails sent from the site to be compatible with mandrill reply-to requirement
 projects[email][patch][] = "http://drupal.org/files/email-add_reply_to-508542-2.patch"
+projects[extlink][subdir] = contrib
 projects[fivestar][subdir] = contrib
 projects[flag][subdir] = contrib
 
@@ -30,15 +32,20 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 
+projects[jquery_update][subdir] = contrib
+
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
 
+projects[menu_block][subdir] = contrib
 projects[mollom][subdir] = contrib
+projects[multiblock][subdir] = contrib
 projects[nodesquirrel][subdir] = contrib
 
 projects[panels][subdir] = contrib
 projects[print][subdir] = contrib
 
+projects[shadowbox][subdir] = contrib
 projects[thickbox][subdir] = contrib
 
 projects[views_bonus][subdir] = contrib
