@@ -34,7 +34,6 @@ projects[jquery_media][subdir] = contrib
 projects[jquery_plugin][subdir] = contrib
 projects[jstools][subdir] = contrib
 projects[location][subdir] = contrib
-projects[tint][subdir] = contrib
 
 projects[jquery_ui][subdir] = contrib
 libraries[jquery_ui][download][type] = "get"
