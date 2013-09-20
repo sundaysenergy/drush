@@ -58,6 +58,7 @@ projects[locationmap][subdir] = contrib
 
 projects[migrate][subdir] = contrib
 projects[migrate_extras][subdir] = contrib
+projects[mollom][subdir] = contrib
 
 projects[shadowbox][subdir] = contrib
 projects[special_menu_items][subdir] = contrib
@@ -66,7 +67,11 @@ projects[taxonomy_menu][subdir] = contrib
 
 projects[views_megarow][version] = 1.x-dev
 projects[views_megarow][subdir] = "contrib"
+
 projects[views_slideshow][subdir] = contrib
+projects[views_slideshow_ddblock][subdir] = contrib
+projects[views_slideshow_ddblock][version] = 2.x-dev
+projects[views_slideshow_slider][subdir] = contrib
 
 ; SEARCH
 
