@@ -26,6 +26,18 @@ libraries[getid3][directory_name] = getid3
 ; http://drupal.org/node/1336886
 libraries[getid3][patch][] = http://drupal.org/files/getid3-remove-demos-1.9.1.patch
 
+projects[gmap][subdir] = contrib
+projects[imagefield_crop][subidr] = contrib
+
+projects[jq][subdir] = contrib
+projects[jquery_media][subdir] = contrib
+projects[jquery_plugin][subdir] = contrib
+projects[jstools][subdir] = contrib
+projects[location][subdir] = contrib
+projects[location_cck][subdir] = contrib
+projects[location_node][subdir] = contrib
+projects[location_search][subdir] = contrib
+projects[tint][subdir] = contrib
 
 projects[jquery_ui][subdir] = contrib
 libraries[jquery_ui][download][type] = "get"
