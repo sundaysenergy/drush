@@ -34,8 +34,6 @@ projects[jquery_media][subdir] = contrib
 projects[jquery_plugin][subdir] = contrib
 projects[jstools][subdir] = contrib
 projects[location][subdir] = contrib
-projects[location_node][subdir] = contrib
-projects[location_search][subdir] = contrib
 projects[tint][subdir] = contrib
 
 projects[jquery_ui][subdir] = contrib
