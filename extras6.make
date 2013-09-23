@@ -54,6 +54,8 @@ projects[panels][subdir] = contrib
 projects[print][subdir] = contrib
 
 projects[shadowbox][subdir] = contrib
+projects[shadowbox][version] = 4.x-dev
+
 projects[thickbox][subdir] = contrib
 
 projects[views_bonus][subdir] = contrib
