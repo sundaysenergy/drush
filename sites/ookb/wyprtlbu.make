@@ -1,7 +1,8 @@
 ; ======================================
 ; WYPR - The Lines Between Us Site
+; http://linesbetweenus.org
 ;
-; $ drush make wyprtlbu.make wyprtlbu_001
+; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/ookb/wyprtlbu.make wyprtlbu
 ; ======================================
 
 api = 2
@@ -22,6 +23,9 @@ includes[extras] = "https://raw.github.com/webmasterkai/drush/master/extras.make
 ; Custom Themes
 ; --------------------
 
-projects[laurahudson][type] = theme
-projects[vfamilycoffee6][download][type] = git
-projects[vfamilycoffee6][download][url] = "https://github.com/bjornmeansbear/lhTheme.git"
+; CUSTOM THEME
+; --------------------
+projects[wyprtlbu][type] = theme
+projects[wyprtlbu][subdir] = custom
+projects[wyprtlbu][download][type] = git
+projects[wyprtlbu][download][url] = "https://github.com/bjornmeansbear/wyprtlbu.git"

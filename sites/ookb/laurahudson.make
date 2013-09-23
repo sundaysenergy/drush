@@ -1,7 +1,8 @@
 ; ======================================
 ; Laura Hudson - Artist Portfolio Site
+; http://laurahudson.net
 ;
-; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/laurahudson.make laurahudson-003
+; $ drush make https://raw.github.com/sundaysenergy/drush/master/sites/ookb/laurahudson.make laurahudson-003
 ; ======================================
 
 api = 2
