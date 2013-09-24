@@ -24,8 +24,3 @@ includes[themes] = "https://raw.github.com/sundaysenergy/drush/master/themes6.ma
 ; CUSTOM MODULES
 ; --------------------
 
-; travels in type
-projects[tint][type] = theme
-projects[tint][directory_name] = "tint"
-projects[tint][download][type] = git
-projects[tint][download][url] = "https://github.com/sundaysenergy/tint.git"

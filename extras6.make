@@ -3,10 +3,13 @@
 
 api = 2
 core = 6.x
+
 projects[better_formats][subdir] = contrib
 projects[block_class][subdir] = contrib
+
 projects[captcha][subdir] = contrib
 projects[context][subdir] = contrib
+projects[contact_form_blocks][subdir] = contrib
 
 projects[email][subdir] = contrib
 ; modifies emails sent from the site to be compatible with mandrill reply-to requirement
@@ -58,6 +61,7 @@ projects[shadowbox][version] = 4.x-dev
 
 projects[thickbox][subdir] = contrib
 
+projects[semanticviews][subdir] = contrib
 projects[views_bonus][subdir] = contrib
 projects[views_slideshow][subdir] = contrib
 
