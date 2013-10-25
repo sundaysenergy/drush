@@ -11,6 +11,10 @@ core = 7.x
 ; a few extra tools for EZLE
 projects[draggableviews][subdir] = contrib
 
+projects[jplayer][subdir] = contrib
+
+projects[webform_multifile][subdir] = contrib
+
 projects[views_slideshow][subdir] = contrib
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"

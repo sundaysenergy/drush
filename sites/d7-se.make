@@ -17,6 +17,7 @@ includes[commerce] = "https://raw.github.com/sundaysenergy/drush/master/commerce
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras.make"
 includes[social] = "https://raw.github.com/sundaysenergy/drush/master/social.make"
 includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo.make"
+includes[ezle] = "https://raw.github.com/sundaysenergy/drush/master/ezle.make"
 
 ; OTHER CONTRIB MODULES
 ; --------------------

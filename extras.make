@@ -72,8 +72,6 @@ projects[views_slideshow_ddblock][subdir] = contrib
 projects[views_slideshow_ddblock][version] = 2.x-dev
 projects[views_slideshow_slider][subdir] = contrib
 
-projects[draggableviews][subdir] = contrib
-
 ; SEARCH
 
 projects[search_api][subdir] = "contrib"
@@ -149,6 +147,8 @@ projects[uuid][subdir] = contrib
 ; Use the dev version http://drupal.org/node/1736780
 projects[uuid][version] = 1.x-dev
 projects[uuid_features][subdir] = contrib
+
+projects[webform][subdir] = contrib
 
 ; NOT ENABLED
 ;projects[workbench][subdir] = contrib
