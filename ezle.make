@@ -10,6 +10,7 @@ core = 7.x
 
 ; a few extra tools for EZLE
 
+projects[calendar][subdir] = contrib
 projects[caption_filter][subdir] = contrib
 projects[image_resize_filter][subdir] = contrib
 projects[insert][subdir] = contrib
