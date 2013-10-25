@@ -12,8 +12,19 @@ core = 7.x
 
 projects[calendar][subdir] = contrib
 projects[caption_filter][subdir] = contrib
+
+projects[elements][subdir] = contrib
+projects[email][subdir] = contrib
+projects[html5_tools][subdir] = contrib
+projects[jquery_plugin][subdir] = contrib
+
 projects[image_resize_filter][subdir] = contrib
 projects[insert][subdir] = contrib
+
+projects[media_flickr][subdir] = contrib
+projects[media_vimeo][subdir] = contrib
+projects[modernizr][subdir] = contrib
+projects[nodequeue][subdir] = contrib
 
 projects[rss_field_formatters][subdir] = contrib
 
@@ -28,6 +39,7 @@ projects[draggableviews][subdir] = contrib
 projects[jplayer][subdir] = contrib
 
 projects[webform_multifile][subdir] = contrib
+projects[video_filter][subdir] = contrib
 
 projects[views_slideshow][subdir] = contrib
 libraries[jquery.cycle][download][type] = "file"
