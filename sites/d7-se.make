@@ -1,7 +1,7 @@
 ; ======================================
 ; Example Platform Site
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/se.make d7-se-full-001
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/se.make d7-se-full-007
 ; $ drush make --working-copy --no-core --contrib-destination=. https://raw.github.com/sundaysenergy/drush/master/sites/se.make
 ; ======================================
 

@@ -44,7 +44,6 @@ projects[message][subdir] = "contrib"
 projects[message_notify][subdir] = "contrib"
 
 projects[mimemail][subdir] = "contrib"
-projects[mimemail][patch][] = "http://drupal.org/files/1585546-2-move-rules-actions.patch"
 
 projects[multiblock][subdir] = contrib
 projects[multiblock][version] = "1.x-dev"
@@ -72,6 +71,8 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow_ddblock][subdir] = contrib
 projects[views_slideshow_ddblock][version] = 2.x-dev
 projects[views_slideshow_slider][subdir] = contrib
+
+projects[draggableviews][subdir] = contrib
 
 ; SEARCH
 

@@ -10,6 +10,16 @@ projects[block_class][subdir] = contrib
 projects[captcha][subdir] = contrib
 projects[context][subdir] = contrib
 projects[contact_form_blocks][subdir] = contrib
+projects[custom_links][subdir] = contrib
+projects[elements][subdir] = contrib
+
+projects[html5_tools][subdir] = contrib
+projects[nodehierarchy][subdir] = contrib
+projects[skinr][subdir] = contrib
+projects[taxonomy_redirect][subdir] = contrib
+projects[themer][subdir] = contrib
+projects[contemplate][subdir] = contrib
+projects[views_fluidgrid][subdir] = contrib
 
 projects[email][subdir] = contrib
 ; modifies emails sent from the site to be compatible with mandrill reply-to requirement
