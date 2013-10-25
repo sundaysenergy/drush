@@ -9,6 +9,19 @@ api = 2
 core = 7.x
 
 ; a few extra tools for EZLE
+
+projects[caption_filter][subdir] = contrib
+projects[image_resize_filter][subdir] = contrib
+projects[insert][subdir] = contrib
+
+projects[rss_field_formatters][subdir] = contrib
+
+projects[scheduler][subdir] = contrib
+
+projects[shurly][subdir] = contrib
+
+projects[wysiwyg_filter][subdir] = contrib
+
 projects[draggableviews][subdir] = contrib
 
 projects[jplayer][subdir] = contrib
