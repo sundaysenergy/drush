@@ -41,6 +41,22 @@ projects[jplayer][subdir] = contrib
 projects[webform_multifile][subdir] = contrib
 projects[video_filter][subdir] = contrib
 
+; Added to further customize Sky theme
+projects[css_injector][subdir] = contrib
+
+; Allows NCJW-MPLS Admins to assign roles without accessing permissions page
+projects[roleassign][subdir] = contrib
+
+; Collects various fixes to core issues that have not been implemented yet
+projects[fixcore][subdir] = contrib
+
+; Allows users to unpublish and publish content without giving them Administer Nodes permission
+projects[publishcontent][subdir] = contrib
+projects[publishcontent][version] = "1.x-dev"
+
+; Provides extra layout options for Panels, to be used for the homepage
+projects[panels_extra_layouts][subdir] = contrib
+
 projects[views_slideshow][subdir] = contrib
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
