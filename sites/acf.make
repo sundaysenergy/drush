@@ -23,6 +23,7 @@ projects[content_profile][subdir] = contrib
 projects[cck_country][subdir] = contrib
 projects[countries_api][subdir] = contrib
 
+projects[dbtng][subdir] = contrib
 projects[draggableviews][subdir] = contrib
 ; Temporary solution to the personal contact form Reply-To: debacle
 projects[email][patch][] = "https://gist.github.com/tlupfer/29c398e6e50c6434bd91/raw/954aff2a323bd4c1ce78f9d9a1f922706d9568ec/acf_user_email.patch"
@@ -79,6 +80,7 @@ projects[webform_validation][subdir] = contrib
 projects[zipcode][subdir] = contrib
 
 projects[recurly][subdir] = contrib
+
 libraries[recurly][destination] = libraries
 libraries[recurly][download][type] = git
 libraries[recurly][download][url] = "https://github.com/recurly/recurly-client-php.git"
