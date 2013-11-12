@@ -79,13 +79,11 @@ projects[webform_conditional][subdir] = contrib
 projects[webform_validation][subdir] = contrib
 projects[zipcode][subdir] = contrib
 
-projects[recurly][subdir] = contrib
 
 libraries[recurly][destination] = libraries
 libraries[recurly][download][type] = git
 libraries[recurly][download][url] = "https://github.com/recurly/recurly-client-php.git"
 libraries[recurly][directory_name] = recurly
-
 
 ; Custom modules
 
@@ -98,3 +96,8 @@ projects[acf][download][url] = "git@bitbucket.org:sundaysenergy/acf.git"
 projects[acfzen][type] = theme
 projects[acfzen][download][type] = git
 projects[acfzen][download][url] = "git@bitbucket.org:sundaysenergy/acfzen.git"
+
+; recurly
+projects[recurly][subdir] = custom
+projects[recurly][download][type] = git
+projects[recurly][download][url]= "https://github.com/sundaysenergy/recurly.git"

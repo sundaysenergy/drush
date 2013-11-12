@@ -84,10 +84,8 @@ projects[cck][subdir] = contrib
 
 projects[filefield][type] = module
 projects[filefield][subdir] = contrib
-projects[filefield][version] = 3.10
 
 projects[imagefield][subdir] = contrib
-projects[imagefield][version] = 3.10
 
 projects[imageapi][subdir] = contrib
 
