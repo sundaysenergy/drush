@@ -43,6 +43,8 @@ projects[hacked][subdir] = boa
 ; verify you own the site for google websmaster tools
 projects[site_verify][subdir] = boa
 
+projects[views_content_cache][subdir] = boa
+
 projects[textile][subdir] = boa
 libraries[textile][download][type] = "get"
 libraries[textile][download][url] = "http://textpattern.com/file_download/70/textpattern-4.4.1.tar.gz"
