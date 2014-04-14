@@ -35,6 +35,7 @@ projects[gmaplocation][subdir] = contrib
 projects[image][subdir] = contrib
 
 projects[logintoboggan][subdir] = contrib
+projects[markdown][subdir] = contrib
 projects[mandrill][subdir] = contrib
 projects[media_soundcloud][subdir] = contrib
 projects[menutrails][subdir] = contrib
