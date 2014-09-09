@@ -83,7 +83,7 @@ projects[entity][subdir] = contrib
 ; projects[entity][patch][] = "http://drupal.org/files/entity-array_diff_assoc-1514764-15.patch"
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][patch][] = "http://drupal.org/files/1580348-universal-formatters-11.patch"
+projects[entityreference][patch][] = "https://www.drupal.org/files/1580348-universal-formatters-17.patch"
 
 projects[views_bulk_operations][subdir] = contrib
 
