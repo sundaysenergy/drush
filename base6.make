@@ -61,7 +61,8 @@ projects[pathologic][subdir] = contrib
 ; What other modules use this?
 projects[job_scheduler][subdir] = contrib
 
-projects[smtp][subdir] = contrib
+; Uses a really old version php mailer.
+; projects[smtp][subdir] = contrib
 
 ; CCK
 
