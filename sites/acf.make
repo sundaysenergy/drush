@@ -12,7 +12,7 @@ includes[boa] = "https://raw.github.com/sundaysenergy/drush/master/boa6.make"
 includes[extras] = "https://raw.github.com/sundaysenergy/drush/master/extras6.make"
 includes[ubercart] = "https://raw.github.com/sundaysenergy/drush/master/ubercart6.make"
 includes[themes6] = "https://raw.github.com/sundaysenergy/drush/master/themes6.make"
-
+includes[seo] = "https://raw.github.com/sundaysenergy/drush/master/seo6.make"
 
 ; Modules
 
