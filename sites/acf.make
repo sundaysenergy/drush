@@ -45,7 +45,10 @@ projects[nodequeue][subdir] = contrib
 projects[phone][subdir] = contrib
 projects[popups][subdir] = contrib
 projects[popups_reference][subdir] = contrib
+
 projects[privacy][subdir] = contrib
+projects[privacy][version] = "6.x-1.x-dev"
+
 projects[sharethis][subdir] = contrib
 projects[site_map][subdir] = contrib
 projects[taxonomy_hide][subdir] = contrib
