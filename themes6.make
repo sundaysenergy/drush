@@ -6,7 +6,7 @@ core = 6.x
 
 ; THEMES
 
-projects[omega][type] = theme
+; projects[omega][type] = theme
 projects[adaptivetheme][type] = theme
 projects[sky][type] = theme
 projects[corolla][type] = theme
