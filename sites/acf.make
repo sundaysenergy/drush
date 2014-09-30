@@ -102,6 +102,8 @@ projects[acfzen][download][type] = git
 projects[acfzen][download][url] = "git@bitbucket.org:sundaysenergy/acfzen.git"
 
 ; recurly
-projects[recurly][subdir] = custom
-projects[recurly][download][type] = git
-projects[recurly][download][url]= "https://github.com/sundaysenergy/recurly.git"
+projects[acfrecurly][type] = module
+projects[acfrecurly][subdir] = custom
+projects[acfrecurly][download][type] = git
+projects[acfrecurly][download][url]= "https://github.com/sundaysenergy/recurly.git"
+projects[acfrecurly][directory_name] = recurly
