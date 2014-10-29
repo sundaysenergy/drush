@@ -44,7 +44,7 @@ projects[readonlymode][subdir] = boa
 projects[robotstxt][subdir] = boa
 projects[robotstxt][version] = "1.x-dev"
 ; Remove robots.txt file
-; projects[drupal][patch][] = "http://drupal.org/files/issues/1260912-remove-robotstxt-7.8.patch"
+; projects[drupal][patch][] = "https://www.drupal.org/files/issues/1260912-remove-robotstxt-7.30.patch"
 
 ; security kit
 projects[seckit][subdir] = boa
