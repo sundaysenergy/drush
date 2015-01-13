@@ -63,7 +63,7 @@ projects[commerce_ups][subdir] = dc
 
 projects[commerce_usps][subdir] = dc
 
-projects[jirafe][subdir] = dc
+; projects[jirafe][subdir] = dc
 
 projects[physical][subdir] = contrib
 
