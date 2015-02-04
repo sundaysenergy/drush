@@ -40,8 +40,9 @@ projects[facebook_pull][version] = "1.0"
 ; http://drupal.org/node/1587598 2012-08-10 still not applied.
 projects[facebook_pull][patch][] = "https://drupal.org/files/issue.1587598.patch"
 
-projects[gmap][subdir] = contrib
 ; 7.x-2.x targeting Google Maps API V3
+; Gmap is used for https://www.innova.mu/map/node showing album nodes.
+projects[gmap][subdir] = contrib
 projects[gmap][version] = "2.2"
 
 projects[google_fonts][subdir] = contrib
