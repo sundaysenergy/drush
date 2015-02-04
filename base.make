@@ -120,6 +120,8 @@ libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profil
 
 ; Replaces cck_fieldgroup_tabs
 projects[field_group][subdir] = contrib
+; Only needed so the site will upgrade...
+projects[field_group][version] = "1.x-dev"
 
 projects[job_scheduler][version] = 2.0-alpha3
 projects[variable][subdir] = contrib
