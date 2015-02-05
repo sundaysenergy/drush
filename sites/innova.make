@@ -26,6 +26,8 @@ projects[cck][subdir] = contrib
 
 projects[colorbox][version] = 1.6
 
+projects[mailchimp][subdir] = contrib
+
 ; Commerce
 
 ; In commerce.make - Specific version for innova
