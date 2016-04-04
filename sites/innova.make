@@ -80,7 +80,7 @@ projects[twitter_pull][version] = "1.0-rc5"
 ; the tweets. @see http://drupal.org/node/1081658#comment-6584252
 projects[twitter_pull][patch][] = "http://drupal.org/files/twitter_pull.1081658_2.diff"
 ; Using CAPE to authenticate API requests
-projects[twitter_pull][patch][] = "https://gist.github.com/tlupfer/5810526/raw/fb223a1295471c3b1e3c2705c2283be13f78bb0d/twitter_pull-cape.patch"
+projects[twitter_pull][patch][] = "https://gist.githubusercontent.com/webmasterkai/146308bec2dd3c96610b023af0a8c45f/raw/b8848cea434722599f48a1f221bd7d743c371dc1/twitter_pull-cape.patch"
 
 ; Themes
 
