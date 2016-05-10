@@ -91,7 +91,7 @@ projects[addressfield][subdir] = contrib
 ; projects[amazon][subdir] = contrib
 
 projects[field_collection][subdir] = contrib
-projects[field_collection_table][subdir] = contrib
+; projects[field_collection_table][subdir] = contrib
 
 projects[field_extractor][subdir] = "contrib"
 
