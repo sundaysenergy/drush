@@ -6,7 +6,7 @@ core = 7.x
 
 ; PERFORMANCE
 projects[agrcache][subdir] = performance
-projects[entitycache][subdir] = performance
+projects[entitycache][subdir] = performancecorolla
 projects[speedy][subdir] = performance
 
 ; SECURITY
@@ -175,7 +175,7 @@ projects[omega][type] = theme
 projects[adaptivetheme][type] = theme
 projects[sky][type] = theme
 projects[shiny][type] = theme
-projects[corolla][type] = theme
+; projects[corolla][type] = theme
 projects[mothership][type] = theme
 
 ; MODULES FOR THEME DEVELOPMENT
