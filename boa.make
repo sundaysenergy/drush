@@ -47,7 +47,7 @@ projects[robotstxt][version] = "1.x-dev"
 ; projects[drupal][patch][] = "https://www.drupal.org/files/issues/1260912-remove-robotstxt-7.30.patch"
 
 ; security kit
-projects[seckit][subdir] = boa
+; projects[seckit][subdir] = boa
 
 ; verify you own the site for google websmaster tools
 projects[site_verify][subdir] = boa
