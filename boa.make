@@ -9,7 +9,7 @@ projects[admin][subdir] = boa
 
 projects[backup_migrate][subdir] = boa
 
-projects[blockcache_alter][subdir] = boa
+; projects[blockcache_alter][subdir] = boa
 
 projects[boost][subdir] = boa
 
