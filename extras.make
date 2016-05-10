@@ -142,6 +142,7 @@ projects[menu_attributes][subdir] = contrib
 
 ; Print module for printer friendly (and pdf) pages
 projects[print][subdir] = contrib
+projects[print][version] = "2.0"
 
 projects[uuid][subdir] = contrib
 ; Use the dev version http://drupal.org/node/1736780
