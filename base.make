@@ -24,7 +24,8 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.34.1.tar.
 ; REQUIRED
 
 projects[ctools][subdir] = contrib
-projects[ctools][patch][] = "http://drupal.org/files/autosubmit_enhanced_textfield-1694988-4.patch"
+projects[ctools][version] = 1.9
+; projects[ctools][patch][] = "http://drupal.org/files/autosubmit_enhanced_textfield-1694988-4.patch"
 
 projects[token][subdir] = contrib
 
