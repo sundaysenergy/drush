@@ -31,7 +31,7 @@ projects[filefield_nginx_progress][subdir] = boa
 projects[flood_control][subdir] = boa
 
 ; permission filter
-projects[fpa][subdir] = boa
+; projects[fpa][subdir] = boa
 
 projects[login_security][subdir] = boa
 
