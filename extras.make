@@ -174,7 +174,6 @@ projects[adaptivetheme][type] = theme
 projects[sky][type] = theme
 projects[shiny][type] = theme
 projects[corolla][type] = theme
-projects[zen][type] = theme
 projects[mothership][type] = theme
 
 ; MODULES FOR THEME DEVELOPMENT
