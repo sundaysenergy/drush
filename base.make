@@ -63,6 +63,7 @@ projects[devel_themer][subdir] = admin
 projects[google_analytics][subdir] = admin
 
 projects[mailsystem][subdir] = "contrib"
+projects[mailsystem][version] = 2.34
 
 projects[module_filter][subdir] = admin
 ; projects[stringoverrides][subdir] = admin
