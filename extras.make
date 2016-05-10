@@ -113,6 +113,7 @@ libraries[cloud-zoom][download][url] = "http://www.professorcloud.com/downloads/
 
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
+projects[imce_wysiwyg][version] = 1.0
 projects[emfield][subdir] = contrib
 
 projects[plupload][subdir] = contrib
