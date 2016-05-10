@@ -75,6 +75,7 @@ projects[views_slideshow_slider][subdir] = contrib
 ; SEARCH
 
 projects[search_api][subdir] = "contrib"
+projects[search_api][version] = "1.18"
 projects[search_api_db][subdir] = "contrib"
 projects[search_api_ranges][subdir] = "contrib"
 projects[facetapi][subdir] = "contrib"
