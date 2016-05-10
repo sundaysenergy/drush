@@ -147,8 +147,8 @@ projects[print][version] = "2.0"
 
 projects[uuid][subdir] = contrib
 ; Use the dev version http://drupal.org/node/1736780
-projects[uuid][version] = 1.x-dev
-projects[uuid_features][subdir] = contrib
+; projects[uuid][version] = 1.x-dev
+; projects[uuid_features][subdir] = contrib
 
 projects[webform][subdir] = contrib
 
