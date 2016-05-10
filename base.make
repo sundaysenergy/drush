@@ -14,7 +14,7 @@ core = 7.x
 ; -----------
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.34.1.tar.gz"
+projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.43.2.tar.gz"
 ; Registry rebuild should not parse the same file twice in the same request
 ; projects[drupal][patch][] = "http://drupal.org/files/drupal-1470656-14.patch"
 
