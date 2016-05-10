@@ -7,9 +7,9 @@ core = 7.x
 ; seo tools
 
 ; projects[levelten_apps][subdir] = apps
-projects[apps][subdir] = apps
+; projects[apps][subdir] = apps
 
-projects[alchemy][subdir] = contrib
+; projects[alchemy][subdir] = contrib
 
 ; Used to get data about whether a visitor is on a mobile device
 projects[browscap][subdir] = contrib
