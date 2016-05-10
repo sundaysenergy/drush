@@ -16,7 +16,6 @@ core = 7.x
 projects[barcode][subdir] = contrib
 
 projects[commerce][subdir] = dc
-projects[commerce][patch][] = "http://drupal.org/files/commerce-product-hide-title-field-1713790-7.patch"
 
 projects[commerce_add_to_cart_confirmation][subdir] = dc
 
