@@ -6,7 +6,7 @@ core = 7.x
 
 ; seo tools
 
-projects[levelten_apps][subdir] = apps
+; projects[levelten_apps][subdir] = apps
 projects[apps][subdir] = apps
 
 projects[alchemy][subdir] = contrib
