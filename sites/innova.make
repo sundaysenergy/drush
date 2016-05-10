@@ -1,7 +1,7 @@
 ; ======================================
 ; Innova
 ;
-; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-028
+; $ drush make --working-copy https://raw.github.com/sundaysenergy/drush/master/sites/innova.make innova-36
 ; ======================================
 
 api = 2
