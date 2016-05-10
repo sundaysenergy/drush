@@ -64,5 +64,5 @@ projects[variable_clean][subdir] = boa
 
 projects[vars][subdir] = boa
 
-projects[views_content_cache][subdir] = boa
-projects[views_content_cache][version] = "3.x-dev"
+;projects[views_content_cache][subdir] = boa
+;projects[views_content_cache][version] = "3.x-dev"
