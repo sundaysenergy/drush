@@ -180,7 +180,6 @@ projects[mothership][type] = theme
 ; MODULES FOR THEME DEVELOPMENT
 
 projects[delta][subdir] = contrib
-projects[omega_tools][subdir] = contrib
 projects[fences][subdir] = contrib
 projects[fences][patch][] = "http://drupal.org/files/undefined-index-1561244-7.patch"
 
