@@ -8,6 +8,7 @@ core = 7.x
 projects[admin][subdir] = boa
 
 projects[backup_migrate][subdir] = boa
+projects[backup_migrate][version] = 3.1
 
 ; projects[blockcache_alter][subdir] = boa
 
