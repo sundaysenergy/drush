@@ -64,7 +64,7 @@ projects[google_analytics][subdir] = admin
 projects[mailsystem][subdir] = "contrib"
 
 projects[module_filter][subdir] = admin
-projects[stringoverrides][subdir] = admin
+; projects[stringoverrides][subdir] = admin
 
 ; projects[file_defer][subdir] = admin
 ; projects[file_defer][version] = 1.x-dev
