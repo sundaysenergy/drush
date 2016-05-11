@@ -27,6 +27,7 @@ projects[cck][subdir] = contrib
 projects[colorbox][version] = 1.6
 
 projects[mailchimp][subdir] = contrib
+projects[mailgun][subdir] = contrib
 
 ; Commerce
 
@@ -35,6 +36,9 @@ projects[mailchimp][subdir] = contrib
 projects[commerce_shipping][version] = "2.x-dev"
 projects[commerce_usps][version] = "1.x-dev"
 projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-code_clean_up_for_release-1937062-4.patch"
+
+projects[inline_conditions][subdir] = "dc"
+projects[inline_conditions][version] = "1.0-alpha7"
 
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
