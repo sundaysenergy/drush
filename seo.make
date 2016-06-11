@@ -22,7 +22,7 @@ projects[globalredirect][subdir] = seo
 
 ; this replaces nodewords
 projects[metatag][subdir] = seo
-projects[metatag][version] = 1.14
+; projects[metatag][version] = 1.14
 
 projects[page_title][subdir] = seo
 
