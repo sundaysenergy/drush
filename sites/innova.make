@@ -29,6 +29,8 @@ projects[cck][subdir] = contrib
 projects[mailchimp][subdir] = contrib
 projects[mailgun][subdir] = contrib
 
+projects[charts][subdir] = contrib
+
 ; Commerce
 
 ; In commerce.make - Specific version for innova
