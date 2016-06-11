@@ -78,7 +78,7 @@ projects[auto_nodetitle][subdir] = contrib
 
 projects[colorbox][subdir] = contrib
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[colorbox][directory_name] = "colorbox"
 
 projects[entity][subdir] = contrib
