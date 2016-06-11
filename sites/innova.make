@@ -30,7 +30,7 @@ projects[mailchimp][subdir] = contrib
 projects[mailgun][subdir] = contrib
 
 projects[charts][subdir] = contrib
-
+projects[views_content_cache][subdir] = contrib
 ; Commerce
 
 projects[commerce_reports][subdir] = "dc"
