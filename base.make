@@ -33,12 +33,12 @@ projects[features][subdir] = contrib
 
 ; Patches are for 1.0. Current version is 2.0-beta1.
 ; We should either remove patches or migrate sites to 2.0-beta1
-projects[features][version] = "1.0"
-projects[features][patch][] = "http://drupal.org/files/1572578-part-one.patch"
-projects[features][patch][] = "http://drupal.org/files/1597186-1-features-do-not-cache-includes.patch"
+; projects[features][version] = "1.0"
+; projects[features][patch][] = "http://drupal.org/files/1572578-part-one.patch"
+; projects[features][patch][] = "http://drupal.org/files/1597186-1-features-do-not-cache-includes.patch"
 ; Unable to patch features with 927566-multiple-link_path.patch.
-;projects[features][patch][] = "http://drupal.org/files/927566-multiple-link_path.patch"
-projects[features][patch][] = "http://drupal.org/files/1669720-fix-features-flush-cache.patch"
+; projects[features][patch][] = "http://drupal.org/files/927566-multiple-link_path.patch"
+; projects[features][patch][] = "http://drupal.org/files/1669720-fix-features-flush-cache.patch"
 
 projects[strongarm][subdir] = contrib
 
