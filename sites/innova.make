@@ -21,10 +21,10 @@ includes[commerce] = "https://raw.githubusercontent.com/sundaysenergy/drush/mast
 projects[aes][subdir] = contrib
 
 ; WHY IS THIS BEING USED?!?
-projects[cck][version] = 2.x-dev
+; projects[cck][version] = 2.x-dev
 projects[cck][subdir] = contrib
 
-projects[colorbox][version] = 1.6
+; projects[colorbox][version] = 1.6
 
 projects[mailchimp][subdir] = contrib
 projects[mailgun][subdir] = contrib
@@ -34,22 +34,23 @@ projects[mailgun][subdir] = contrib
 ; In commerce.make - Specific version for innova
 ; Standard version is 1.0
 projects[commerce_shipping][version] = "2.x-dev"
-projects[commerce_usps][version] = "1.x-dev"
-projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-code_clean_up_for_release-1937062-4.patch"
+projects[commerce_usps][subdir] = "dc"
+;projects[commerce_usps][version] = "1.x-dev"
+;projects[commerce_usps][patch][] = "https://drupal.org/files/commerce_usps-code_clean_up_for_release-1937062-4.patch"
 
 projects[inline_conditions][subdir] = "dc"
 projects[inline_conditions][version] = "1.0-alpha7"
 
 projects[facebook_pull][subdir] = contrib
 ; Specifying version because of the patch below.
-projects[facebook_pull][version] = "1.0"
+; projects[facebook_pull][version] = "1.0"
 ; http://drupal.org/node/1587598 2012-08-10 still not applied.
-projects[facebook_pull][patch][] = "https://drupal.org/files/issue.1587598.patch"
+; projects[facebook_pull][patch][] = "https://drupal.org/files/issue.1587598.patch"
 
 ; 7.x-2.x targeting Google Maps API V3
 ; Gmap is used for https://www.innova.mu/map/node showing album nodes.
 projects[gmap][subdir] = contrib
-projects[gmap][version] = "2.2"
+; projects[gmap][version] = "2.11"
 
 projects[google_fonts][subdir] = contrib
 
@@ -74,7 +75,7 @@ projects[physical][subdir] = contrib
 projects[quicktabs][subdir] = contrib
 
 ; Platform build breaking with 2.4
-projects[rules][version] = 2.3
+; projects[rules][version] = 2.3
 
 projects[submenutree][subdir] = contrib
 
