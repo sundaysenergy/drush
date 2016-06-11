@@ -97,7 +97,7 @@ projects[field_extractor][subdir] = "contrib"
 
 projects[image_delta_formatter][subdir] = "contrib"
 
-projects[inline_entity_form][version] = 1.x-dev
+; projects[inline_entity_form][version] = 1.x-dev
 projects[inline_entity_form][subdir] = "contrib"
 
 projects[title][version] = "1.x-dev"
