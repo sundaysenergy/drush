@@ -28,6 +28,7 @@ projects[cck][subdir] = contrib
 
 projects[mailchimp][subdir] = contrib
 projects[mailgun][subdir] = contrib
+projects[views_date_format_sql][subdir] = contrib
 
 projects[charts][subdir] = contrib
 projects[views_content_cache][subdir] = contrib
