@@ -33,6 +33,7 @@ projects[charts][subdir] = contrib
 
 ; Commerce
 
+projects[commerce_reports][subdir] = "dc"
 ; In commerce.make - Specific version for innova
 ; Standard version is 1.0
 projects[commerce_shipping][version] = "2.x-dev"
